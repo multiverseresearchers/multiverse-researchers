@@ -10,11 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "hamburger-react": "^2.5.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-burger-menu": "^3.0.9",
+    "react-dom": "^18.2.0",
+    "use-media": "^1.5.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
+    "@types/react-burger-menu": "^2.8.7",
     "@types/react-dom": "^18.2.22",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
     "@typescript-eslint/parser": "^7.2.0",
