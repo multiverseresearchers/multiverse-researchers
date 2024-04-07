@@ -3,7 +3,7 @@ import './Navbar.css'
 
 const Navbar = () => {
     return (
-        <nav>
+        <nav className='bg-slate-400'>
             <Link to={"/"}><img src="/logo.png" alt="" /> Multiverse Researchers</Link>
             <ul>
                 <li><Link to={"/home"}>HOME</Link></li>
@@ -13,6 +13,7 @@ const Navbar = () => {
                 <li><Link to={"/contact"}>CONTACT</Link></li>
             </ul>
             {/* add search bar feature */}
+            <Link to={"/"}><img src="/logo.png" alt="" /> Multiverse Researchers</Link> {/* placeholder */}
         </nav>
     )
 }
