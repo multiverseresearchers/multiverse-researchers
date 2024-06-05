@@ -1,11 +1,18 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../../../@/components/ui/tabs"
 import CircleSnippet from "./CircleSnippet"
+import CSS from "csstype";
 
 import './Home.css'
 
 const Home = () => {
+
+	const backgroundWrapping: CSS.Properties = {
+		'backgroundRepeat': 'no-repeat',
+		'backgroundSize': 'cover'
+	}
+
 	return (
-		<div>
+		<div className="bg-[url('../../../public/imgs/filler/Background.png')]" style={backgroundWrapping}>
 			<div className='flex flex-col w-full h-[84vh] items-center justify-evenly'>
 				<div className='flex flex-col items-center justify-center'>
 					<h1 className='text-center text-2xl sm:text-4xl md:text-5xl lg:text-6xl m-5'>The Future of Research<br />Starts <span className='font-semibold'>Here</span></h1>
