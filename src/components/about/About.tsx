@@ -1,7 +1,7 @@
 import './About.css'
 import AboutTab from "./AboutTab";
-import filler_img_1 from '../../../public/imgs/filler/Rectangle_19.png'
-import filler_img_2 from '../../../public/imgs/filler/Rectangle_11.png'
+import filler_img_1 from '/imgs/filler/Rectangle_19.png'
+import filler_img_2 from '/imgs/filler/Rectangle_11.png'
 
 const About = () => {
 

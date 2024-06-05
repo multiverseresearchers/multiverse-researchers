@@ -1,6 +1,7 @@
+import { ReactElement, JSXElementConstructor, ReactNode, ReactPortal } from 'react'
 import filler_img from '../../../public/imgs/filler/Rectangle_23.png'
 
-const ResearchGroup = props => {
+const ResearchGroup = (props: { title: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | null | undefined; content: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | null | undefined; link: string | undefined }) => {
     return (
         <div className='shadow-xl m-5 max-w-screen-lg rounded-lg'>
           <div className='flex flex-row m-2'>

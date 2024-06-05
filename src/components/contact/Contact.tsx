@@ -23,8 +23,8 @@ const Contact = () => {
           </div>
           <div className="w-full m-5"> 
             <div className="flex w-72 flex-col items-end gap-6">
-              <Input size="md" label="Input Medium" />
-              <Input size="lg" label="Input Large" />
+              <Input size="md" label="Input Medium" crossOrigin={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />
+              <Input size="lg" label="Input Large" onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} crossOrigin={undefined} />
             </div>
           </div>
       </div>

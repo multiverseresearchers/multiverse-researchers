@@ -6,14 +6,14 @@ import './Home.css'
 
 const Home = () => {
 
-	const backgroundWrapping: CSS.Properties = {
+    const backgroundWrapping: CSS.Properties = {
 		'backgroundRepeat': 'no-repeat',
 		'backgroundSize': 'cover'
 	}
 
 	return (
-		<div className="bg-[url('../../../public/imgs/filler/Background.png')]" style={backgroundWrapping}>
-			<div className='flex flex-col w-full h-[84vh] items-center justify-evenly'>
+    <div className="bg-[url('../../../public/imgs/filler/Background.png')] pb-32" style={backgroundWrapping}>
+            <div className='flex flex-col w-full h-[84vh] items-center justify-evenly'>
 				<div className='flex flex-col items-center justify-center'>
 					<h1 className='text-center text-2xl sm:text-4xl md:text-5xl lg:text-6xl m-5'>The Future of Research<br />Starts <span className='font-semibold'>Here</span></h1>
 					<p className='text-center w-2/3'>We are a student led organization that empowers high school students to engage in innovative research.</p>
@@ -34,18 +34,60 @@ const Home = () => {
 					<div className="p-8 bg-white border border-gray-100 rounded-lg shadow-xl">
 						<TabsContent value="physics">
 							<CircleSnippet
-								title="A Comprehensive Study of Convergent and Commutative Replicated Data Types"
+								title="Physics Circle Project Name Title"
 								description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n \nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}
-								image1="path/to/image1.jpg"
-								image2="path/to/image2.jpg"
+								image1="/imgs/filler/Rectangle_11.png"
+								image2="/imgs/filler/Rectangle_11.png"
 							/>
 						</TabsContent> { /* maybe add a yaml file w/centralized descriptions */ }
-						<TabsContent value="chem">Change your password here.</TabsContent>
-						<TabsContent value="bio">Change your password here.</TabsContent>
-						<TabsContent value="envisci">Change your password here.</TabsContent>
-						<TabsContent value="psych">Change your password here.</TabsContent>
-						<TabsContent value="econ">Change your password here.</TabsContent>
-						<TabsContent value="compsci">Change your password here.</TabsContent>
+						<TabsContent value="chem">
+                            <CircleSnippet
+    								title="Chemistry Circle Project Name Title"
+    								description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n \nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}
+    								image1="/imgs/filler/Rectangle_11.png"
+    								image2="/imgs/filler/Rectangle_11.png"
+							/>
+                        </TabsContent>
+						<TabsContent value="bio">
+                            <CircleSnippet
+    								title="Biology Circle Project Name Title"
+    								description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n \nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}
+    								image1="/imgs/filler/Rectangle_11.png"
+    								image2="/imgs/filler/Rectangle_11.png"
+							/>
+                        </TabsContent>
+						<TabsContent value="envisci">
+                            <CircleSnippet
+    								title="Environment Science Circle Project Name Title"
+    								description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n \nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}
+    								image1="/imgs/filler/Rectangle_11.png"
+    								image2="/imgs/filler/Rectangle_11.png"
+							/>
+                        </TabsContent>
+						<TabsContent value="psych">
+                            <CircleSnippet
+    								title="Psychology Circle Project Name Title"
+    								description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n \nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}
+    								image1="/imgs/filler/Rectangle_11.png"
+    								image2="/imgs/filler/Rectangle_11.png"
+							/>
+                        </TabsContent>
+						<TabsContent value="econ">
+                            <CircleSnippet
+    								title="Economics Circle Project Name Title"
+    								description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n \nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}
+    								image1="/imgs/filler/Rectangle_11.png"
+    								image2="/imgs/filler/Rectangle_11.png"
+							/>
+                        </TabsContent>
+						<TabsContent value="compsci">
+                            <CircleSnippet
+    								title="A Comprehensive Study of Convergent and Commutative Replicated Data Types"
+    								description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n \nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}
+    								image1="/imgs/filler/Rectangle_11.png"
+    								image2="/imgs/filler/Rectangle_11.png"
+							/>
+                        </TabsContent>
 					</div>
 				</Tabs>
 			</div>

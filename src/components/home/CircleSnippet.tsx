@@ -12,12 +12,12 @@ const CircleSnippet: React.FC<CircleSnippetProps> = ({ title, description, image
   const descriptionParts = description.split('\n').map((part, index) => <p key={index}>{part}</p>);
 
   return (
-    <div className="circle-snippet">
-      <h2>{title}</h2>
+    <div className="circle-snippet m-auto w-4/5 lg:w-2/3">
+      <h2 className='text-xl sm:text-2xl lg:text-4xl font-medium text-center py-8'>{title}</h2>
       <div>{descriptionParts}</div>
-      <div>
-        <img src={image1} alt="Image 1" />
-        <img src={image2} alt="Image 2" />
+      <div className='py-8 flex flex-col md:flex-row md:justify-between gap-8'>
+        <img className='md:w-1/2' src={image1} alt="Image 1" />
+        <img className='md:w-1/2' src={image2} alt="Image 2" />
       </div>
     </div>
   );
