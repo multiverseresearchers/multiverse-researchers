@@ -17,7 +17,7 @@ const Navbar = () => {
     return (
         <nav>
             <div className='flex flex-row items-center justify-between p-4 lg:p-8'>
-                <Link to={"/"}><img src="/logo.png" alt="" /> Multiverse Researchers</Link>
+                <Link to={"/"} className='sm:text-lg lg:text-xl flex flex-row gap-2 items-center font-semibold'>Multiverse Researchers</Link>
                 <ul className='hidden lg:flex flex-row gap-8'>
                     <NavItem to="/" currentPath={location.pathname}>HOME</NavItem>
                     <NavItem to="/about" currentPath={location.pathname}>ABOUT</NavItem>
@@ -30,7 +30,7 @@ const Navbar = () => {
             </div>
 
             {isOpen && (
-                <ul className='lg:hidden w-full flex flex-col items-end gap-5 p-8 bg-white-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-30 border border-gray-100 absolute'>
+                <ul className='lg:hidden w-full h-[88vh] flex flex-col text-right justify-evenly text-xl p-8 bg-white-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-30 border border-gray-100 absolute'>
                     <NavItem to="/" currentPath={location.pathname}>HOME</NavItem>
                     <NavItem to="/about" currentPath={location.pathname}>ABOUT</NavItem>
                     <NavItem to="/research" currentPath={location.pathname}>RESEARCH</NavItem>

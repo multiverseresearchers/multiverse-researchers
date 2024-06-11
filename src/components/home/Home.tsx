@@ -12,7 +12,7 @@ const Home = () => {
 	}
 
 	return (
-    <div className="bg-[url('../../../public/imgs/filler/Background.png')] pb-32" style={backgroundWrapping}>
+    <div className="bg-[url('/imgs/filler/Background.png')] pb-32" style={backgroundWrapping}>
             <div className='flex flex-col w-full h-[84vh] items-center justify-evenly'>
 				<div className='flex flex-col items-center justify-center'>
 					<h1 className='text-center text-2xl sm:text-4xl md:text-5xl lg:text-6xl m-5'>The Future of Research<br />Starts <span className='font-semibold'>Here</span></h1>
