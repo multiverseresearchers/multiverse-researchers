@@ -1,5 +1,6 @@
 import { ReactElement, JSXElementConstructor, ReactNode, ReactPortal } from 'react'
 import filler_img from '/imgs/filler/Rectangle_23.png'
+import { Link } from 'react-router-dom';
 
 const ResearchGroup = (props: { title: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | null | undefined; content: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | null | undefined; link: string | undefined }) => {
     return (
@@ -9,7 +10,7 @@ const ResearchGroup = (props: { title: string | number | boolean | ReactElement<
               <span className="font-semibold sm:text-l md:text-l lg:text-xl">{props.title}</span>
               <div className="sm:text-m md:text-m lg:text-l mt-5">{props.content}</div>
               <div className="text-center m:text-m md:text-m lg:text-l m-2">
-                <a href={props.link} className='underline italic'>Read more</a>
+                <Link to={`/research/${props.link}`}>Learn More</Link>
               </div>
             </div>
             <div className="w-full m-5"> 
