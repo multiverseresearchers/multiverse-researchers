@@ -20,7 +20,7 @@ const Contact = () => {
                         Fill this out and send a form. We'll get back to you in 2-3 business days.
                     </div>
                 </div>
-                <div className="w-full flex flex-col gap-6">
+                <div className="w-full flex flex-col items-center gap-6">
                     <Input
                         placeholder='Name'
                         crossOrigin={undefined}
@@ -44,6 +44,7 @@ const Contact = () => {
                         onPointerLeaveCapture={undefined}
                         className="focus:outline-none px-3 py-2 aspect-video focus:ring-2 focus:ring-purple-500 rounded-lg"
                     />
+                    <a className='transition-colors duration-200 border rounded-lg hover:border-blue-500 hover:bg-gray-100 hover:text-blue-500 bg-blue-500 text-white px-10 py-2 text-center font-semibold' href="mailto:multiverseresearchers@gmail.com">Send</a>
                 </div>
             </div>
         </div>
