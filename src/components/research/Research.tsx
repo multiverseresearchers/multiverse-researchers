@@ -4,40 +4,40 @@ import ResearchGroup from './ResearchGroup'
 
 const Research = () => {
     const projects = [
+        // {
+        //     title: "Physics Circle Project Name Title",
+        //     content: "A short description of what your project is about. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        //     link: "physics"
+        // },
         {
-            title: "Physics Circle Project Name Title",
-            content: "A short description of what your project is about. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            link: "physics"
+            title: "Environmental Toxins and Parkinson’s Disease Progression",
+            content: "Our meta-analysis explores how environmental toxins like pesticides, heavy metals, and industrial chemicals contribute to Parkinson's Disease (PD), providing crucial insights for research, healthcare, and policy.",
+            link: "bio",
+            image: "/imgs/circles/bio/pesticides-effects.jpg"
         },
         {
-            title: "Chemistry Circle Project Name Title",
-            content: "A short description of what your project is about. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            link: "chem"
+            title: "Impact of Climate Change on Marginalized Communities",
+            content: "Our research addresses water shortages in indigenous communities, urban heat islands impacting vulnerable populations, agricultural challenges in low-income regions, and the correlation between climate change and diseases.",
+            link: "environment-science",
+            image: "/imgs/circles/envisci/desert.png"
         },
         {
-            title: "Biology Circle Project Name Title",
-            content: "A short description of what your project is about. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            link: "bio"
+            title: "The Emotional Effects of Different Types of Music",
+            content: "This study explores how music evokes emotions, analyzing why sad music induces sadness and happy music elicits happiness to deepen our understanding of its emotional impact.",
+            link: "psych",
+            image: "/imgs/circles/psych/music-evoked-emotions.jpg"
         },
         {
-            title: "Environment Science Circle Project Name Title",
-            content: "A short description of what your project is about. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            link: "environment-science"
+            title: "Ethical Implications of Quantum Mechanics",
+            content: "Quantum ethics examines how quantum mechanics could reshape moral decision-making, challenging traditional ethical theories with new perspectives on privacy, free will, and the consequences of actions in a quantum realm.",
+            link: "compsci",
+            image: "/imgs/circles/compsci/quantum-computer.png"
         },
         {
-            title: "Psychology Circle Project Name Title",
-            content: "A short description of what your project is about. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            link: "psych"
-        },
-        {
-            title: "Economics Circle Project Name Title",
-            content: "A short description of what your project is about. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            link: "econ"
-        },
-        {
-            title: "Computer Science Circle Project Name Title",
-            content: "A short description of what your project is about. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            link: "compsci"
+            title: "The Impact of COVID-19 on the Housing Market",
+            content: "This project explores the impact of the COVID-19 pandemic on the housing market, focusing on shifts in demand, pricing trends, and market dynamics. Through data analysis, we aim to provide insights into the pandemic's influence on housing and guide future research and policy decisions.",
+            link: "econ",
+            image: "/imgs/circles/econ/price-change.png"
         }
     ];
 
@@ -50,7 +50,7 @@ const Research = () => {
 
             <div className='flex flex-col items-center justify-center'>
                 {projects.map(project => {
-                    return <ResearchGroup title={project.title} content={project.content} link={project.link} />
+                    return <ResearchGroup title={project.title} content={project.content} link={project.link} image={project.image} />
                 })
                 }
             </div>

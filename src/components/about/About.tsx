@@ -7,46 +7,95 @@ const About = () => {
 
 	const members = [
 		{
-			name: "Cabinet Name",
-			position: "Position",
+			name: "Shashwat Mishra",
+			position: "Founder",
 			url: filler_img_2
 		},
 		{
-			name: "Cabinet Name",
-			position: "Position",
+			name: "@._mili",
+			position: "Founder",
 			url: filler_img_2
 		},
 		{
-			name: "Cabinet Name",
-			position: "Position",
+			name: "@ryce.x",
+			position: "Founder",
 			url: filler_img_2
 		},
 		{
-			name: "Cabinet Name",
-			position: "Position",
+			name: "@epicprogamer72",
+			position: "Recruitment Manager",
 			url: filler_img_2
 		},
 		{
-			name: "Cabinet Name",
-			position: "Position",
+			name: "@ifwfilms",
+			position: "Recruitment Manager",
+			url: filler_img_2
+		},
+        {
+			name: "@ems1076",
+			position: "Social Media Manager",
 			url: filler_img_2
 		},
 		{
-			name: "Cabinet Name",
-			position: "Position",
+			name: "Renn",
+			position: "Social Media Manager",
+			url: filler_img_2
+		},
+        {
+            name: "@aanxnd",
+            position: "Physics Research Manager",
+			url: filler_img_2
+        },
+        {
+            name: "@aqua12345_8",
+            position: "Physics Research Manager",
+			url: filler_img_2
+        },
+        {
+            name: "@woolbit",
+            position: "Biology Research Manager",
+			url: filler_img_2
+        },
+        {
+            name: "@yankavader",
+            position: "Biology Research Manager",
+			url: filler_img_2
+        },
+        {
+            name: "@maslalala",
+            position: "Environment Science Research Manager",
+			url: filler_img_2
+        },
+        {
+			name: "Mithela Mehenaz",
+			position: "Psychology Research Manager",
+			url: filler_img_2
+		},
+		// { LOOKING FOR STILL
+		// 	name: "Cabinet Name",
+		// 	position: "Psychology Research Manager",
+		// 	url: filler_img_2
+		// },
+        {
+            name: "Aman Ali Pilehvari",
+            position: "Economics Research Manager",
+			url: filler_img_2
+        },
+        {
+            name: "@anadelk",
+            position: "Economics Research Manager",
+			url: filler_img_2
+        },
+        {
+			name: "Bhargav Eranki",
+			position: "Website Manager",
 			url: filler_img_2
 		},
 		{
-			name: "Cabinet Name",
-			position: "Position",
+			name: "Revati Tambe",
+			position: "Website Manager",
 			url: filler_img_2
 		},
-		{
-			name: "Cabinet Name",
-			position: "Position",
-			url: filler_img_2
-		},
-
 	]
 
 
@@ -73,11 +122,9 @@ const About = () => {
 			<div className="flex flex-col items-center justify-center">
 				<div className='flex flex-col items-center'>
 					<h1 className='text-center text-2xl lg:text-3xl font-semibold py-5'>Meet Our Team</h1>
-					<p className='text-center w-1/2'>Lorem ipsum is placeholder text commonly used in the graphic,
-						print, and publishing industries for previewing layouts and visual mockups.</p>
 				</div>
 
-				<div className="p-8 grid sm:grid-cols-3 md:grid-cols-4 gap-4 w-full mt-10">
+				<div className="p-8 grid sm:grid-cols-3 md:grid-cols-4 gap-4 w-full">
 					{members.map(member => {
 						return <AboutTab name={member.name} position={member.position} url={member.url} />
 					})
