@@ -121,14 +121,59 @@ const About = () => {
 
 			<div className="flex flex-col items-center justify-center">
 				<div className='flex flex-col items-center'>
-					<h1 className='text-center text-2xl lg:text-3xl font-semibold py-5'>Meet Our Team</h1>
+					<h1 className='text-center text-2xl lg:text-3xl font-semibold py-5'>Our Team</h1>
 				</div>
 
-				<div className="p-8 grid sm:grid-cols-3 md:grid-cols-4 gap-4 w-full">
-					{members.map(member => {
+				<div className="p-8 border-red-500 border w-fit">
+					{/* {members.map(member => {
 						return <AboutTab name={member.name} position={member.position} url={member.url} />
 					})
-					}
+					} */}
+                    <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
+                        <AboutTab name="Shashwat Mishra" position="Founder" url='/' / >
+                        <AboutTab name="Beatrice Jiang" position="Founder" url='/' / >
+                        <AboutTab name="--" position="Founder" url='/' / >
+                    </div>
+
+                    <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
+                        <AboutTab name="Akshith Muthukumar" position="Social Media Manager" url='/' / >
+                        <AboutTab name="--" position="Social Media Manager" url='/' / >
+                        <AboutTab name="--" position="Social Media Manager" url='/' / >
+                        <AboutTab name="--" position="Social Media Manager" url='/' / >
+                    </div>
+                    <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
+                        <AboutTab name="Bhargav Eranki" position="Website Manager" url='/' / >
+                        <AboutTab name="Revati Tambe" position="Website Manager" url='/' / >
+                    </div>
+
+                    <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
+                        <AboutTab name="--" position="Lead Research Manager" url='/' / >
+                        <AboutTab name="--" position="Lead Research Manager" url='/' / >
+                    </div>
+                    <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
+                        <AboutTab name="Anand Ajith" position="Physics Research Manager" url='/' / >
+                        <AboutTab name="--" position="Physics Research Manager" url='/' / >
+                    </div>
+                    <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
+                        <AboutTab name="Shashwat Mishra" position="Environmental Science Research Manager" url='/' / >
+                        <AboutTab name="--" position="Environmental Science Research Manager" url='/' / >
+                    </div>
+                    <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
+                        <AboutTab name="Mithela Mehenaz" position="Psychology Research Manager" url='/' / >
+                        <AboutTab name="--" position="Psychology Research Manager" url='/' / >
+                    </div>
+                    <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
+                        <AboutTab name="Beatrice Jiang" position="Computer Science Research Manager" url='/' / >
+                        <AboutTab name="--" position="Computer Science Research Manager" url='/' / >
+                    </div>
+                    <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
+                        <AboutTab name="--" position="Economics Research Manager" url='/' / >
+                        <AboutTab name="--" position="Economics Research Manager" url='/' / >
+                    </div>
+                    <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
+                        <AboutTab name="--" position="Biology Research Manager" url='/' / >
+                        <AboutTab name="--" position="Biology Research Manager" url='/' / >
+                    </div>
 				</div>
 			</div>
 		</div>
