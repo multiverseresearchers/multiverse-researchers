@@ -1,102 +1,102 @@
 import './About.css'
 import AboutTab from "./AboutTab";
 import filler_img_1 from '/imgs/filler/Rectangle_19.png'
-import filler_img_2 from '/imgs/filler/Rectangle_11.png'
+// import filler_img_2 from '/imgs/filler/Rectangle_11.png'
 
 const About = () => {
 
-	const members = [
-		{
-			name: "Shashwat Mishra",
-			position: "Founder",
-			url: filler_img_2
-		},
-		{
-			name: "@._mili",
-			position: "Founder",
-			url: filler_img_2
-		},
-		{
-			name: "@ryce.x",
-			position: "Founder",
-			url: filler_img_2
-		},
-		{
-			name: "@epicprogamer72",
-			position: "Recruitment Manager",
-			url: filler_img_2
-		},
-		{
-			name: "@ifwfilms",
-			position: "Recruitment Manager",
-			url: filler_img_2
-		},
-        {
-			name: "@ems1076",
-			position: "Social Media Manager",
-			url: filler_img_2
-		},
-		{
-			name: "Renn",
-			position: "Social Media Manager",
-			url: filler_img_2
-		},
-        {
-            name: "@aanxnd",
-            position: "Physics Research Manager",
-			url: filler_img_2
-        },
-        {
-            name: "@aqua12345_8",
-            position: "Physics Research Manager",
-			url: filler_img_2
-        },
-        {
-            name: "@woolbit",
-            position: "Biology Research Manager",
-			url: filler_img_2
-        },
-        {
-            name: "@yankavader",
-            position: "Biology Research Manager",
-			url: filler_img_2
-        },
-        {
-            name: "@maslalala",
-            position: "Environment Science Research Manager",
-			url: filler_img_2
-        },
-        {
-			name: "Mithela Mehenaz",
-			position: "Psychology Research Manager",
-			url: filler_img_2
-		},
-		// { LOOKING FOR STILL
-		// 	name: "Cabinet Name",
-		// 	position: "Psychology Research Manager",
-		// 	url: filler_img_2
-		// },
-        {
-            name: "Aman Ali Pilehvari",
-            position: "Economics Research Manager",
-			url: filler_img_2
-        },
-        {
-            name: "@anadelk",
-            position: "Economics Research Manager",
-			url: filler_img_2
-        },
-        {
-			name: "Bhargav Eranki",
-			position: "Website Manager",
-			url: filler_img_2
-		},
-		{
-			name: "Revati Tambe",
-			position: "Website Manager",
-			url: filler_img_2
-		},
-	]
+	// const members = [
+	// 	{
+	// 		name: "Shashwat Mishra",
+	// 		position: "Founder",
+	// 		url: filler_img_2
+	// 	},
+	// 	{
+	// 		name: "@._mili",
+	// 		position: "Founder",
+	// 		url: filler_img_2
+	// 	},
+	// 	{
+	// 		name: "@ryce.x",
+	// 		position: "Founder",
+	// 		url: filler_img_2
+	// 	},
+	// 	{
+	// 		name: "@epicprogamer72",
+	// 		position: "Recruitment Manager",
+	// 		url: filler_img_2
+	// 	},
+	// 	{
+	// 		name: "@ifwfilms",
+	// 		position: "Recruitment Manager",
+	// 		url: filler_img_2
+	// 	},
+    //     {
+	// 		name: "@ems1076",
+	// 		position: "Social Media Manager",
+	// 		url: filler_img_2
+	// 	},
+	// 	{
+	// 		name: "Renn",
+	// 		position: "Social Media Manager",
+	// 		url: filler_img_2
+	// 	},
+    //     {
+    //         name: "@aanxnd",
+    //         position: "Physics Research Manager",
+	// 		url: filler_img_2
+    //     },
+    //     {
+    //         name: "@aqua12345_8",
+    //         position: "Physics Research Manager",
+	// 		url: filler_img_2
+    //     },
+    //     {
+    //         name: "@woolbit",
+    //         position: "Biology Research Manager",
+	// 		url: filler_img_2
+    //     },
+    //     {
+    //         name: "@yankavader",
+    //         position: "Biology Research Manager",
+	// 		url: filler_img_2
+    //     },
+    //     {
+    //         name: "@maslalala",
+    //         position: "Environment Science Research Manager",
+	// 		url: filler_img_2
+    //     },
+    //     {
+	// 		name: "Mithela Mehenaz",
+	// 		position: "Psychology Research Manager",
+	// 		url: filler_img_2
+	// 	},
+	// 	// { LOOKING FOR STILL
+	// 	// 	name: "Cabinet Name",
+	// 	// 	position: "Psychology Research Manager",
+	// 	// 	url: filler_img_2
+	// 	// },
+    //     {
+    //         name: "Aman Ali Pilehvari",
+    //         position: "Economics Research Manager",
+	// 		url: filler_img_2
+    //     },
+    //     {
+    //         name: "@anadelk",
+    //         position: "Economics Research Manager",
+	// 		url: filler_img_2
+    //     },
+    //     {
+	// 		name: "Bhargav Eranki",
+	// 		position: "Website Manager",
+	// 		url: filler_img_2
+	// 	},
+	// 	{
+	// 		name: "Revati Tambe",
+	// 		position: "Website Manager",
+	// 		url: filler_img_2
+	// 	},
+	// ]
 
 
 	return (
