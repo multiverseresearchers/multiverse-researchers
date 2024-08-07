@@ -42,16 +42,13 @@ const About = () => {
 
                     <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
                         <AboutTab name="Ellen Guan" position="Lead Social Manager" url='/' / >
-                        <AboutTab name="Akshith Muthukumar" position="Social Media Manager" url='/' / >
-                        <AboutTab name="Alexus Palileo" position="Social Media Manager" url='/' / >
-                        <AboutTab name="--" position="Social Media Manager" url='/' / >
+                        <AboutTab name="Akshith Muthukumar" position="Publicist" url='/' / >
+                        <AboutTab name="Alexus Palileo" position="Publicist" url='/' / >
+                        <AboutTab name="Moses Liang" position="Publicist, Workshops Manager" url='/' / >
                     </div>
                     <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
                         <AboutTab name="Bhargav Eranki" position="Website Manager" url='/' / >
                         <AboutTab name="Revati Tambe" position="Website Manager" url='/' / >
-                    </div>
-                    <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
-                        <AboutTab name="Moses Liang" position="Workshops Manager, Publicist" url='/' / >
                     </div>
 
                     <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
