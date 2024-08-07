@@ -1,103 +1,8 @@
 import './About.css'
 import AboutTab from "./AboutTab";
 import filler_img_1 from '/imgs/filler/Rectangle_19.png'
-// import filler_img_2 from '/imgs/filler/Rectangle_11.png'
 
 const About = () => {
-
-	// const members = [
-	// 	{
-	// 		name: "Shashwat Mishra",
-	// 		position: "Founder",
-	// 		url: filler_img_2
-	// 	},
-	// 	{
-	// 		name: "@._mili",
-	// 		position: "Founder",
-	// 		url: filler_img_2
-	// 	},
-	// 	{
-	// 		name: "@ryce.x",
-	// 		position: "Founder",
-	// 		url: filler_img_2
-	// 	},
-	// 	{
-	// 		name: "@epicprogamer72",
-	// 		position: "Recruitment Manager",
-	// 		url: filler_img_2
-	// 	},
-	// 	{
-	// 		name: "@ifwfilms",
-	// 		position: "Recruitment Manager",
-	// 		url: filler_img_2
-	// 	},
-    //     {
-	// 		name: "@ems1076",
-	// 		position: "Social Media Manager",
-	// 		url: filler_img_2
-	// 	},
-	// 	{
-	// 		name: "Renn",
-	// 		position: "Social Media Manager",
-	// 		url: filler_img_2
-	// 	},
-    //     {
-    //         name: "@aanxnd",
-    //         position: "Physics Research Manager",
-	// 		url: filler_img_2
-    //     },
-    //     {
-    //         name: "@aqua12345_8",
-    //         position: "Physics Research Manager",
-	// 		url: filler_img_2
-    //     },
-    //     {
-    //         name: "@woolbit",
-    //         position: "Biology Research Manager",
-	// 		url: filler_img_2
-    //     },
-    //     {
-    //         name: "@yankavader",
-    //         position: "Biology Research Manager",
-	// 		url: filler_img_2
-    //     },
-    //     {
-    //         name: "@maslalala",
-    //         position: "Environment Science Research Manager",
-	// 		url: filler_img_2
-    //     },
-    //     {
-	// 		name: "Mithela Mehenaz",
-	// 		position: "Psychology Research Manager",
-	// 		url: filler_img_2
-	// 	},
-	// 	// { LOOKING FOR STILL
-	// 	// 	name: "Cabinet Name",
-	// 	// 	position: "Psychology Research Manager",
-	// 	// 	url: filler_img_2
-	// 	// },
-    //     {
-    //         name: "Aman Ali Pilehvari",
-    //         position: "Economics Research Manager",
-	// 		url: filler_img_2
-    //     },
-    //     {
-    //         name: "@anadelk",
-    //         position: "Economics Research Manager",
-	// 		url: filler_img_2
-    //     },
-    //     {
-	// 		name: "Bhargav Eranki",
-	// 		position: "Website Manager",
-	// 		url: filler_img_2
-	// 	},
-	// 	{
-	// 		name: "Revati Tambe",
-	// 		position: "Website Manager",
-	// 		url: filler_img_2
-	// 	},
-	// ]
-
 
 	return (
 		<div className='flex flex-col items-center'>
@@ -124,7 +29,7 @@ const About = () => {
 					<h1 className='text-center text-2xl lg:text-3xl font-semibold py-5'>Our Team</h1>
 				</div>
 
-				<div className="p-8 border-red-500 border w-fit">
+				<div className="p-8 w-fit">
 					{/* {members.map(member => {
 						return <AboutTab name={member.name} position={member.position} url={member.url} />
 					})
@@ -132,13 +37,13 @@ const About = () => {
                     <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
                         <AboutTab name="Shashwat Mishra" position="Founder" url='/' / >
                         <AboutTab name="Beatrice Jiang" position="Founder" url='/' / >
-                        <AboutTab name="--" position="Founder" url='/' / >
+                        <AboutTab name="Mili Shah" position="Founder" url='/' / >
                     </div>
 
                     <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
+                        <AboutTab name="Ellen Guan" position="Lead Social Manager" url='/' / >
                         <AboutTab name="Akshith Muthukumar" position="Social Media Manager" url='/' / >
-                        <AboutTab name="--" position="Social Media Manager" url='/' / >
-                        <AboutTab name="--" position="Social Media Manager" url='/' / >
+                        <AboutTab name="Alexus Palileo" position="Social Media Manager" url='/' / >
                         <AboutTab name="--" position="Social Media Manager" url='/' / >
                     </div>
                     <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
@@ -147,16 +52,16 @@ const About = () => {
                     </div>
 
                     <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
-                        <AboutTab name="--" position="Lead Research Manager" url='/' / >
-                        <AboutTab name="--" position="Lead Research Manager" url='/' / >
+                        <AboutTab name="Rowan Wheaton" position="Lead Research Manager" url='/' / >
+                        <AboutTab name="Alyssa Gin" position="Lead Research Manager" url='/' / >
                     </div>
                     <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
                         <AboutTab name="Anand Ajith" position="Physics Research Manager" url='/' / >
-                        <AboutTab name="--" position="Physics Research Manager" url='/' / >
+                        <AboutTab name="Hridaya Marasini" position="Physics Research Manager" url='/' / >
                     </div>
                     <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
                         <AboutTab name="Shashwat Mishra" position="Environmental Science Research Manager" url='/' / >
-                        <AboutTab name="--" position="Environmental Science Research Manager" url='/' / >
+                        <AboutTab name="Aneeqa Parpia" position="Environmental Science Research Manager" url='/' / >
                     </div>
                     <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
                         <AboutTab name="Mithela Mehenaz" position="Psychology Research Manager" url='/' / >
@@ -164,15 +69,15 @@ const About = () => {
                     </div>
                     <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
                         <AboutTab name="Beatrice Jiang" position="Computer Science Research Manager" url='/' / >
-                        <AboutTab name="--" position="Computer Science Research Manager" url='/' / >
+                        <AboutTab name="Mili Shah" position="Computer Science Research Manager" url='/' / >
                     </div>
                     <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
-                        <AboutTab name="--" position="Economics Research Manager" url='/' / >
+                        <AboutTab name="Nikhil Godbole" position="Economics Research Manager" url='/' / >
                         <AboutTab name="--" position="Economics Research Manager" url='/' / >
                     </div>
                     <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
-                        <AboutTab name="--" position="Biology Research Manager" url='/' / >
-                        <AboutTab name="--" position="Biology Research Manager" url='/' / >
+                        <AboutTab name="Krishiv Potluri" position="Biology Research Manager" url='/' / >
+                        <AboutTab name="Arnav Reddy" position="Biology Research Manager" url='/' / >
                     </div>
 				</div>
 			</div>
