@@ -10,6 +10,12 @@ const Research = () => {
         //     link: "physics"
         // },
         {
+            title: "Exploring Monte Carlo Methods in Lattice QCD Simulations",
+            content: "This project analyzes the latest Monte Carlo methods employed in lattice Quantum Chromodynamics (QCD) simulations. It highlights how these advanced techniques enhance our comprehension of Quantum Chromodynamics phenomena, providing deeper insights into the fundamental forces governing particle interactions.",
+            link: "physics",
+            image: "/imgs/circles/physics/what-is-the-monte-carlo-simulation.png"
+        },
+        {
             title: "Environmental Toxins and Parkinson’s Disease Progression",
             content: "Our meta-analysis explores how environmental toxins like pesticides, heavy metals, and industrial chemicals contribute to Parkinson's Disease (PD), providing crucial insights for research, healthcare, and policy.",
             link: "bio",

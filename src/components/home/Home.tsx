@@ -23,7 +23,7 @@ const Home = () => {
 			<div className="flex flex-col w-full items-center">
 				<Tabs defaultValue="bio" className="w-2/3 p-1">
 					<TabsList className="flex flex-row justify-evenly h-fit bg-white shadow-lg border border-gray-100 rounded-lg mb-12">
-						{/* <TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="physics">Physics Circle</TabsTrigger> */}
+						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="physics">Physics Circle</TabsTrigger>
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="bio">Biology Circle</TabsTrigger>
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="envisci">Environment Science Circle</TabsTrigger>
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="psych">Psychology Circle</TabsTrigger>
@@ -31,14 +31,14 @@ const Home = () => {
                         <TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="econ">Economics Circle</TabsTrigger>
 					</TabsList>
 					<div className="p-8 bg-white border border-gray-100 rounded-lg shadow-xl">
-						{/* <TabsContent value="physics">
+						<TabsContent value="physics">
 							<CircleSnippet
-								title="Physics Circle Project Name Title"
-								description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n \nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}
-								image1="/imgs/filler/Rectangle_11.png"
-								image2="/imgs/filler/Rectangle_11.png"
+								title="Exploring State-of-the-Art Monte Carlo Methods in Lattice QCD Simulations"
+								description={`This project analyzes the latest Monte Carlo methods employed in lattice Quantum Chromodynamics (QCD) simulations. It highlights how these advanced techniques enhance our comprehension of Quantum Chromodynamics phenomena, providing deeper insights into the fundamental forces governing particle interactions.`}
+								image1="/imgs/circles/physics/lattice-qcd-simulation-visualization.gif"
+								image2="/imgs/circles/physics/monte-carlo-method-diagram.jpg"
 							/>
-						</TabsContent> { /* maybe add a yaml file w/centralized descriptions */}
+						</TabsContent>
 						<TabsContent value="bio">
                             <CircleSnippet
     								title="Environmental Toxins and Parkinson’s Disease Progression"
