@@ -25,7 +25,6 @@ const Navbar = () => {
                     <NavItem to="/publications" currentPath={location.pathname}>PUBLICATIONS</NavItem>
                     <NavItem to="/contact" currentPath={location.pathname}>CONTACT</NavItem>
                 </ul>
-                <div className='hidden lg:flex'><Link to={"/"}><img src="/logo.png" alt="" />Feature coming soon!</Link></div>
                 <div className='block lg:hidden'><Hamburger toggled={isOpen} toggle={setOpen} /></div> {/* add search bar feature */}
             </div>
 
