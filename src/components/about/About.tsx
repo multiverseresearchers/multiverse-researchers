@@ -41,7 +41,7 @@ const About = () => {
                     </div>
 
                     <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
-                        <AboutTab name="Ellen Guan" position="Lead Social Manager" url='/' / >
+                        <AboutTab name="Ellen Guan" position="Lead Publicist" url='/' / >
                         <AboutTab name="Akshith Muthukumar" position="Publicist" url='/' / >
                         <AboutTab name="Alexus Palileo" position="Publicist" url='/' / >
                         <AboutTab name="Moses Liang" position="Publicist, Workshops Manager" url='/' / >
@@ -78,6 +78,7 @@ const About = () => {
                     <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
                         <AboutTab name="Krishiv Potluri" position="Biology Research Manager" url='/' / >
                         <AboutTab name="Arnav Reddy" position="Biology Research Manager" url='/' / >
+                        <AboutTab name="Elmubarak Malik" position="Biology Research Manager" url='/' / >
                     </div>
 				</div>
 			</div>
