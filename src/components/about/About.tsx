@@ -21,7 +21,7 @@ const About = () => {
 						from physics to economics.
 					</div>
 				</div>
-					<img className='hidden md:block' src={filler_img_1} alt="Filler Img from Figma" />
+				<img className='hidden md:block' src={filler_img_1} alt="Filler Img from Figma" />
 			</div>
 
 			<div className="flex flex-col items-center justify-center">
@@ -34,52 +34,55 @@ const About = () => {
 						return <AboutTab name={member.name} position={member.position} url={member.url} />
 					})
 					} */}
-                    <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
-                        <AboutTab name="Shashwat Mishra" position="Founder" url='/' / >
-                        <AboutTab name="Beatrice Jiang" position="Founder" url='/' / >
-                        <AboutTab name="Mili Shah" position="Founder" url='/' / >
-                    </div>
+					<div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
+						<AboutTab name="Shashwat Mishra" position="Founder" url='/' />
+						<AboutTab name="Beatrice Jiang" position="Founder" url='/' />
+						<AboutTab name="Mili Shah" position="Founder" url='/' />
+					</div>
 
-                    <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
-                        <AboutTab name="Ellen Guan" position="Lead Publicist" url='/' / >
-                        <AboutTab name="Akshith Muthukumar" position="Publicist" url='/' / >
-                        <AboutTab name="Alexus Palileo" position="Publicist" url='/' / >
-                        <AboutTab name="Moses Liang" position="Publicist, Workshops Manager" url='/' / >
-                    </div>
-                    <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
-                        <AboutTab name="Bhargav Eranki" position="Website Manager" url='/' / >
-                        <AboutTab name="Revati Tambe" position="Website Manager" url='/' / >
-                    </div>
+					<div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
+						<AboutTab name="Ellen Guan" position="Lead Publicist" url='/' />
+						<AboutTab name="Akshith Muthukumar" position="Publicist" url='/' />
+						<AboutTab name="Alexus Palileo" position="Publicist" url='/' />
+						<AboutTab name="Moses Liang" position="Publicist, Workshops Manager" url='/' />
+					</div>
+					<div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
+						<AboutTab name="Bhargav Eranki" position="Website Manager" url='/' />
+						<AboutTab name="Revati Tambe" position="Website Manager" url='/' />
+					</div>
 
-                    <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
-                        <AboutTab name="Rowan Wheaton" position="Lead Research Manager" url='/' / >
-                        <AboutTab name="Alyssa Gin" position="Lead Research Manager" url='/' / >
-                    </div>
-                    <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
-                        <AboutTab name="Anand Ajith" position="Physics Research Manager" url='/' / >
-                        <AboutTab name="Hridaya Marasini" position="Physics Research Manager" url='/' / >
-                    </div>
-                    <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
-                        <AboutTab name="Shashwat Mishra" position="Environmental Science Research Manager" url='/' / >
-                        <AboutTab name="Aneeqa Parpia" position="Environmental Science Research Manager" url='/' / >
-                    </div>
-                    <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
-                        <AboutTab name="Mithela Mehenaz" position="Psychology Research Manager" url='/' / >
-                        <AboutTab name="--" position="Psychology Research Manager" url='/' / >
-                    </div>
-                    <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
-                        <AboutTab name="Beatrice Jiang" position="Computer Science Research Manager" url='/' / >
-                        <AboutTab name="Mili Shah" position="Computer Science Research Manager" url='/' / >
-                    </div>
-                    <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
-                        <AboutTab name="Nikhil Godbole" position="Economics Research Manager" url='/' / >
-                        <AboutTab name="--" position="Economics Research Manager" url='/' / >
-                    </div>
-                    <div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
-                        <AboutTab name="Krishiv Potluri" position="Biology Research Manager" url='/' / >
-                        <AboutTab name="Arnav Reddy" position="Biology Research Manager" url='/' / >
-                        <AboutTab name="Elmubarak Malik" position="Biology Research Manager" url='/' / >
-                    </div>
+					<div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
+						<AboutTab name="Rowan Wheaton" position="Lead Research Manager" url='/' />
+						<AboutTab name="Alyssa Gin" position="Lead Research Manager" url='/' />
+					</div>
+					<div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
+						<AboutTab name="Zijun He" position="Astronomy Research Manager" url='/' />
+					</div>
+					<div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
+						<AboutTab name="Anand Ajith" position="Physics Research Manager" url='/' />
+						<AboutTab name="Hridaya Marasini" position="Physics Research Manager" url='/' />
+					</div>
+					<div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
+						<AboutTab name="Shashwat Mishra" position="Environmental Science Research Manager" url='/' />
+						<AboutTab name="Aneeqa Parpia" position="Environmental Science Research Manager" url='/' />
+					</div>
+					<div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
+						<AboutTab name="Mithela Mehenaz" position="Psychology Research Manager" url='/' />
+						<AboutTab name="--" position="Psychology Research Manager" url='/' />
+					</div>
+					<div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
+						<AboutTab name="Beatrice Jiang" position="Computer Science Research Manager" url='/' />
+						<AboutTab name="Mili Shah" position="Computer Science Research Manager" url='/' />
+					</div>
+					<div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
+						<AboutTab name="Nikhil Godbole" position="Economics Research Manager" url='/' />
+						<AboutTab name="--" position="Economics Research Manager" url='/' />
+					</div>
+					<div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
+						<AboutTab name="Krishiv Potluri" position="Biology Research Manager" url='/' />
+						<AboutTab name="Arnav Reddy" position="Biology Research Manager" url='/' />
+						<AboutTab name="Elmubarak Malik" position="Biology Research Manager" url='/' />
+					</div>
 				</div>
 			</div>
 		</div>
