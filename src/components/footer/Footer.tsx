@@ -18,7 +18,7 @@ const Footer = () => {
                     <Link to='/' className='text-black transition-colors duration-300 ease-in-out hover:text-cyan-500'>Home</Link>
                     <Link to='/about' className='text-black transition-colors duration-300 ease-in-out hover:text-cyan-500'>About</Link>
                     <Link to='/research' className='text-black transition-colors duration-300 ease-in-out hover:text-cyan-500'>Research</Link>
-                    <Link to='/papers' className='text-black transition-colors duration-300 ease-in-out hover:text-cyan-500'>PAPERS</Link>
+                    <Link to='/papers' className='text-black transition-colors duration-300 ease-in-out hover:text-cyan-500'>Papers</Link>
                 </div>
                 <div className='flex flex-col'>
                     <p className='font-medium underline pb-2'>Other</p>
