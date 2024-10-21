@@ -27,57 +27,77 @@ const Home = () => {
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="physics">Physics Circle</TabsTrigger>
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="bio">Biology Circle</TabsTrigger>
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="envisci">Environment Science Circle</TabsTrigger>
-						{/* <TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="psych">Psychology Circle</TabsTrigger> */}
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="compsci">Computer Science Circle</TabsTrigger>
                         <TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="econ">Economics Circle</TabsTrigger>
+                        <TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="astronomy">Astronomy Circle</TabsTrigger>
+                        <TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="polisci">Political Science Circle</TabsTrigger>
+                        <TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="math">Mathematics Circle</TabsTrigger>
 					</TabsList>
+
+                    {/* WAITING FOR MATH, PHYSICS, AND CS RESPONSES */}
 					<div className="p-8 bg-white border border-gray-100 rounded-lg shadow-xl">
 						<TabsContent value="physics">
 							<CircleSnippet
 								title="Exploring State-of-the-Art Monte Carlo Methods in Lattice QCD Simulations"
 								description={`This project analyzes the latest Monte Carlo methods employed in lattice Quantum Chromodynamics (QCD) simulations. It highlights how these advanced techniques enhance our comprehension of Quantum Chromodynamics phenomena, providing deeper insights into the fundamental forces governing particle interactions.`}
-								image1="/imgs/circles/physics/lattice-qcd-simulation-visualization.gif"
-								image2="/imgs/circles/physics/monte-carlo-method-diagram.jpg"
+								image1=""
+								image2=""
 							/>
 						</TabsContent>
 						<TabsContent value="bio">
                             <CircleSnippet
     								title="Environmental Toxins and Parkinson’s Disease Progression"
-    								description={`Our meta-analysis examines the impact of environmental toxins on Parkinson's Disease (PD), synthesizing various studies to understand how pesticides, heavy metals, and industrial chemicals contribute to this disorder. This research will provide valuable insights for researchers, healthcare providers, and policymakers on PD prevention and treatment. We will identify key toxins linked to PD, explore dose-response relationships, and investigate the biological mechanisms involved. Additionally, we will consider how PD susceptibility varies geographically and demographically. Our findings will guide policy recommendations to reduce exposure to harmful toxins and mitigate PD risk.`}
-    								image1="/imgs/circles/bio/pd-progression.jpg"
-    								image2="/imgs/circles/bio/neuroimaging.jpg"
+    								description={`In the Biology Group, we will study and delve into research in topics ranging from molecular biology to ecology as well as genetics and biotechnology. Those who participate in this group will gather experience in biology and learn more about the biological world and why we are alive. We will utilize important skills such as data analysis and attention to detail, both highly important skills when analyzing biological functions. The goal of this group is for members to gain a more well-rounded understanding of biology research as well as a newfound passion for the life sciences! Here, we strive to learn more about readily available information and potentially learn new information that could help fuel biology research in the future.`}
+    								image1=""
+    								image2=""
 							/>
                         </TabsContent>
 						<TabsContent value="envisci">
                             <CircleSnippet
     								title="Impact of Climate Change on Marginalized Communities"
-    								description={`Our research focuses on several critical issues: water shortages in indigenous communities, urban heat islands affecting vulnerable populations, agricultural challenges in low-income regions, and the correlation between climate change and diseases. The goal is to provide insights that help mitigate the effects of climate change on marginalized groups. By examining these topics, we aim to inform strategies and policies to support vulnerable communities facing climate-related challenges.`}
-    								image1="/imgs/circles/envisci/fields.png"
-    								image2="/imgs/circles/envisci/heatmap.png"
+    								description={`Our research group is dedicated to studying how environmental changes—such as rising sea levels, pollution, coastal erosion, and climate shifts—affect the quality of life in marginalized communities. We utilize collaborative research efforts, data analysis, and innovative approaches to address urgent global environmental issues. The group investigates a variety of environmental, social, economic, and cultural factors to enhance understanding and promote sustainable solutions that improve living conditions for those most vulnerable to environmental stress.`}
+    								image1=""
+    								image2=""
 							/>
                         </TabsContent>
-						{/* <TabsContent value="psych">
-                            <CircleSnippet
-    								title="The Emotional Effects of Different Types of Music"
-    								description={`This experimental study investigates the mechanisms behind the emotional impact of music. We aim to understand how and why sad music induces feelings of sadness and happy music evokes happiness. By analyzing physiological and psychological responses to different types of music, we seek to uncover the underlying processes that drive these emotional reactions. Our findings will contribute to a deeper understanding of the connection between music and emotion.`}
-    								image1="/imgs/circles/psych/music-listening.webp"
-    								image2="/imgs/circles/psych/music-evoked-emotions.jpg"
-							/>
-                        </TabsContent> */}
 						<TabsContent value="compsci">
                             <CircleSnippet
     								title="Ethical Implications of Quantum Mechanics"
     								description={`Quantum ethics explores the intersection of ethical principles and the emerging field of quantum mechanics, specifically how it could influence moral decision-making. This interdisciplinary area challenges conventional ethical theories by means of suggesting new perspectives on issues like privacy, loose will, and the impact of our actions in a quantum world. We plan to delve deep into this significant and fascinating subject and answer questions that arise in our study.`}
-    								image1="/imgs/circles/compsci/new-theory.jpg"
-    								image2="/imgs/circles/compsci/quantum-ethics.webp"
+    								image1=""
+    								image2=""
 							/>
                         </TabsContent>
                         <TabsContent value="econ">
                             <CircleSnippet
     								title="The Impact of COVID-19 on the Housing Market"
+    								description={`The objective of the Economics Research group is to delve into why and how bank failures occur, namely the infamous Silicon Valley Bank, WashuM, and Lehman Brothers. We utilize collaborative research efforts, data analysis, and innovative approaches to address problems with banks and how we can overcome such disasters. We plan on analyzing each of the 3 banks and give a comparitive analysis, overview, consequences, and proactive measures to avoid future failures. We plan on using and analyzing Income Statements, Balance sheets, stock prices before and after failure, management issue analyzation, etc.`}
+    								image1=""
+    								image2=""
+							/>
+                        </TabsContent>
+                        <TabsContent value="astronomy">
+                            <CircleSnippet
+    								title="The Impact of COVID-19 on the Housing Market"
+    								description={`The objective of the Astronomy research group is to discover unidetified celestial bodies by observing trends in data to find a potential match to behavior the implies that a celestial body might be orbiting a star. We will do this by using what is known as the transit method. The transit method is used to find an exoplanet orbiting a distant star, this method includes looking for a transit curve which is when the planet passes in between in us and the star causing a drop in luminoisty. This group will also utilise multiple datasets an algrorithm and collaborative research in order to attain this objective. By working together and analyizing as much data as we can this group's goal is to find fact checked evidence that our target stars have celestial bodies orbiting them.`}
+    								image1=""
+    								image2=""
+							/>
+                        </TabsContent>
+                        <TabsContent value="polisci">
+                            <CircleSnippet
+    								title="The Impact of COVID-19 on the Housing Market"
+    								description={`The Political Science Research Group is dedicated to analyzing the legislation and policymaking in the international viewpoint, highlighting diverse perspectives through global affairs and international government interactions in order to specifically examine the effects it has on the overall quality of the world. By coordinating with fellow research members over virtual meetings and undergoing a comprehensive analysis review on our presented topic, we strive to understand international government operations.`}
+    								image1=""
+    								image2=""
+							/>
+                        </TabsContent>
+                        <TabsContent value="math">
+                            <CircleSnippet
+    								title="The Impact of COVID-19 on the Housing Market"
     								description={`This project examines the profound effects of the COVID-19 pandemic on the housing market. Beginning anew, our study will investigate shifts in housing demand, pricing trends, and market dynamics influenced by the pandemic. By analyzing data and trends, we aim to provide insights into the evolving landscape of housing in the wake of COVID-19, informing future research directions and policy considerations.`}
-    								image1="/imgs/circles/econ/stocks.jpg"
-    								image2="/imgs/circles/econ/person-holding-house.jpg"
+    								image1=""
+    								image2=""
 							/>
                         </TabsContent>
 					</div>
