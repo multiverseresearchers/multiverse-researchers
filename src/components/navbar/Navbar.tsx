@@ -23,7 +23,7 @@ const Navbar = () => {
                         <NavItem to="/" currentPath={location.pathname}>HOME</NavItem>
     					<NavItem to="/about" currentPath={location.pathname}>ABOUT</NavItem>
     					<NavItem to="/research" currentPath={location.pathname}>RESEARCH</NavItem>
-    					<NavItem to="/publications" currentPath={location.pathname}>PUBLICATIONS</NavItem>
+    					<NavItem to="/papers" currentPath={location.pathname}>PAPERS</NavItem>
     					<NavItem to="/contact" currentPath={location.pathname}>CONTACT</NavItem>
                     </div>
                     <a className='font-bold' href="https://discord.gg/PRpxZ6UBNN" target="_blank"><div className='bg-pink-300 rounded-full py-4 px-8 hover:bg-pink-900 hover:text-white transition-colors duration-300 cursor-pointer'>JOIN</div></a>

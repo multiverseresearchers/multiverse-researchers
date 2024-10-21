@@ -27,7 +27,7 @@ const Home = () => {
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="physics">Physics Circle</TabsTrigger>
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="bio">Biology Circle</TabsTrigger>
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="envisci">Environment Science Circle</TabsTrigger>
-						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="psych">Psychology Circle</TabsTrigger>
+						{/* <TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="psych">Psychology Circle</TabsTrigger> */}
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="compsci">Computer Science Circle</TabsTrigger>
                         <TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="econ">Economics Circle</TabsTrigger>
 					</TabsList>
@@ -56,14 +56,14 @@ const Home = () => {
     								image2="/imgs/circles/envisci/heatmap.png"
 							/>
                         </TabsContent>
-						<TabsContent value="psych">
+						{/* <TabsContent value="psych">
                             <CircleSnippet
     								title="The Emotional Effects of Different Types of Music"
     								description={`This experimental study investigates the mechanisms behind the emotional impact of music. We aim to understand how and why sad music induces feelings of sadness and happy music evokes happiness. By analyzing physiological and psychological responses to different types of music, we seek to uncover the underlying processes that drive these emotional reactions. Our findings will contribute to a deeper understanding of the connection between music and emotion.`}
     								image1="/imgs/circles/psych/music-listening.webp"
     								image2="/imgs/circles/psych/music-evoked-emotions.jpg"
 							/>
-                        </TabsContent>
+                        </TabsContent> */}
 						<TabsContent value="compsci">
                             <CircleSnippet
     								title="Ethical Implications of Quantum Mechanics"

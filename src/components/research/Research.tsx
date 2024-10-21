@@ -28,12 +28,6 @@ const Research = () => {
             image: "/imgs/circles/envisci/desert.png"
         },
         {
-            title: "The Emotional Effects of Different Types of Music",
-            content: "This study explores how music evokes emotions, analyzing why sad music induces sadness and happy music elicits happiness to deepen our understanding of its emotional impact.",
-            link: "psych",
-            image: "/imgs/circles/psych/music-evoked-emotions.jpg"
-        },
-        {
             title: "Ethical Implications of Quantum Mechanics",
             content: "Quantum ethics examines how quantum mechanics could reshape moral decision-making, challenging traditional ethical theories with new perspectives on privacy, free will, and the consequences of actions in a quantum realm.",
             link: "compsci",
