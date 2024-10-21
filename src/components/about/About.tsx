@@ -43,27 +43,37 @@ const About = () => {
 							<p>Founder</p>
 						</div>
 					</div>
-					<hr />
+					<hr className='md:w-2/3 m-auto' />
 
-					<div className='flex flex-col md:w-2/3 m-auto justify-center md:flex-row gap-8 py-8'>
-						<div className='md:w-1/4'>
+					<div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
+						<div className='md:w-1/3'>
 							<p className='font-bold'>Ellen Guan</p>
 							<p>Lead Publicist</p>
 						</div>
-						<div className='md:w-1/4'>
+						<div className='md:w-1/3'>
+							<p className='font-bold'>Yeeun Park</p>
+							<p>Publicist</p>
+						</div>
+						<div className='md:w-1/3'>
 							<p className='font-bold'>Akshith Muthukumar</p>
 							<p>Publicist</p>
 						</div>
-						<div className='md:w-1/4'>
+					</div>
+					<div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
+						<div className='md:w-1/3'>
+							<p className='font-bold'>Sadia Rahman</p>
+							<p>Publicist</p>
+						</div>
+						<div className='md:w-1/3'>
 							<p className='font-bold'>Alexus Palileo</p>
 							<p>Publicist</p>
 						</div>
-						<div className='md:w-1/4'>
-							<p className='font-bold'>Moses Liang</p>
+						<div className='md:w-1/3'>
+							<p className='font-bold'>Taskia Islam</p>
 							<p>Publicist</p>
 						</div>
 					</div>
-					<hr />
+					<hr className='md:w-2/3 m-auto' />
 
 					<div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
 						<div className='md:w-1/2'>
@@ -75,7 +85,7 @@ const About = () => {
 							<p>Web Developer</p>
 						</div>
 					</div>
-					<hr />
+					<hr className='md:w-2/3 m-auto' />
 
 					<div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
 						<div className='md:w-1/2'>
@@ -87,28 +97,21 @@ const About = () => {
 							<p>Lead Research Manager</p>
 						</div>
 					</div>
-					<hr />
+					<hr className='md:w-2/3 m-auto' />
+
+					{/* <div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
+						<div className='md:w-1/3'>
+							<p className='font-bold'>Nikhil Godbole</p>
+							<p>Economics Research Manager</p>
+						</div>
+					</div>
 
 					<div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
 						<div className='md:w-1/3'>
 							<p className='font-bold'>Zijun He</p>
 							<p>Astronomy Research Manager</p>
 						</div>
-					</div>
-					<hr />
-
-					<div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
-						<div className='md:w-1/2'>
-							<p className='font-bold'>Anand Ajith</p>
-							<p>Physics Research Manager</p>
-						</div>
-						<div className='md:w-1/2'>
-							<p className='font-bold'>Hridaya Marasini</p>
-							<p>Physics Research Manager</p>
-						</div>
-					</div>
-					<hr />
-
+					</div> */}
 					<div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
 						<div className='md:w-1/2'>
 							<p className='font-bold'>Shashwat Mishra</p>
@@ -119,19 +122,70 @@ const About = () => {
 							<p>Environmental Science Research Manager</p>
 						</div>
 					</div>
-					<hr />
 
 					<div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
 						<div className='md:w-1/2'>
-							<p className='font-bold'>Beatrice Jiang</p>
+							<p className='font-bold'>Ilinca Sasu</p>
+							<p>Biology Research Manager</p>
+						</div>
+						<div className='md:w-1/2'>
+							<p className='font-bold'>Elmubarak Malik</p>
+							<p>Biology Research Manager</p>
+						</div>
+					</div>
+
+					<div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
+						<div className='md:w-1/2'>
+							<p className='font-bold'>Mohammed Hafiz Ullah</p>
 							<p>Computer Science Research Manager</p>
 						</div>
 						<div className='md:w-1/2'>
-							<p className='font-bold'>Mili Shah</p>
+							<p className='font-bold'>Hritvik Arora</p>
 							<p>Computer Science Research Manager</p>
 						</div>
 					</div>
-					<hr />
+
+					<div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
+						<div className='md:w-1/2'>
+							<p className='font-bold'>Akshith Muthukumar</p>
+							<p>Mathematics Research Manager</p>
+						</div>
+						<div className='md:w-1/2'>
+							<p className='font-bold'>Eric Nathan Stucky</p>
+							<p>Mathematics Research Manager</p>
+						</div>
+					</div>
+
+					<div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
+						<div className='md:w-1/3'>
+							<p className='font-bold'>Anand Ajith</p>
+							<p>Physics Research Manager</p>
+						</div>
+						<div className='md:w-1/3'>
+							<p className='font-bold'>Nure Zannat</p>
+							<p>Physics Research Manager</p>
+						</div>
+						<div className='md:w-1/3'>
+							<p className='font-bold'>Ojaswit Singh</p>
+							<p>Physics Research Manager</p>
+						</div>
+					</div>
+
+					<div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
+						<div className='md:w-1/3'>
+							<p className='font-bold'>Hadizah Coulibaly</p>
+							<p>Astronomy Research Manager</p>
+						</div>
+						<div className='md:w-1/3'>
+							<p className='font-bold'>Nikhil Godbole</p>
+							<p>Economics Research Manager</p>
+						</div>
+						<div className='md:w-1/3'>
+							<p className='font-bold'>Yeeun Park</p>
+							<p>Political Science Research Manager</p>
+						</div>
+					</div>
+
 				</div>
 				{/* <div className="p-8 w-fit">
 
