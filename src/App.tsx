@@ -8,7 +8,6 @@ import Contact from './components/contact/Contact'
 import Publications from './components/publications/Publications'
 import Terms from './components/terms/Terms'
 import Research from './components/research/Research'
-import Privacypolicy from './components/terms/Privacypolicy'
 
 function App() {
 	return (
@@ -22,7 +21,6 @@ function App() {
 						<Route path='/papers' element={<Publications />}></Route>
 						<Route path='/contact' element={<Contact />}></Route>
                         <Route path='/terms' element={<Terms />}></Route>
-                        <Route path='/privacy-policy' element={<Privacypolicy />}></Route>
 					</Routes>
 				<Footer />
 			</BrowserRouter>
