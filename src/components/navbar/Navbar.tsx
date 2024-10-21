@@ -37,7 +37,7 @@ const Navbar = () => {
 					<NavItem to="/" currentPath={location.pathname}>HOME</NavItem>
 					<NavItem to="/about" currentPath={location.pathname}>ABOUT</NavItem>
 					<NavItem to="/research" currentPath={location.pathname}>RESEARCH</NavItem>
-					<NavItem to="/publications" currentPath={location.pathname}>PUBLICATIONS</NavItem>
+					<NavItem to="/papers" currentPath={location.pathname}>PAPERS</NavItem>
 					<NavItem to="/contact" currentPath={location.pathname}>CONTACT</NavItem>
 				</ul>
 			)}

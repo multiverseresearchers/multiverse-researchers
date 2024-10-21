@@ -1,5 +1,4 @@
 import './About.css'
-import AboutTab from "./AboutTab";
 import filler_img_1 from '/imgs/filler/Rectangle_19.png'
 
 const About = () => {
@@ -29,51 +28,113 @@ const About = () => {
 					<h1 className='text-center text-2xl lg:text-3xl font-semibold py-5'>Our Team</h1>
 				</div>
 
-				<div className="p-8 w-fit">
-					{/* {members.map(member => {
-						return <AboutTab name={member.name} position={member.position} url={member.url} />
-					})
-					} */}
-					<div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
-						<AboutTab name="Shashwat Mishra" position="Founder" url='/' />
-						<AboutTab name="Beatrice Jiang" position="Founder" url='/' />
-						<AboutTab name="Mili Shah" position="Founder" url='/' />
+				<div className='text-center md:w-[80vw]'>
+					<div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
+						<div className='md:w-1/3'>
+							<p className='font-bold'>Shashwat Mishra</p>
+							<p>Founder</p>
+						</div>
+						<div className='md:w-1/3'>
+							<p className='font-bold'>Beatrice Jiang</p>
+							<p>Founder</p>
+						</div>
+						<div className='md:w-1/3'>
+							<p className='font-bold'>Mili Shah</p>
+							<p>Founder</p>
+						</div>
 					</div>
+					<hr />
 
-					<div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
-						<AboutTab name="Ellen Guan" position="Lead Publicist" url='/' />
-						<AboutTab name="Akshith Muthukumar" position="Publicist" url='/' />
-						<AboutTab name="Alexus Palileo" position="Publicist" url='/' />
-						<AboutTab name="Moses Liang" position="Publicist, Workshops Manager" url='/' />
+					<div className='flex flex-col md:w-2/3 m-auto justify-center md:flex-row gap-8 py-8'>
+						<div className='md:w-1/4'>
+							<p className='font-bold'>Ellen Guan</p>
+							<p>Lead Publicist</p>
+						</div>
+						<div className='md:w-1/4'>
+							<p className='font-bold'>Akshith Muthukumar</p>
+							<p>Publicist</p>
+						</div>
+						<div className='md:w-1/4'>
+							<p className='font-bold'>Alexus Palileo</p>
+							<p>Publicist</p>
+						</div>
+						<div className='md:w-1/4'>
+							<p className='font-bold'>Moses Liang</p>
+							<p>Publicist</p>
+						</div>
 					</div>
-					<div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
-						<AboutTab name="Bhargav Eranki" position="Website Manager" url='/' />
-						<AboutTab name="Revati Tambe" position="Website Manager" url='/' />
-					</div>
+					<hr />
 
-					<div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
-						<AboutTab name="Rowan Wheaton" position="Lead Research Manager" url='/' />
-						<AboutTab name="Alyssa Gin" position="Lead Research Manager" url='/' />
+					<div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
+						<div className='md:w-1/2'>
+							<p className='font-bold'>Revati Tambe</p>
+							<p>Web Developer</p>
+						</div>
+						<div className='md:w-1/2'>
+							<p className='font-bold'>Bhargav Eranki</p>
+							<p>Web Developer</p>
+						</div>
 					</div>
-					<div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
-						<AboutTab name="Zijun He" position="Astronomy Research Manager" url='/' />
+					<hr />
+
+					<div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
+						<div className='md:w-1/2'>
+							<p className='font-bold'>Rowan Wheaton</p>
+							<p>Lead Research Manager</p>
+						</div>
+						<div className='md:w-1/2'>
+							<p className='font-bold'>Alyssa Gin</p>
+							<p>Lead Research Manager</p>
+						</div>
 					</div>
-					<div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
-						<AboutTab name="Anand Ajith" position="Physics Research Manager" url='/' />
-						<AboutTab name="Hridaya Marasini" position="Physics Research Manager" url='/' />
+					<hr />
+
+					<div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
+						<div className='md:w-1/3'>
+							<p className='font-bold'>Zijun He</p>
+							<p>Astronomy Research Manager</p>
+						</div>
 					</div>
-					<div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
-						<AboutTab name="Shashwat Mishra" position="Environmental Science Research Manager" url='/' />
-						<AboutTab name="Aneeqa Parpia" position="Environmental Science Research Manager" url='/' />
+					<hr />
+
+					<div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
+						<div className='md:w-1/2'>
+							<p className='font-bold'>Anand Ajith</p>
+							<p>Physics Research Manager</p>
+						</div>
+						<div className='md:w-1/2'>
+							<p className='font-bold'>Hridaya Marasini</p>
+							<p>Physics Research Manager</p>
+						</div>
 					</div>
-					<div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
-						<AboutTab name="Mithela Mehenaz" position="Psychology Research Manager" url='/' />
-						<AboutTab name="--" position="Psychology Research Manager" url='/' />
+					<hr />
+
+					<div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
+						<div className='md:w-1/2'>
+							<p className='font-bold'>Shashwat Mishra</p>
+							<p>Environmental Science Research Manager</p>
+						</div>
+						<div className='md:w-1/2'>
+							<p className='font-bold'>Aneeqa Parpia</p>
+							<p>Environmental Science Research Manager</p>
+						</div>
 					</div>
-					<div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
-						<AboutTab name="Beatrice Jiang" position="Computer Science Research Manager" url='/' />
-						<AboutTab name="Mili Shah" position="Computer Science Research Manager" url='/' />
+					<hr />
+
+					<div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
+						<div className='md:w-1/2'>
+							<p className='font-bold'>Beatrice Jiang</p>
+							<p>Computer Science Research Manager</p>
+						</div>
+						<div className='md:w-1/2'>
+							<p className='font-bold'>Mili Shah</p>
+							<p>Computer Science Research Manager</p>
+						</div>
 					</div>
+					<hr />
+				</div>
+				{/* <div className="p-8 w-fit">
+
 					<div className='flex justify-evenly flex-col md:flex-row md:gap-8 md:py-4'>
 						<AboutTab name="Nikhil Godbole" position="Economics Research Manager" url='/' />
 						<AboutTab name="--" position="Economics Research Manager" url='/' />
@@ -83,7 +144,7 @@ const About = () => {
 						<AboutTab name="Arnav Reddy" position="Biology Research Manager" url='/' />
 						<AboutTab name="Elmubarak Malik" position="Biology Research Manager" url='/' />
 					</div>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	)
