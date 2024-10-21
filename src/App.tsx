@@ -8,7 +8,7 @@ import Contact from './components/contact/Contact'
 import Publications from './components/publications/Publications'
 import Terms from './components/terms/Terms'
 import Research from './components/research/Research'
-import PrivacyPolicy from './components/terms/Privacypolicy'
+import PrivacyPolicy from './components/terms/PrivacyPolicy'
 
 function App() {
 	return (
