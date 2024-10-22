@@ -4,8 +4,8 @@ const Research = () => {
 	return (
 		<div>
 			<div className='flex flex-col items-center justify-center'>
-				<h1 className='pt-8 text-center text-2xl md:text-3xl lg:text-4xl py-4'><span className="font-semibold">Current Research Projects</span></h1>
-				<p>Take a look around to explore our current endeavors!</p>
+				<h1 className='pt-8 text-center text-2xl md:text-3xl lg:text-4xl py-4'><span className="font-semibold">Current Research Groups</span></h1>
+				<p className='text-center w-4/5 md:w-1/2'>Each group is led by 1-2 experienced research managers who guide a team of approximately 10 members in conducting original research and writing a paper on a specific topic. The majority of participants are novice researchers, for whom this will be their first research project.</p>
 			</div>
 
 			<div className='flex flex-col items-center justify-center'>

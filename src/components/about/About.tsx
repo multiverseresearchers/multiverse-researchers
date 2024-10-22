@@ -29,163 +29,163 @@ const About = () => {
 				</div>
 
 				<div className='text-center md:w-[80vw]'>
-					<div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
-						<div className='md:w-1/3'>
+					<div className='flex flex-col md:w-7/12 m-auto justify-center md:flex-row gap-8 py-4'>
+						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
 							<p className='font-bold'>Shashwat Mishra</p>
 							<p>Founder</p>
 						</div>
-						<div className='md:w-1/3'>
+						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
 							<p className='font-bold'>Beatrice Jiang</p>
 							<p>Founder</p>
 						</div>
-						<div className='md:w-1/3'>
+						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
 							<p className='font-bold'>Mili Shah</p>
 							<p>Founder</p>
 						</div>
 					</div>
-					<hr className='md:w-2/3 m-auto' />
+                    <hr className='md:w-2/3 m-auto' />
 
-					<div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
-						<div className='md:w-1/3'>
-							<p className='font-bold'>Ellen Guan</p>
-							<p>Lead Publicist</p>
-						</div>
-						<div className='md:w-1/3'>
-							<p className='font-bold'>Yeeun Park</p>
-							<p>Publicist</p>
-						</div>
-						<div className='md:w-1/3'>
-							<p className='font-bold'>Akshith Muthukumar</p>
-							<p>Publicist</p>
-						</div>
-					</div>
-					<div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
-						<div className='md:w-1/3'>
-							<p className='font-bold'>Sadia Rahman</p>
-							<p>Publicist</p>
-						</div>
-						<div className='md:w-1/3'>
-							<p className='font-bold'>Alexus Palileo</p>
-							<p>Publicist</p>
-						</div>
-						<div className='md:w-1/3'>
-							<p className='font-bold'>Taskia Islam</p>
-							<p>Publicist</p>
-						</div>
-					</div>
-					<hr className='md:w-2/3 m-auto' />
-
-					<div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
-						<div className='md:w-1/2'>
+					<div className='flex flex-col md:w-7/12 m-auto justify-center md:flex-row gap-8 py-4'>
+                        <div className='md:w-1/6'></div>
+						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
 							<p className='font-bold'>Revati Tambe</p>
 							<p>Web Developer</p>
 						</div>
-						<div className='md:w-1/2'>
+						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
 							<p className='font-bold'>Bhargav Eranki</p>
 							<p>Web Developer</p>
 						</div>
+                        <div className='md:w-1/6'></div>
 					</div>
-					<hr className='md:w-2/3 m-auto' />
+                    <hr className='md:w-2/3 m-auto' />
 
-					<div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
-						<div className='md:w-1/2'>
+                    <div className='flex flex-col md:w-7/12 m-auto justify-center md:flex-row gap-8 py-4'>
+                        <div className='md:w-1/6'></div>
+						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
 							<p className='font-bold'>Rowan Wheaton</p>
 							<p>Lead Research Manager</p>
 						</div>
-						<div className='md:w-1/2'>
+						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
 							<p className='font-bold'>Alyssa Gin</p>
 							<p>Lead Research Manager</p>
 						</div>
+                        <div className='md:w-1/6'></div>
 					</div>
-					<hr className='md:w-2/3 m-auto' />
+                    <hr className='md:w-2/3 m-auto' />
 
-					{/* <div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
-						<div className='md:w-1/3'>
-							<p className='font-bold'>Nikhil Godbole</p>
-							<p>Economics Research Manager</p>
-						</div>
-					</div>
 
-					<div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
-						<div className='md:w-1/3'>
-							<p className='font-bold'>Zijun He</p>
-							<p>Astronomy Research Manager</p>
-						</div>
-					</div> */}
-					<div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
-						<div className='md:w-1/2'>
+                    <div className='flex flex-col md:w-7/12 m-auto justify-center md:flex-row gap-8 py-4'>
+                        <div className='md:w-1/6'></div>
+						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
 							<p className='font-bold'>Shashwat Mishra</p>
 							<p>Environmental Science Research Manager</p>
 						</div>
-						<div className='md:w-1/2'>
+						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
 							<p className='font-bold'>Aneeqa Parpia</p>
 							<p>Environmental Science Research Manager</p>
 						</div>
+                        <div className='md:w-1/6'></div>
 					</div>
 
-					<div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
-						<div className='md:w-1/2'>
+                    <div className='flex flex-col md:w-7/12 m-auto justify-center md:flex-row gap-8 py-4'>
+                        <div className='md:w-1/6'></div>
+						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
 							<p className='font-bold'>Ilinca Sasu</p>
 							<p>Biology Research Manager</p>
 						</div>
-						<div className='md:w-1/2'>
+						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
 							<p className='font-bold'>Elmubarak Malik</p>
 							<p>Biology Research Manager</p>
 						</div>
+                        <div className='md:w-1/6'></div>
 					</div>
 
-					<div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
-						<div className='md:w-1/2'>
+                    <div className='flex flex-col md:w-7/12 m-auto justify-center md:flex-row gap-8 py-4'>
+                        <div className='md:w-1/6'></div>
+						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
 							<p className='font-bold'>Mohammed Hafiz Ullah</p>
 							<p>Computer Science Research Manager</p>
 						</div>
-						<div className='md:w-1/2'>
+						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
 							<p className='font-bold'>Hritvik Arora</p>
 							<p>Computer Science Research Manager</p>
 						</div>
+                        <div className='md:w-1/6'></div>
 					</div>
 
-					<div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
-						<div className='md:w-1/2'>
+                    <div className='flex flex-col md:w-7/12 m-auto justify-center md:flex-row gap-8 py-4'>
+                        <div className='md:w-1/6'></div>
+						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
 							<p className='font-bold'>Akshith Muthukumar</p>
 							<p>Mathematics Research Manager</p>
 						</div>
-						<div className='md:w-1/2'>
+						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
 							<p className='font-bold'>Eric Nathan Stucky</p>
 							<p>Mathematics Research Manager</p>
 						</div>
+                        <div className='md:w-1/6'></div>
 					</div>
 
-					<div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
-						<div className='md:w-1/3'>
+                    <div className='flex flex-col md:w-7/12 m-auto justify-center md:flex-row gap-8 py-4'>
+						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
 							<p className='font-bold'>Anand Ajith</p>
 							<p>Physics Research Manager</p>
 						</div>
-						<div className='md:w-1/3'>
+						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
 							<p className='font-bold'>Nure Zannat</p>
 							<p>Physics Research Manager</p>
 						</div>
-						<div className='md:w-1/3'>
+						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
 							<p className='font-bold'>Ojaswit Singh</p>
 							<p>Physics Research Manager</p>
 						</div>
 					</div>
 
-					<div className='flex flex-col md:w-1/2 m-auto justify-center md:flex-row gap-8 py-8'>
-						<div className='md:w-1/3'>
+                    <div className='flex flex-col md:w-7/12 m-auto justify-center md:flex-row gap-8 py-4'>
+						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
 							<p className='font-bold'>Hadizah Coulibaly</p>
 							<p>Astronomy Research Manager</p>
 						</div>
-						<div className='md:w-1/3'>
+						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
 							<p className='font-bold'>Nikhil Godbole</p>
 							<p>Economics Research Manager</p>
 						</div>
-						<div className='md:w-1/3'>
+						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
 							<p className='font-bold'>Yeeun Park</p>
 							<p>Political Science Research Manager</p>
 						</div>
 					</div>
+                    <hr className='md:w-2/3 m-auto' />
 
+
+                    <div className='flex flex-col md:w-7/12 m-auto justify-center md:flex-row gap-8 py-4'>
+						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
+							<p className='font-bold'>Ellen Guan</p>
+							<p>Lead Social Media Manager</p>
+						</div>
+						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
+							<p className='font-bold'>Yeeun Park</p>
+							<p>Social Media Manager</p>
+						</div>
+						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
+							<p className='font-bold'>Akshith Muthukumar</p>
+							<p>Social Media Manager</p>
+						</div>
+					</div>
+                    <div className='flex flex-col md:w-7/12 m-auto justify-center md:flex-row gap-8 py-4'>
+						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
+							<p className='font-bold'>Sadia Rahman</p>
+							<p>Social Media Manager</p>
+						</div>
+						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
+							<p className='font-bold'>Alexus Palileo</p>
+							<p>Social Media Manager</p>
+						</div>
+						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
+							<p className='font-bold'>Taskia Islam</p>
+							<p>Social Media Manager</p>
+						</div>
+					</div>
 				</div>
 				{/* <div className="p-8 w-fit">
 
