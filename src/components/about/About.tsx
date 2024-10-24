@@ -33,14 +33,17 @@ const About = () => {
 						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
 							<p className='font-bold'>Shashwat Mishra</p>
 							<p>Founder</p>
+							<p>Chief Director</p>
 						</div>
 						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
 							<p className='font-bold'>Beatrice Jiang</p>
 							<p>Founder</p>
+							<p>Director of Research</p>
 						</div>
 						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
 							<p className='font-bold'>Mili Shah</p>
 							<p>Founder</p>
+							<p>Director of Operations</p>
 						</div>
 					</div>
                     <hr className='md:w-2/3 m-auto' />
