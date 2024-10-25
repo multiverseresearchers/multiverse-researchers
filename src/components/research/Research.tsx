@@ -118,7 +118,7 @@ const Research = () => {
 						<li>Exoplanet detection using TESS and light curves</li>
 						<li>Verifying celestial bodies through orbital mechanics</li>
 					</ul> */}
-					<p>Led by Akshith Muthukumar and Eric Nathan Stucky</p>
+					<p className='py-4'>Led by Akshith Muthukumar and Eric Nathan Stucky</p>
 				</div>
 			</div>
 		</div>
