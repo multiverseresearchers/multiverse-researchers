@@ -5,24 +5,30 @@ import Hamburger from 'hamburger-react';
 import './Navbar.css';
 
 interface NavItemProps {
-	to: string;
+	to?: string;
 	currentPath: string;
 	children: React.ReactNode;
-	onClick?: () => void;  // <-- Added optional onClick prop
+	onClick?: () => void;
 }
 
 const Navbar = () => {
 	const [isOpen, setOpen] = useState(false);
-	const location = useLocation();
 	const [dropdownOpen, setDropdownOpen] = useState(false);
+	const [mobileDropdownOpen, setMobileDropdownOpen] = useState(false); // State for mobile dropdown
+	const location = useLocation();
 
 	// Close menu when clicking a link
 	const handleLinkClick = () => {
 		setOpen(false);  // Close the hamburger menu
 	};
 
+	// Toggle mobile dropdown for programs
+	const toggleMobileDropdown = () => {
+		setMobileDropdownOpen(!mobileDropdownOpen);
+	};
+
 	return (
-		<nav>
+		<nav className={`lg:static ${isOpen ? 'fixed top-0 left-0 w-full z-50 bg-white shadow-md' : ''}`}>
 			<div className='flex flex-row items-center justify-between p-4 h-fit lg:px-8'>
 				<Link to={"/"} className='sm:text-lg lg:text-xl flex flex-row gap-2 items-center font-semibold'>Multiverse Researchers</Link>
 				<ul className='hidden lg:flex flex-row gap-8 items-center'>
@@ -33,9 +39,9 @@ const Navbar = () => {
 						<NavItem to="/papers" currentPath={location.pathname}>PAPERS</NavItem>
 
 						{/* Programs with dropdown */}
-						<div
-							className='relative'
-							onMouseEnter={() => setDropdownOpen(true)}
+						<div 
+							className='relative' 
+							onMouseEnter={() => setDropdownOpen(true)} 
 							onMouseLeave={() => setDropdownOpen(false)}
 						>
 							<NavItem to="/programs" currentPath={location.pathname}>PROGRAMS</NavItem>
@@ -62,12 +68,28 @@ const Navbar = () => {
 
 			{/* Mobile Menu */}
 			{isOpen && (
-				<ul className='lg:hidden w-full h-[88vh] flex flex-col text-right justify-evenly text-xl p-8 bg-white-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-30 border border-gray-100 absolute'>
+				<ul className='lg:hidden w-full flex flex-col leading-loose text-right justify-between text-xl p-8 bg-white rounded-md bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-30 border border-gray-100 absolute'>
 					<NavItem to="/" currentPath={location.pathname} onClick={handleLinkClick}>HOME</NavItem>
 					<NavItem to="/about" currentPath={location.pathname} onClick={handleLinkClick}>ABOUT</NavItem>
 					<NavItem to="/research" currentPath={location.pathname} onClick={handleLinkClick}>RESEARCH</NavItem>
 					<NavItem to="/papers" currentPath={location.pathname} onClick={handleLinkClick}>PAPERS</NavItem>
-					<NavItem to="/programs" currentPath={location.pathname} onClick={handleLinkClick}>PROGRAMS</NavItem>
+					
+					{/* Mobile dropdown for programs */}
+					<li className='relative'>
+						<div className='flex items-center justify-end' onClick={toggleMobileDropdown}>
+							<span className='cursor-pointer'>PROGRAMS</span>
+							<span className={`ml-2 transition-transform ${mobileDropdownOpen ? 'rotate-180' : ''}`}>▼</span> {/* Animated arrow */}
+						</div>
+						{mobileDropdownOpen && (
+							<ul className='mt-2 rounded-md leading-normal'>
+								<li><Link className='block px-4 py-2' to="/rewire" onClick={handleLinkClick}>ReWire Program</Link></li>
+								<li><Link className='block px-4 py-2' to="/workshops" onClick={handleLinkClick}>Workshops</Link></li>
+								<li><Link className='block px-4 py-2' to="/summer-assistance" onClick={handleLinkClick}>Summer Program Assistance</Link></li>
+								<li><Link className='block px-4 py-2' to="/cold-email-assistance" onClick={handleLinkClick}>Cold Email Assistance</Link></li>
+							</ul>
+						)}
+					</li>
+
 					<NavItem to="/contact" currentPath={location.pathname} onClick={handleLinkClick}>CONTACT</NavItem>
 				</ul>
 			)}
@@ -78,7 +100,7 @@ const Navbar = () => {
 const NavItem: React.FC<NavItemProps> = ({ to, currentPath, children, onClick }) => {
 	const isActive = currentPath === to;
 	return (
-		<Link to={to} className={isActive ? 'font-semibold' : ''} onClick={onClick}>
+		<Link to={to || '#'} className={isActive ? 'font-semibold' : ''} onClick={onClick}>
 			{children}
 		</Link>
 	);
