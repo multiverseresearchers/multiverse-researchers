@@ -5,28 +5,10 @@ const Research = () => {
 		<div>
 			<div className='flex flex-col items-center justify-center'>
 				<h1 className='pt-8 text-center text-2xl md:text-3xl lg:text-4xl py-4'><span className="font-semibold">Current Research Groups</span></h1>
-				<p className='text-center w-4/5 md:w-1/2'>Each group is led by 1-2 experienced research managers who guide a team of approximately 10 members in conducting original research and writing a paper on a specific topic. The majority of participants are novice researchers, for whom this will be their first research project.</p>
+				<p className='text-center w-4/5 md:w-1/2'>Each group is led by 1-3 experienced research managers who guide a team of approximately 10 members in conducting original research and writing a paper on a specific topic. The majority of participants are novice researchers, for whom this will be their first research project.</p>
 			</div>
 
 			<div className='flex flex-col items-center justify-center'>
-				{/* <div className='shadow-xl w-full p-8 m-5 max-w-screen-lg rounded-lg'>
-					<p className='font-bold text-xl py-4'>Environment Science Group</p>
-					<div className='flex flex-col lg:flex-row w-full gap-4'>
-						<img className='rounded-lg object-cover md:w-full md:aspect-[3/1] lg:w-1/5 lg:h-1/5 lg:aspect-square' src="/imgs/circles/envisci/envisci1.png" alt="" />
-						<div className='flex flex-col gap-5'>
-							<p>Our research group is dedicated to studying how environmental changes—such as rising sea levels, pollution, coastal erosion, and climate shifts—affect the quality of life in marginalized communities. We utilize collaborative research efforts, data analysis, and innovative approaches to address urgent global environmental issues. The group investigates a variety of environmental, social, economic, and cultural factors to enhance understanding and promote sustainable solutions that improve living conditions for those most vulnerable to environmental stress.</p>
-							<ul className='list-disc pl-4'>
-								<li className='list-none -indent-4'>Investigations:</li>
-								<li>Impact of flooding and coastal erosion on community displacement and infrastructure.</li>
-								<li>Effects of industrial and urban pollution on public health in marginalized areas.</li>
-								<li>Challenges related to access to clean water and the resulting sanitation issues.</li>
-								<li>Adaptive strategies for community resilience in response to environmental stressors.</li>
-								<li>Economic and social impacts of environmental changes on local communities.</li>
-							</ul>
-						</div>
-					</div>
-				</div> */}
-
 				<div className='shadow-xl w-full p-8 m-5 max-w-screen-lg rounded-lg'>
 					<p className='font-bold text-xl py-4'>Environment Science Group</p>
 					<div className='flex flex-col lg:flex-row w-full gap-4 items-center justify-center'>
@@ -41,6 +23,7 @@ const Research = () => {
 						<li>Adaptive strategies for community resilience in response to environmental stressors</li>
 						<li>Economic and social impacts of environmental changes on local communities</li>
 					</ul>
+					<p>Led by Shashwat Mishra and Aneeqa Parpia</p>
 				</div>
 
 				<div className='shadow-xl w-full p-8 m-5 max-w-screen-lg rounded-lg'>
@@ -56,6 +39,7 @@ const Research = () => {
 						<li>Exoplanet detection using TESS and light curves</li>
 						<li>Verifying celestial bodies through orbital mechanics</li>
 					</ul>
+					<p>Led by Hadizah Coulibaly</p>
 				</div>
 
 				<div className='shadow-xl w-full p-8 m-5 max-w-screen-lg rounded-lg'>
@@ -71,6 +55,7 @@ const Research = () => {
 						<li>Exoplanet detection using TESS and light curves</li>
 						<li>Verifying celestial bodies through orbital mechanics</li>
 					</ul> */}
+					<p>Led by Anand Ajith, Ojaswit Singh, and Nure Zannat</p>
 				</div>
 
 				<div className='shadow-xl w-full p-8 m-5 max-w-screen-lg rounded-lg'>
@@ -85,6 +70,7 @@ const Research = () => {
 						<li>Stock price trends before and after bank failures</li>
 						<li>Management issues analysis in financial institutions</li>
 					</ul>
+					<p>Led by Nikhil G and Olivia X</p>
 				</div>
 
 				<div className='shadow-xl w-full p-8 m-5 max-w-screen-lg rounded-lg'>
@@ -100,6 +86,7 @@ const Research = () => {
 						<li>Data Security and Privacy</li>
 						<li>Software Optimization</li>
 					</ul>
+					<p>Led by Mohammed Hafiz Ullah and Hritvik Arora</p>
 				</div>
 
 				<div className='shadow-xl w-full p-8 m-5 max-w-screen-lg rounded-lg'>
@@ -115,6 +102,7 @@ const Research = () => {
 						<li>Analyzing specific case briefs, policies, and treaties implemented that has positively and/or negatively impacted/furthered sustainable advancement in said developing countries</li>
 						<li>Noting the prioritization of governments assisting developing countries within the range of environmental equity and sustainable development</li>
 					</ul>
+					<p>Led by Yeeun Park</p>
 				</div>
 
 				<div className='shadow-xl w-full p-8 m-5 max-w-screen-lg rounded-lg'>
@@ -130,6 +118,7 @@ const Research = () => {
 						<li>Exoplanet detection using TESS and light curves</li>
 						<li>Verifying celestial bodies through orbital mechanics</li>
 					</ul> */}
+					<p>Led by Akshith Muthukumar and Eric Nathan Stucky</p>
 				</div>
 			</div>
 		</div>
