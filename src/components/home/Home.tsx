@@ -54,7 +54,7 @@ const Home = () => {
                         <TabsContent value="physics">
 							<CircleSnippet
 								title="Exploring State-of-the-Art Monte Carlo Methods in Lattice QCD Simulations"
-								description={`This project analyzes the latest Monte Carlo methods employed in lattice Quantum Chromodynamics (QCD) simulations. It highlights how these advanced techniques enhance our comprehension of Quantum Chromodynamics phenomena, providing deeper insights into the fundamental forces governing particle interactions.`}
+								description={`The physics research group focuses on advancing our understanding of quantum chromodynamic phenomena through computational analysis of lattice QCD simulations. Examples of goals we aim to achieve include managing measurement field configurations, calculating quantum observations, and analysis of the effectiveness and computational efficiency of these methods. Our goal is to increase the accuracy of lattice QCD calculations and provide deeper insights into the fundamental nature of strong interactions. `}
 								image1="/imgs/circles/physics/physics1.png"
 								image2="/imgs/circles/physics/physics2.png"
 							/>
