@@ -78,15 +78,15 @@ const Home = () => {
 						<TabsContent value="compsci">
                             <CircleSnippet
     								title="Ethical Implications of Quantum Mechanics"
-    								description={`Quantum ethics explores the intersection of ethical principles and the emerging field of quantum mechanics, specifically how it could influence moral decision-making. This interdisciplinary area challenges conventional ethical theories by means of suggesting new perspectives on issues like privacy, loose will, and the impact of our actions in a quantum world. We plan to delve deep into this significant and fascinating subject and answer questions that arise in our study.`}
+    								description={`Our Computer Science Research Group is committed to exploring new horizons in technology through cutting-edge research in artificial intelligence, machine learning, data science, distributed systems, cybersecurity, and human-computer interaction. We are dedicated to developing innovative solutions to the complex computational problems that shape the future of technology. Our interdisciplinary team of researchers and students collaborates across these areas to drive impactful technological advancements while emphasizing the real-world application of our work. A major focus of our research lies in artificial intelligence and machine learning, where we work to develop state-of-the-art models that can transform industries ranging from healthcare to finance. In data science, we aim to improve the way large-scale data is processed and analyzed, driving more effective decision-making. Our cybersecurity efforts prioritize the development of advanced techniques for secure communication and data privacy, addressing the growing threats posed by modern cyberattacks. We are also committed to advancing research in distributed systems and cloud computing, where we work to improve system scalability, reliability, and efficiency. Furthermore, our research in human-computer interaction seeks to create technologies that are intuitive, accessible, and centered around users' needs.`}
     								image1=""
     								image2=""
 							/>
                         </TabsContent>
                         <TabsContent value="polisci">
                             <CircleSnippet
-    								title="The Impact of COVID-19 on the Housing Market"
-    								description={`The Political Science Research Group is dedicated to analyzing the legislation and policymaking in the international viewpoint, highlighting diverse perspectives through global affairs and international government interactions in order to specifically examine the effects it has on the overall quality of the world. By coordinating with fellow research members over virtual meetings and undergoing a comprehensive analysis review on our presented topic, we strive to understand international government operations.`}
+    								title="Analyzing International Legislation and Policymaking"
+    								description={`The Political Science Research Group is dedicated to analyzing the legislation and policymaking in the international viewpoint, highlighting diverse perspectives through global affairs and international government interactions in order to specifically examine the effects it has on the overall quality of the world. Through comprehensive analysis of specific legislative actions and policies, we seek to uncover patterns, evaluate outcomes, and assess the long-term effects on global communities. Our work emphasizes the importance of international cooperation and the role of government decisions in addressing complex global challenges.`}
     								image1=""
     								image2=""
 							/>
