@@ -43,22 +43,6 @@ const Research = () => {
 				</div>
 
 				<div className='shadow-xl w-full p-8 m-5 max-w-screen-lg rounded-lg'>
-					<p className='font-bold text-xl py-4'>Physics Group</p>
-					<div className='flex flex-col lg:flex-row w-full gap-4 items-center justify-center'>
-						<img className='rounded-lg object-cover md:w-full md:aspect-[3/1] lg:w-[15%] lg:h-[15%] lg:aspect-square' src="/imgs/circles/physics/physics1.png" alt="" />
-						<p className='h-fit'>The physics research group focuses on advancing our understanding of quantum chromodynamic phenomena through computational analysis of lattice QCD simulations. Examples of goals we aim to achieve include managing measurement field configurations, calculating quantum observations, and analysis of the effectiveness and computational efficiency of these methods. Our goal is to increase the accuracy of lattice QCD calculations and provide deeper insights into the fundamental nature of strong interactions.</p>
-					</div>
-					{/* <ul className='list-disc pl-4 py-4'>
-						<li className='list-none -indent-4'>Investigations:</li>
-						<li>Transit curve analysis using Markov-Chain-Monte-Carlo</li>
-						<li>Trend analysis in astronomical datasets as evidence for celestial bodies</li>
-						<li>Exoplanet detection using TESS and light curves</li>
-						<li>Verifying celestial bodies through orbital mechanics</li>
-					</ul> */}
-					<p>Led by Anand Ajith, Ojaswit Singh, and Nure Zannat</p>
-				</div>
-
-				<div className='shadow-xl w-full p-8 m-5 max-w-screen-lg rounded-lg'>
 					<p className='font-bold text-xl py-4'>Economics Group</p>
 					<div className='flex flex-col lg:flex-row w-full gap-4 items-center justify-center'>
 						<img className='rounded-lg object-cover md:w-full md:aspect-[3/1] lg:w-[15%] lg:h-[15%] lg:aspect-square' src="/imgs/circles/econ/econ1.png" alt="" />
@@ -103,6 +87,22 @@ const Research = () => {
 						<li>Noting the prioritization of governments assisting developing countries within the range of environmental equity and sustainable development</li>
 					</ul>
 					<p>Led by Yeeun Park</p>
+				</div>
+
+				<div className='shadow-xl w-full p-8 m-5 max-w-screen-lg rounded-lg'>
+					<p className='font-bold text-xl py-4'>Physics Group</p>
+					<div className='flex flex-col lg:flex-row w-full gap-4 items-center justify-center'>
+						<img className='rounded-lg object-cover md:w-full md:aspect-[3/1] lg:w-[15%] lg:h-[15%] lg:aspect-square' src="/imgs/circles/physics/physics1.png" alt="" />
+						<p className='h-fit'>The physics research group focuses on advancing our understanding of quantum chromodynamic phenomena through computational analysis of lattice QCD simulations. Examples of goals we aim to achieve include managing measurement field configurations, calculating quantum observations, and analysis of the effectiveness and computational efficiency of these methods. Our goal is to increase the accuracy of lattice QCD calculations and provide deeper insights into the fundamental nature of strong interactions.</p>
+					</div>
+					{/* <ul className='list-disc pl-4 py-4'>
+						<li className='list-none -indent-4'>Investigations:</li>
+						<li>Transit curve analysis using Markov-Chain-Monte-Carlo</li>
+						<li>Trend analysis in astronomical datasets as evidence for celestial bodies</li>
+						<li>Exoplanet detection using TESS and light curves</li>
+						<li>Verifying celestial bodies through orbital mechanics</li>
+					</ul> */}
+					<p className='py-4'>Led by Anand Ajith, Ojaswit Singh, and Nure Zannat</p>
 				</div>
 
 				<div className='shadow-xl w-full p-8 m-5 max-w-screen-lg rounded-lg'>

@@ -37,7 +37,7 @@ const Home = () => {
 					<div className="p-8 bg-white border border-gray-100 rounded-lg shadow-xl">
                         <TabsContent value="envisci">
                             <CircleSnippet
-    								title="Impact of Climate Change on Marginalized Communities"
+    								title="Environment Science Group"
     								description={`Our research group is dedicated to studying how environmental changes—such as rising sea levels, pollution, coastal erosion, and climate shifts—affect the quality of life in marginalized communities. We utilize collaborative research efforts, data analysis, and innovative approaches to address urgent global environmental issues. The group investigates a variety of environmental, social, economic, and cultural factors to enhance understanding and promote sustainable solutions that improve living conditions for those most vulnerable to environmental stress.`}
     								image1="/imgs/circles/envisci/envisci1.png"
     								image2="/imgs/circles/envisci/envisci2.png"
@@ -45,7 +45,7 @@ const Home = () => {
                         </TabsContent>
                         <TabsContent value="astronomy">
                             <CircleSnippet
-    								title="The Impact of COVID-19 on the Housing Market"
+    								title="Astronomy Group"
     								description={`The objective of the Astronomy research group is to discover unidetified celestial bodies by observing trends in data to find a potential match to behavior the implies that a celestial body might be orbiting a star. We will do this by using what is known as the transit method. The transit method is used to find an exoplanet orbiting a distant star, this method includes looking for a transit curve which is when the planet passes in between in us and the star causing a drop in luminoisty. This group will also utilise multiple datasets an algrorithm and collaborative research in order to attain this objective. By working together and analyizing as much data as we can this group's goal is to find fact checked evidence that our target stars have celestial bodies orbiting them.`}
     								image1="/imgs/circles/astronomy/astronomy1.png"
     								image2="/imgs/circles/astronomy/astronomy2.png"
@@ -53,7 +53,7 @@ const Home = () => {
                         </TabsContent>
                         <TabsContent value="physics">
 							<CircleSnippet
-								title="Exploring State-of-the-Art Monte Carlo Methods in Lattice QCD Simulations"
+								title="Physics Group"
 								description={`The physics research group focuses on advancing our understanding of quantum chromodynamic phenomena through computational analysis of lattice QCD simulations. Examples of goals we aim to achieve include managing measurement field configurations, calculating quantum observations, and analysis of the effectiveness and computational efficiency of these methods. Our goal is to increase the accuracy of lattice QCD calculations and provide deeper insights into the fundamental nature of strong interactions. `}
 								image1="/imgs/circles/physics/physics1.png"
 								image2="/imgs/circles/physics/physics2.png"
@@ -61,7 +61,7 @@ const Home = () => {
 						</TabsContent>
                         <TabsContent value="econ">
                             <CircleSnippet
-    								title="How and Why Banking Failures Occur"
+    								title="Economics Group"
     								description={`The objective of the Economics Research group is to delve into why and how bank failures occur, namely the infamous Silicon Valley Bank, WashuM, and Lehman Brothers. We utilize collaborative research efforts, data analysis, and innovative approaches to address problems with banks and how we can overcome such disasters. We plan on analyzing each of the 3 banks and give a comparitive analysis, overview, consequences, and proactive measures to avoid future failures. We plan on using and analyzing Income Statements, Balance sheets, stock prices before and after failure, management issue analyzation, etc.`}
     								image1="/imgs/circles/econ/econ1.png"
     								image2="/imgs/circles/econ/econ2.png"
@@ -77,7 +77,7 @@ const Home = () => {
                         </TabsContent> */}
 						<TabsContent value="compsci">
                             <CircleSnippet
-    								title="Ethical Implications of Quantum Mechanics"
+    								title="Computer Science Group"
     								description={`Our Computer Science Research Group is committed to exploring new horizons in technology through cutting-edge research in artificial intelligence, machine learning, data science, distributed systems, cybersecurity, and human-computer interaction. We are dedicated to developing innovative solutions to the complex computational problems that shape the future of technology. Our interdisciplinary team of researchers and students collaborates across these areas to drive impactful technological advancements while emphasizing the real-world application of our work. A major focus of our research lies in artificial intelligence and machine learning, where we work to develop state-of-the-art models that can transform industries ranging from healthcare to finance. In data science, we aim to improve the way large-scale data is processed and analyzed, driving more effective decision-making. Our cybersecurity efforts prioritize the development of advanced techniques for secure communication and data privacy, addressing the growing threats posed by modern cyberattacks. We are also committed to advancing research in distributed systems and cloud computing, where we work to improve system scalability, reliability, and efficiency. Furthermore, our research in human-computer interaction seeks to create technologies that are intuitive, accessible, and centered around users' needs.`}
     								image1=""
     								image2=""
@@ -85,7 +85,7 @@ const Home = () => {
                         </TabsContent>
                         <TabsContent value="polisci">
                             <CircleSnippet
-    								title="Analyzing International Legislation and Policymaking"
+    								title="Political Science Group"
     								description={`The Political Science Research Group is dedicated to analyzing the legislation and policymaking in the international viewpoint, highlighting diverse perspectives through global affairs and international government interactions in order to specifically examine the effects it has on the overall quality of the world. Through comprehensive analysis of specific legislative actions and policies, we seek to uncover patterns, evaluate outcomes, and assess the long-term effects on global communities. Our work emphasizes the importance of international cooperation and the role of government decisions in addressing complex global challenges.`}
     								image1=""
     								image2=""
@@ -93,7 +93,7 @@ const Home = () => {
                         </TabsContent>
                         <TabsContent value="math">
                             <CircleSnippet
-    								title="Coming soon..."
+    								title="Mathematics Group"
     								description={`Coming soon...`}
     								image1=""
     								image2=""
