@@ -8,12 +8,18 @@ interface NavItemProps {
 	to: string;
 	currentPath: string;
 	children: React.ReactNode;
+	onClick?: () => void;  // <-- Added optional onClick prop
 }
 
 const Navbar = () => {
 	const [isOpen, setOpen] = useState(false);
 	const location = useLocation();
 	const [dropdownOpen, setDropdownOpen] = useState(false);
+
+	// Close menu when clicking a link
+	const handleLinkClick = () => {
+		setOpen(false);  // Close the hamburger menu
+	};
 
 	return (
 		<nav>
@@ -27,9 +33,9 @@ const Navbar = () => {
 						<NavItem to="/papers" currentPath={location.pathname}>PAPERS</NavItem>
 
 						{/* Programs with dropdown */}
-						<div 
-							className='relative' 
-							onMouseEnter={() => setDropdownOpen(true)} 
+						<div
+							className='relative'
+							onMouseEnter={() => setDropdownOpen(true)}
 							onMouseLeave={() => setDropdownOpen(false)}
 						>
 							<NavItem to="/programs" currentPath={location.pathname}>PROGRAMS</NavItem>
@@ -49,27 +55,32 @@ const Navbar = () => {
 						<div className='bg-pink-300 rounded-full py-4 px-8 hover:bg-pink-900 hover:text-white transition-colors duration-300 cursor-pointer'>JOIN</div>
 					</a>
 				</ul>
-				<div className='block lg:hidden'><Hamburger toggled={isOpen} toggle={setOpen} /></div>
+				<div className='block lg:hidden'>
+					<Hamburger toggled={isOpen} toggle={setOpen} />
+				</div>
 			</div>
 
+			{/* Mobile Menu */}
 			{isOpen && (
 				<ul className='lg:hidden w-full h-[88vh] flex flex-col text-right justify-evenly text-xl p-8 bg-white-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-30 border border-gray-100 absolute'>
-					<NavItem to="/" currentPath={location.pathname}>HOME</NavItem>
-					<NavItem to="/about" currentPath={location.pathname}>ABOUT</NavItem>
-					<NavItem to="/research" currentPath={location.pathname}>RESEARCH</NavItem>
-					<NavItem to="/papers" currentPath={location.pathname}>PAPERS</NavItem>
-					<NavItem to="/programs" currentPath={location.pathname}>PROGRAMS</NavItem>
-					<NavItem to="/contact" currentPath={location.pathname}>CONTACT</NavItem>
+					<NavItem to="/" currentPath={location.pathname} onClick={handleLinkClick}>HOME</NavItem>
+					<NavItem to="/about" currentPath={location.pathname} onClick={handleLinkClick}>ABOUT</NavItem>
+					<NavItem to="/research" currentPath={location.pathname} onClick={handleLinkClick}>RESEARCH</NavItem>
+					<NavItem to="/papers" currentPath={location.pathname} onClick={handleLinkClick}>PAPERS</NavItem>
+					<NavItem to="/programs" currentPath={location.pathname} onClick={handleLinkClick}>PROGRAMS</NavItem>
+					<NavItem to="/contact" currentPath={location.pathname} onClick={handleLinkClick}>CONTACT</NavItem>
 				</ul>
 			)}
 		</nav>
 	);
 };
 
-const NavItem: React.FC<NavItemProps> = ({ to, currentPath, children }) => {
+const NavItem: React.FC<NavItemProps> = ({ to, currentPath, children, onClick }) => {
 	const isActive = currentPath === to;
 	return (
-		<Link to={to} className={isActive ? 'font-semibold' : ''}>{children}</Link>
+		<Link to={to} className={isActive ? 'font-semibold' : ''} onClick={onClick}>
+			{children}
+		</Link>
 	);
 };
 
