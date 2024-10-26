@@ -109,6 +109,19 @@ const Home = () => {
 									<img className='md:w-1/2 object-cover rounded-md' src={"/imgs/circles/math/math1.png"} alt="Image 1" />
 									<img className='md:w-1/2 object-cover rounded-md' src={"/imgs/circles/math/math2.png"} alt="Image 2" />
 								</div>
+
+								<div className="py-8 text-slate-500 text-xs text-center">
+									<a className=" text-sky-500 hover:underline" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+										Both images are held under CC BY-NC-ND (Creative Commons Attribution Non-Commercial No Derivatives 4.0 International licence)
+									</a>
+									
+									<p className="italic">
+										The first image (grids) is licensed by: 
+										Igor Araujo, Bryce Frederickson, Robert A. Krueger, Bernard Lidický, Tyrrell B. McAllister, Florian Pfender, Sam Spiro, and Eric Nathan Stucky. 
+										The second image (handwriting) is licensed by: 
+										Eric Nathan Stucky
+									</p>
+								</div>
 							</div>
 						</TabsContent>
 					</div>
