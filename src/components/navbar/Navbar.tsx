@@ -44,7 +44,7 @@ const Navbar = () => {
 							onMouseEnter={() => setDropdownOpen(true)} 
 							onMouseLeave={() => setDropdownOpen(false)}
 						>
-							<NavItem to="/programs" currentPath={location.pathname}>PROGRAMS</NavItem>
+							<NavItem currentPath={location.pathname}>PROGRAMS</NavItem>
 							{dropdownOpen && (
 								<ul className='absolute left-0 top-full mt-2 bg-white shadow-lg rounded-md w-48'>
 									<li><Link className='block px-4 py-2 hover:bg-gray-100' to="/rewire">ReWire Program</Link></li>

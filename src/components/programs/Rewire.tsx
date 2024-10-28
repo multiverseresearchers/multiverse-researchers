@@ -11,7 +11,7 @@ const Rewire = () => {
 					<p className='py-4 text-pretty'>High school students with limited research experience will be given priority, but anyone can apply.</p>
 				</div>;
 			case 'The ReWire Team':
-				return <p>Our mentors are experienced researchers who have published numerous papers, worked with renowned institutions, and spoken at prestigious conferences. We will pass on the expertise we&apos;ve gained to help you succeed in your research journey!</p>;			
+				return <p>Our mentors are experienced researchers who have published numerous papers, worked with renowned institutions, and spoken at prestigious conferences. We will pass on the expertise we&apos;ve gained to help you succeed in your research journey!</p>;
 			case 'Application Details':
 				return <div><p className='underline font-semibold'>ReWire Student Application Form:</p><a className='text-purple-700 hover:text-pink-700 transition-all duration-300 font-semibold' href='https://forms.gle/t2X8tduQJTJJWdqF9' target='_blank'>https://forms.gle/t2X8tduQJTJJWdqF9</a><p className='pt-4 font-semibold underline'>ReWire Peer Reviewer Application Form:</p><p>(For any members with strong research experience and want to help others!)</p><a className='text-purple-700 hover:text-pink-700 transition-all duration-300 font-semibold' href='https://forms.gle/oj8Nwx5ag2ZcMRoDA' target='_blank'>https://forms.gle/oj8Nwx5ag2ZcMRoDA</a></div>;
 			default:
@@ -31,25 +31,25 @@ const Rewire = () => {
 
 			<p className="font-bold text-2xl pt-16 text-center pb-4">Program Details</p>
 			<div className="flex justify-center space-x-4">
-  <button
-    className={`py-2 px-4 ${activeTab === 'Eligibility' ? 'font-bold border-b-2 border-pink-300 rounded-none' : ''} hover:bg-gray-100 rounded-xl transition-all duration-300`}
-    onClick={() => setActiveTab('Eligibility')}
-  >
-    Eligibility
-  </button>
-  <button
-    className={`py-2 px-4 ${activeTab === 'The ReWire Team' ? 'font-bold border-b-2 border-pink-300 rounded-none' : ''} hover:bg-gray-100 rounded-xl transition-all duration-300`}
-    onClick={() => setActiveTab('The ReWire Team')}
-  >
-    The ReWire Team
-  </button>
-  <button
-    className={`py-2 px-4 ${activeTab === 'Application Details' ? 'font-bold border-b-2 border-pink-300 rounded-none' : ''} hover:bg-gray-100 rounded-xl transition-all duration-300`}
-    onClick={() => setActiveTab('Application Details')}
-  >
-    Application Details
-  </button>
-</div>
+				<button
+					className={`py-2 px-4 ${activeTab === 'Eligibility' ? 'font-bold border-b-2 border-pink-300 rounded-none' : ''} hover:bg-gray-100 rounded-xl transition-all duration-300`}
+					onClick={() => setActiveTab('Eligibility')}
+				>
+					Eligibility
+				</button>
+				<button
+					className={`py-2 px-4 ${activeTab === 'The ReWire Team' ? 'font-bold border-b-2 border-pink-300 rounded-none' : ''} hover:bg-gray-100 rounded-xl transition-all duration-300`}
+					onClick={() => setActiveTab('The ReWire Team')}
+				>
+					The ReWire Team
+				</button>
+				<button
+					className={`py-2 px-4 ${activeTab === 'Application Details' ? 'font-bold border-b-2 border-pink-300 rounded-none' : ''} hover:bg-gray-100 rounded-xl transition-all duration-300`}
+					onClick={() => setActiveTab('Application Details')}
+				>
+					Application Details
+				</button>
+			</div>
 
 			<div className="mt-4">
 				{renderContent()}
