@@ -20,18 +20,36 @@ const Rewire = () => {
 					</ol>
 				</div>;
 			case 'Application Details':
-				return <div>
-					<p className='pb-4'>Decisions are made on a rolling basis.</p>
-					<p className='underline font-semibold'>ReWire Student Application Form:</p>
-					<a href="https://forms.gle/t2X8tduQJTJJWdqF9" target="_blank">
-						<div className="text-lg w-fit m-auto bg-pink-300 hover:bg-pink-900 hover:text-white transition-colors duration-300 rounded-full py-2 px-6 cursor-pointer my-3">
-							Apply Here!
+				return (
+					<div className="flex flex-col md:flex-row justify-center items-stretch gap-8 py-8 px-4 md:px-0">
+						<div className="bg-pink-100 hover:bg-pink-200 transition-colors duration-300 rounded-lg shadow-lg py-8 px-6 text-center w-full md:w-1/2 flex flex-col justify-between">
+							<div>
+								<p className="underline font-semibold text-xl text-gray-800 mb-4">ReWire Student Application Form</p>
+								<p className="text-gray-700 pb-4">Decisions are made on a rolling basis.</p>
+							</div>
+							<a href="https://forms.gle/t2X8tduQJTJJWdqF9" target="_blank" rel="noopener noreferrer">
+								<div className="text-lg bg-pink-500 hover:bg-pink-600 text-white transition-colors duration-300 rounded-full py-3 px-8 cursor-pointer mt-6 mx-auto w-fit">
+									Apply Here!
+								</div>
+							</a>
 						</div>
-					</a>
-					<p className='pt-4 font-semibold underline'>ReWire Peer Reviewer Application Form:</p>
-					<p>(For any members with strong research experience and want to help others!)</p>
-					<a className='text-purple-700 hover:text-pink-700 transition-all duration-300 font-semibold' href='https://forms.gle/oj8Nwx5ag2ZcMRoDA' target='_blank'>https://forms.gle/oj8Nwx5ag2ZcMRoDA</a>
-				</div>;
+
+						<div className="bg-purple-100 hover:bg-purple-200 transition-colors duration-300 rounded-lg shadow-lg py-8 px-6 text-center w-full md:w-1/2 flex flex-col justify-between">
+							<div>
+								<p className="font-semibold underline text-xl text-gray-800 mb-4">ReWire Peer Reviewer Application Form</p>
+								<p className="text-gray-700 mb-6">(For members with strong research experience who want to help others!)</p>
+							</div>
+							<a
+								className="text-lg bg-purple-500 hover:bg-purple-600 text-white transition-colors duration-300 rounded-full py-3 px-8 cursor-pointer mt-6 mx-auto w-fit"
+								href="https://forms.gle/oj8Nwx5ag2ZcMRoDA"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								Apply Here!
+							</a>
+						</div>
+					</div>
+				);
 			default:
 				return null;
 		}
