@@ -58,7 +58,7 @@ const Home = () => {
 							</div>
 						</TabsContent>
 						<TabsContent value="astronomy">
-						<div className="circle-snippet m-auto w-4/5 lg:w-2/3">
+							<div className="circle-snippet m-auto w-4/5 lg:w-2/3">
 								<h2 className='text-xl sm:text-2xl lg:text-4xl font-medium text-center py-8'>Astronomy Group</h2>
 								<div className='text-center'>The objective of the Astronomy research group is to discover unidetified celestial bodies by observing trends in data to find a potential match to behavior the implies that a celestial body might be orbiting a star. We will do this by using what is known as the transit method. The transit method is used to find an exoplanet orbiting a distant star, this method includes looking for a transit curve which is when the planet passes in between in us and the star causing a drop in luminoisty. This group will also utilise multiple datasets an algrorithm and collaborative research in order to attain this objective. By working together and analyizing as much data as we can this group's goal is to find fact checked evidence that our target stars have celestial bodies orbiting them.</div>
 								<p className="py-4 text-center">Led by Hadizah Coulibaly</p>
@@ -69,7 +69,7 @@ const Home = () => {
 							</div>
 						</TabsContent>
 						<TabsContent value="physics">
-						<div className="circle-snippet m-auto w-4/5 lg:w-2/3">
+							<div className="circle-snippet m-auto w-4/5 lg:w-2/3">
 								<h2 className='text-xl sm:text-2xl lg:text-4xl font-medium text-center py-8'>Physics Group</h2>
 								<div className='text-center'>The physics research group focuses on advancing our understanding of quantum chromodynamic phenomena through computational analysis of lattice QCD simulations. Examples of goals we aim to achieve include managing measurement field configurations, calculating quantum observations, and analysis of the effectiveness and computational efficiency of these methods. Our goal is to increase the accuracy of lattice QCD calculations and provide deeper insights into the fundamental nature of strong interactions.</div>
 								<p className="py-4 text-center">Led by Anand Ajith, Ojaswit Singh, and Nure Zannat</p>
@@ -80,7 +80,7 @@ const Home = () => {
 							</div>
 						</TabsContent>
 						<TabsContent value="econ">
-						<div className="circle-snippet m-auto w-4/5 lg:w-2/3">
+							<div className="circle-snippet m-auto w-4/5 lg:w-2/3">
 								<h2 className='text-xl sm:text-2xl lg:text-4xl font-medium text-center py-8'>Economics Group</h2>
 								<div className='text-center'>The objective of the Economics Research group is to delve into why and how bank failures occur, namely the infamous Silicon Valley Bank, WashuM, and Lehman Brothers. We utilize collaborative research efforts, data analysis, and innovative approaches to address problems with banks and how we can overcome such disasters. We plan on analyzing each of the 3 banks and give a comparitive analysis, overview, consequences, and proactive measures to avoid future failures. We plan on using and analyzing Income Statements, Balance sheets, stock prices before and after failure, management issue analyzation, etc.</div>
 								<p className="py-4 text-center">Led by Nikhil G and Olivia X</p>
@@ -91,7 +91,7 @@ const Home = () => {
 							</div>
 						</TabsContent>
 						<TabsContent value="compsci">
-						<div className="circle-snippet m-auto w-4/5 lg:w-2/3">
+							<div className="circle-snippet m-auto w-4/5 lg:w-2/3">
 								<h2 className='text-xl sm:text-2xl lg:text-4xl font-medium text-center py-8'>Computer Science Group</h2>
 								<div className='text-center'>Our Computer Science Research Group is committed to exploring new horizons in technology through cutting-edge research in artificial intelligence, machine learning, data science, distributed systems, cybersecurity, and human-computer interaction. We are dedicated to developing innovative solutions to the complex computational problems that shape the future of technology. Our interdisciplinary team of researchers and students collaborates across these areas to drive impactful technological advancements while emphasizing the real-world application of our work. A major focus of our research lies in artificial intelligence and machine learning, where we work to develop state-of-the-art models that can transform industries ranging from healthcare to finance. In data science, we aim to improve the way large-scale data is processed and analyzed, driving more effective decision-making. Our cybersecurity efforts prioritize the development of advanced techniques for secure communication and data privacy, addressing the growing threats posed by modern cyberattacks. We are also committed to advancing research in distributed systems and cloud computing, where we work to improve system scalability, reliability, and efficiency. Furthermore, our research in human-computer interaction seeks to create technologies that are intuitive, accessible, and centered around users' needs.</div>
 								<p className="py-4 text-center">Led by Mohammed Hafiz Ullah and Hritvik Arora</p>
@@ -102,7 +102,7 @@ const Home = () => {
 							</div>
 						</TabsContent>
 						<TabsContent value="polisci">
-						<div className="circle-snippet m-auto w-4/5 lg:w-2/3">
+							<div className="circle-snippet m-auto w-4/5 lg:w-2/3">
 								<h2 className='text-xl sm:text-2xl lg:text-4xl font-medium text-center py-8'>Political Science Group</h2>
 								<div className='text-center'>The Political Science Research Group is dedicated to analyzing the legislation and policymaking in the international viewpoint, highlighting diverse perspectives through global affairs and international government interactions in order to specifically examine the effects it has on the overall quality of the world. Through comprehensive analysis of specific legislative actions and policies, we seek to uncover patterns, evaluate outcomes, and assess the long-term effects on global communities. Our work emphasizes the importance of international cooperation and the role of government decisions in addressing complex global challenges.</div>
 								<p className="py-4 text-center">Led by Yeeun Park</p>
@@ -113,7 +113,7 @@ const Home = () => {
 							</div>
 						</TabsContent>
 						<TabsContent value="math">
-						<div className="circle-snippet m-auto w-4/5 lg:w-2/3">
+							<div className="circle-snippet m-auto w-4/5 lg:w-2/3">
 								<h2 className='text-xl sm:text-2xl lg:text-4xl font-medium text-center py-8'>Mathematics Group</h2>
 								<div className='text-center'>Coming soon...</div>
 								<p className="py-4 text-center">Led by Akshith Muthukumar and Eric Nathan Stucky</p>
@@ -126,11 +126,11 @@ const Home = () => {
 									<a className=" text-sky-500 hover:underline" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
 										Both images are held under CC BY-NC-ND (Creative Commons Attribution Non-Commercial No Derivatives 4.0 International licence)
 									</a>
-									
+
 									<p className="italic">
-										The first image (grids) is licensed by: 
-										Igor Araujo, Bryce Frederickson, Robert A. Krueger, Bernard Lidický, Tyrrell B. McAllister, Florian Pfender, Sam Spiro, and Eric Nathan Stucky. 
-										The second image (handwriting) is licensed by: 
+										The first image (grids) is licensed by:
+										Igor Araujo, Bryce Frederickson, Robert A. Krueger, Bernard Lidický, Tyrrell B. McAllister, Florian Pfender, Sam Spiro, and Eric Nathan Stucky.
+										The second image (handwriting) is licensed by:
 										Eric Nathan Stucky
 									</p>
 								</div>
@@ -140,26 +140,42 @@ const Home = () => {
 				</Tabs>
 			</div>
 
-            <div className="mt-32">
-                <h2 className='text-xl sm:text-2xl lg:text-4xl font-medium text-center py-8'>Our Services</h2>
-                <div className="circle-snippet m-auto w-4/5 flex flex-col md:flex-row justify-evenly gap-5 lg:w-2/3">
-                    <div className="md:w-1/3 px-4 py-8 rounded-lg flex flex-col justify-between bg-white">
-                        <p className="text-xl lg:text-2xl text-center font-semibold">ReWire Program</p>
-                        <p className="text-center py-4">ReWire offers free, personalized research mentorship and project feedback for novice researchers, helping refine current projects and strengthen fundamental research skills for future success.</p>
-                        <Link className="" to={"/rewire"}><div className="w-fit m-auto text-lg bg-pink-300 hover:bg-pink-900 hover:text-white transition-colors duration-300 rounded-full py-2 px-6 cursor-pointer">Learn More</div></Link>
-                    </div>
-                    <div className="md:w-1/3 px-4 py-8 rounded-lg flex flex-col justify-between bg-white">
-                        <p className="text-xl lg:text-2xl text-center font-semibold">Workshops</p>
-                        <p className="text-center py-4">Through a variety of other initiatives, Multiverse Researchers has help run multiple workshops to platform and educate members on research and educational aspects. Below is a catalog of our recent efforts.</p>
-                        <Link className="" to={"/rewire"}><div className="w-fit m-auto text-lg bg-pink-300 hover:bg-pink-900 hover:text-white transition-colors duration-300 rounded-full py-2 px-6 cursor-pointer">Learn More</div></Link>
-                    </div>
-                    <div className="md:w-1/3 px-4 py-8 rounded-lg flex flex-col justify-between bg-white">
-                        <p className="text-xl lg:text-2xl text-center font-semibold">Summer Program Application Help and Cold Email Assistance</p>
-                        <p className="text-center py-4">Coming soon...</p>
-                        <Link className="" to={"/cold-email-assistance"}><div className="w-fit m-auto text-lg bg-pink-300 hover:bg-pink-900 hover:text-white transition-colors duration-300 rounded-full py-2 px-6 cursor-pointer">Learn More</div></Link>
-                    </div>
-                </div>
-            </div>
+			<div className="mt-32">
+				<h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold text-center py-8 text-gray-800'>Our Services</h2>
+
+				<div className="m-auto w-4/5 flex flex-col md:flex-row justify-evenly gap-8 lg:w-2/3">
+					<div className="md:w-1/3 bg-white shadow-lg rounded-lg p-6 flex flex-col justify-between hover:shadow-2xl transition-shadow duration-300">
+						<p className="text-xl lg:text-2xl font-semibold text-center text-gray-800">ReWire Program</p>
+						<p className="text-center py-4 text-gray-600">ReWire offers free, personalized research mentorship and project feedback for novice researchers, helping refine current projects and strengthen fundamental research skills for future success.</p>
+						<Link to={"/rewire"}>
+							<div className="w-fit m-auto text-lg bg-pink-400 hover:bg-pink-700 text-white transition-colors duration-300 rounded-full py-3 px-8 cursor-pointer">
+								Learn More
+							</div>
+						</Link>
+					</div>
+
+					<div className="md:w-1/3 bg-white shadow-lg rounded-lg p-6 flex flex-col justify-between hover:shadow-2xl transition-shadow duration-300">
+						<p className="text-xl lg:text-2xl font-semibold text-center text-gray-800">Workshops</p>
+						<p className="text-center py-4 text-gray-600">Through various initiatives, Multiverse Researchers have run multiple workshops to platform and educate members on research and educational aspects. Below is a catalog of our recent efforts.</p>
+						<Link to={"/rewire"}>
+							<div className="w-fit m-auto text-lg bg-pink-400 hover:bg-pink-700 text-white transition-colors duration-300 rounded-full py-3 px-8 cursor-pointer">
+								Learn More
+							</div>
+						</Link>
+					</div>
+
+					<div className="md:w-1/3 bg-white shadow-lg rounded-lg p-6 flex flex-col justify-between hover:shadow-2xl transition-shadow duration-300">
+						<p className="text-xl lg:text-2xl font-semibold text-center text-gray-800">Summer Program Application Help & Cold Email Assistance</p>
+						<p className="text-center py-4 text-gray-600">Coming soon...</p>
+						<Link to={"/cold-email-assistance"}>
+							<div className="w-fit m-auto text-lg bg-pink-400 hover:bg-pink-700 text-white transition-colors duration-300 rounded-full py-3 px-8 cursor-pointer">
+								Learn More
+							</div>
+						</Link>
+					</div>
+				</div>
+			</div>
+
 		</div>
 	)
 }
