@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactGoogleSlides from "react-google-slides";
 
 const Workshops = () => {
   return (
@@ -38,8 +37,8 @@ const Workshops = () => {
 const WorkshopBlock = (props) => {
   return (
     <a target="_blank" href={props.link}>
-      <div className="p-4 flex flex-col items-center w-1/2 md:w-3/4 h-full m-auto hover:font-bold hover:border-b-4 hover:border-pink-300 hover:bg-gray-300 bg-gray-200 rounded-lg transition-all duration-300">
-        <h1 className="text-xl text-left">
+      <div className="p-6 flex flex-col items-center w-1/2 md:w-3/4 h-full m-auto hover:font-bold hover:border-b-4 hover:border-pink-300 hover:bg-gray-300 bg-gray-200 rounded-lg transition-all duration-300">
+        <h1 className="text-xl text-center">
           {props.name}
         </h1>
         <p className="text-lg m-2">{props.date}</p>
