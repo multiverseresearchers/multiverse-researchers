@@ -23,7 +23,7 @@ const Home = () => {
 			<div className="flex flex-col w-full items-center">
 				<Tabs defaultValue="physics" className="w-2/3 p-1">
 					<TabsList className="flex flex-row justify-evenly h-fit bg-white shadow-lg border border-gray-100 rounded-lg mb-12">
-						{/* <TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="bio">Biology Group</TabsTrigger> */}
+						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="bio">Biology Group</TabsTrigger>
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="envisci">Environment Science Group</TabsTrigger>
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="astronomy">Astronomy Group</TabsTrigger>
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="physics">Physics Group</TabsTrigger>
@@ -34,6 +34,17 @@ const Home = () => {
 					</TabsList>
 
 					<div className="p-8 bg-white border border-gray-100 rounded-lg shadow-xl">
+						<TabsContent value="bio">
+							<div className="circle-snippet m-auto w-4/5 lg:w-2/3">
+								<h2 className='text-xl sm:text-2xl lg:text-4xl font-medium text-center py-8'>Biology Group</h2>
+								<div className='text-center'>The Biology Research Group will cover multiple areas of research including biotechnology in genetics, bioinformatics, neuroscience and how genes play a role in neurodegenerative diseases, though, our primary focus is using bioinformatics such as CRISPR/Cas 9 gene editing to target diseases caused by genetic mutations. The group will analyze biological and technological effects of utilizing biotechnology and gene editing therapy in medicine to understand how these can be improved upon or utilized in less-known diseases. </div>
+								<p className="py-4 text-center">Led by Ilinca Sasu and Elmubarak Malik</p>
+								<div className='py-8 flex flex-col md:flex-row md:justify-between gap-8'>
+									<img className='md:w-1/2 object-cover rounded-md' src={"/imgs/circles/bio/bio1.png"} alt="Image 1" />
+									<img className='md:w-1/2 object-cover rounded-md' src={"/imgs/circles/bio/bio2.png"} alt="Image 2" />
+								</div>
+							</div>
+						</TabsContent>
 						<TabsContent value="envisci">
 							<div className="circle-snippet m-auto w-4/5 lg:w-2/3">
 								<h2 className='text-xl sm:text-2xl lg:text-4xl font-medium text-center py-8'>Environment Science Group</h2>
