@@ -140,7 +140,7 @@ const Home = () => {
 				</Tabs>
 			</div>
 
-            <div className="my-32">
+            <div className="mt-32">
                 <h2 className='text-xl sm:text-2xl lg:text-4xl font-medium text-center py-8'>Our Services</h2>
                 <div className="circle-snippet m-auto w-4/5 flex flex-col md:flex-row justify-evenly gap-5 lg:w-2/3">
                     <div className="md:w-1/3 px-4 py-8 rounded-lg flex flex-col justify-between bg-white">

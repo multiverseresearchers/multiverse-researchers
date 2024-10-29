@@ -11,9 +11,27 @@ const Rewire = () => {
 					<p className='py-4 text-pretty'>High school students with limited research experience will be given priority, but anyone can apply.</p>
 				</div>;
 			case 'The ReWire Team':
-				return <p>Our mentors are experienced researchers who have published numerous papers, worked with renowned institutions, and spoken at prestigious conferences. We will pass on the expertise we&apos;ve gained to help you succeed in your research journey!</p>;
+				return <div>
+					<p>Our mentors are experienced researchers who have published numerous papers, worked with renowned institutions, and spoken at prestigious conferences. We will pass on the expertise we&apos;ve gained to help you succeed in your research journey!</p>
+					<p className='py-4 text-pretty italic'>Our team consists of:</p>
+					<ol className='list-decimal pl-8'>
+						<li>ReWire Program Mentors: experienced research mentors from the cabinet team</li>
+						<li>Peer Review Mentors: experienced Multiverse Researchers members who work under the guidance of ReWire Program</li>
+					</ol>
+				</div>;
 			case 'Application Details':
-				return <div><p className='underline font-semibold'>ReWire Student Application Form:</p><a className='text-purple-700 hover:text-pink-700 transition-all duration-300 font-semibold' href='https://forms.gle/t2X8tduQJTJJWdqF9' target='_blank'>https://forms.gle/t2X8tduQJTJJWdqF9</a><p className='pt-4 font-semibold underline'>ReWire Peer Reviewer Application Form:</p><p>(For any members with strong research experience and want to help others!)</p><a className='text-purple-700 hover:text-pink-700 transition-all duration-300 font-semibold' href='https://forms.gle/oj8Nwx5ag2ZcMRoDA' target='_blank'>https://forms.gle/oj8Nwx5ag2ZcMRoDA</a></div>;
+				return <div>
+					<p className='pb-4'>Decisions are made on a rolling basis.</p>
+					<p className='underline font-semibold'>ReWire Student Application Form:</p>
+					<a href="https://forms.gle/t2X8tduQJTJJWdqF9" target="_blank">
+						<div className="text-lg w-fit m-auto bg-pink-300 hover:bg-pink-900 hover:text-white transition-colors duration-300 rounded-full py-2 px-6 cursor-pointer my-3">
+							Apply Here!
+						</div>
+					</a>
+					<p className='pt-4 font-semibold underline'>ReWire Peer Reviewer Application Form:</p>
+					<p>(For any members with strong research experience and want to help others!)</p>
+					<a className='text-purple-700 hover:text-pink-700 transition-all duration-300 font-semibold' href='https://forms.gle/oj8Nwx5ag2ZcMRoDA' target='_blank'>https://forms.gle/oj8Nwx5ag2ZcMRoDA</a>
+				</div>;
 			default:
 				return null;
 		}
