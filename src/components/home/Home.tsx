@@ -2,6 +2,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "../../../@/components/
 import CSS from "csstype";
 
 import './Home.css'
+import { Link } from "react-router-dom";
 
 const Home = () => {
 
@@ -139,6 +140,26 @@ const Home = () => {
 				</Tabs>
 			</div>
 
+            <div className="my-32">
+                <h2 className='text-xl sm:text-2xl lg:text-4xl font-medium text-center py-8'>Our Services</h2>
+                <div className="circle-snippet m-auto w-4/5 flex flex-col md:flex-row justify-evenly gap-5 lg:w-2/3">
+                    <div className="md:w-1/3 px-4 py-8 rounded-lg flex flex-col justify-between bg-white">
+                        <p className="text-xl lg:text-2xl text-center font-semibold">ReWire Program</p>
+                        <p className="text-center py-4">ReWire offers free, personalized research mentorship and project feedback for novice researchers, helping refine current projects and strengthen fundamental research skills for future success.</p>
+                        <Link className="" to={"/rewire"}><div className="w-fit m-auto text-lg bg-pink-300 hover:bg-pink-900 hover:text-white transition-colors duration-300 rounded-full py-2 px-6 cursor-pointer">Learn More</div></Link>
+                    </div>
+                    <div className="md:w-1/3 px-4 py-8 rounded-lg flex flex-col justify-between bg-white">
+                        <p className="text-xl lg:text-2xl text-center font-semibold">Workshops</p>
+                        <p className="text-center py-4">Through a variety of other initiatives, Multiverse Researchers has help run multiple workshops to platform and educate members on research and educational aspects. Below is a catalog of our recent efforts.</p>
+                        <Link className="" to={"/rewire"}><div className="w-fit m-auto text-lg bg-pink-300 hover:bg-pink-900 hover:text-white transition-colors duration-300 rounded-full py-2 px-6 cursor-pointer">Learn More</div></Link>
+                    </div>
+                    <div className="md:w-1/3 px-4 py-8 rounded-lg flex flex-col justify-between bg-white">
+                        <p className="text-xl lg:text-2xl text-center font-semibold">Summer Program Application Help and Cold Email Assistance</p>
+                        <p className="text-center py-4">Coming soon...</p>
+                        <Link className="" to={"/cold-email-assistance"}><div className="w-fit m-auto text-lg bg-pink-300 hover:bg-pink-900 hover:text-white transition-colors duration-300 rounded-full py-2 px-6 cursor-pointer">Learn More</div></Link>
+                    </div>
+                </div>
+            </div>
 		</div>
 	)
 }
