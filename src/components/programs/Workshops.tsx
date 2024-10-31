@@ -3,9 +3,9 @@ import { FaUserGraduate, FaQuestionCircle, FaBookReader, FaSearchengin, FaPaperP
 const Workshops = () => {
   return (
     <div className="bg-gradient-to-r from-pink-100 to-purple-100 min-h-screen px-8 py-16">
-      <div className="p-8 md:w-1/2 m-auto">
-        <p className="font-bold text-2xl pt-8 text-center">Past Workshops</p>
-        <p className="md:m-auto py-3 text-center">
+      <div className="p-8 w-1/2 md:w-3/4 m-auto">
+        <p className="font-bold text-4xl md:text-5xl pt-8 text-center">Past Workshops</p>
+        <p className="md:m-auto text-2xl py-3 text-center">
           Through a variety of other initiatives, Multiverse Researchers has help run multiple workshops to platform and educate members on research and educational aspects. 
           Below is a catalog of our recent efforts: 
         </p>
