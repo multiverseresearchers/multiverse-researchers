@@ -75,7 +75,7 @@ const WorkshopBlock = ({name, author, date, link, desc, icon, color}:
         </div>);
       
       buttonElement = (
-        <div className={`bg-pink-500 hover:bg-pink-600 text-white rounded-xl p-3 cursor-pointer max-w-fit`}>Research Link</div>
+        <div className={`bg-pink-500 hover:bg-pink-600 text-white rounded-xl p-3 cursor-pointer max-w-fit`}>Link to Slides</div>
       )
       
       break;
@@ -87,7 +87,7 @@ const WorkshopBlock = ({name, author, date, link, desc, icon, color}:
         </div>);
 
       buttonElement = (
-        <div className={`bg-blue-500 hover:bg-blue-600 text-white rounded-xl p-3 cursor-pointer max-w-fit`}>Research Link</div>
+        <div className={`bg-blue-500 hover:bg-blue-600 text-white rounded-xl p-3 cursor-pointer max-w-fit`}>Link to Slides</div>
       )
 
       break;
@@ -98,7 +98,7 @@ const WorkshopBlock = ({name, author, date, link, desc, icon, color}:
         </div>);
 
       buttonElement = (
-        <div className={`bg-purple-500 hover:bg-purple-600 text-white rounded-xl p-3 cursor-pointer max-w-fit`}>Research Link</div>
+        <div className={`bg-purple-500 hover:bg-purple-600 text-white rounded-xl p-3 cursor-pointer max-w-fit`}>Link to Slides</div>
       )
 
       break;
@@ -109,7 +109,7 @@ const WorkshopBlock = ({name, author, date, link, desc, icon, color}:
         </div>);
       
       buttonElement = (
-        <div className={`bg-green-500 hover:bg-green-600 text-white rounded-xl p-3 cursor-pointer max-w-fit`}>Research Link</div>
+        <div className={`bg-green-500 hover:bg-green-600 text-white rounded-xl p-3 cursor-pointer max-w-fit`}>Link to Slides</div>
       )
 
       break;
@@ -120,7 +120,7 @@ const WorkshopBlock = ({name, author, date, link, desc, icon, color}:
         </div>);
 
       buttonElement = (
-        <div className={`bg-red-500 hover:bg-red-600 text-white rounded-xl p-3 cursor-pointer max-w-fit`}>Research Link</div>
+        <div className={`bg-red-500 hover:bg-red-600 text-white rounded-xl p-3 cursor-pointer max-w-fit`}>Link to Slides</div>
       )
 
       break;
@@ -131,7 +131,7 @@ const WorkshopBlock = ({name, author, date, link, desc, icon, color}:
         </div>);
 
       buttonElement = (
-        <div className={`bg-blue-500 hover:bg-blue-600 text-white rounded-xl p-3 cursor-pointer max-w-fit`}>Research Link</div>
+        <div className={`bg-blue-500 hover:bg-blue-600 text-white rounded-xl p-3 cursor-pointer max-w-fit`}>Link to Slides</div>
       )
   }
 
@@ -145,7 +145,7 @@ const WorkshopBlock = ({name, author, date, link, desc, icon, color}:
         <p className="text-gray-700 pb-4">{date}</p>
       </div>
       <div className='row-start-4'>
-        <p className="text-lg pb-4 pt-4">{author}</p>
+        <p className="text-lg ml-1 pt-3 pb-3">{author}</p>
 
         <a href={link} target="_blank" rel="noopener noreferrer">
           {buttonElement}
