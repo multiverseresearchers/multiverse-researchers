@@ -1,6 +1,11 @@
+import { useLayoutEffect } from 'react';
 import { FaUserGraduate, FaQuestionCircle, FaBookReader, FaSearchengin, FaPaperPlane, FaPollH } from 'react-icons/fa';
 
 const Workshops = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0)
+  });
+  
   return (
     <div className="bg-gradient-to-r from-pink-100 to-purple-100 min-h-screen px-8 py-16">
       <div className="p-8 w-1/2 md:w-3/4 m-auto">

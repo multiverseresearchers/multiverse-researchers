@@ -1,6 +1,11 @@
+import { useLayoutEffect } from 'react';
 import { FaUserGraduate, FaClipboardCheck, FaUsers } from 'react-icons/fa';
 
 const Rewire = () => {
+	useLayoutEffect(() => {
+		window.scrollTo(0, 0)
+	});
+
 	return (
 		<div className="bg-gradient-to-r from-pink-100 to-purple-100 min-h-screen px-8 py-16">
 			<div className='p-8 md:w-4/5 m-auto'>

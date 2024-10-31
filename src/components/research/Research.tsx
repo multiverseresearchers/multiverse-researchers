@@ -1,6 +1,11 @@
+import { useLayoutEffect } from 'react';
 import './Research.css'
 
 const Research = () => {
+	useLayoutEffect(() => {
+		window.scrollTo(0, 0)
+	});
+
 	return (
 		<div>
 			<div className='flex flex-col items-center justify-center'>

@@ -192,7 +192,7 @@ const Home = () => {
 						<p className="text-xl font-semibold text-center text-gray-800">Workshops</p>
 						<img className="w-1/2 h-40 object-contain m-auto" src="/imgs/services/workshops.webp" alt="" />
 						<p className="text-base text-center py-4 text-gray-600 flex-grow">Through various initiatives, Multiverse Researchers have run multiple workshops to platform and educate members on research and educational aspects. Below is a catalog of our recent efforts.</p>
-						<Link to={"/rewire"}>
+						<Link to={"/workshops"}>
 							<div className="w-fit m-auto text-lg bg-pink-400 hover:bg-pink-700 text-white transition-colors duration-300 rounded-full py-3 px-8 cursor-pointer">
 								Learn More
 							</div>
