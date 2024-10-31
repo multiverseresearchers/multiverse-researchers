@@ -10,7 +10,7 @@ const Research = () => {
 
 			<div className='flex flex-col items-center justify-center'>
 				<div className='shadow-xl w-full p-8 m-5 max-w-screen-lg rounded-lg'>
-					<p className='font-bold text-xl py-4'>Environment Science Group</p>
+					<p className='font-bold text-xl py-4'>Environmental Science Group</p>
 					<div className='flex flex-col lg:flex-row w-full gap-4 items-center justify-center'>
 						<img className='rounded-lg object-cover md:w-full md:aspect-[3/1] lg:w-[15%] lg:h-[15%] lg:aspect-square' src="/imgs/circles/envisci/envisci1.png" alt="" />
 						<p className='h-fit'>Our research group is dedicated to studying how environmental changes—such as rising sea levels, pollution, coastal erosion, and climate shifts—affect the quality of life in marginalized communities. We utilize collaborative research efforts, data analysis, and innovative approaches to address urgent global environmental issues. The group investigates a variety of environmental, social, economic, and cultural factors to enhance understanding and promote sustainable solutions that improve living conditions for those most vulnerable to environmental stress.</p>
@@ -40,6 +40,22 @@ const Research = () => {
 						<li>Verifying celestial bodies through orbital mechanics</li>
 					</ul>
 					<p>Led by Hadizah Coulibaly</p>
+				</div>
+
+				<div className='shadow-xl w-full p-8 m-5 max-w-screen-lg rounded-lg'>
+					<p className='font-bold text-xl py-4'>Physics Group</p>
+					<div className='flex flex-col lg:flex-row w-full gap-4 items-center justify-center'>
+						<img className='rounded-lg object-cover md:w-full md:aspect-[3/1] lg:w-[15%] lg:h-[15%] lg:aspect-square' src="/imgs/circles/physics/physics1.png" alt="" />
+						<p className='h-fit'>The physics research group focuses on advancing our understanding of quantum chromodynamic phenomena through computational analysis of lattice QCD simulations. Examples of goals we aim to achieve include managing measurement field configurations, calculating quantum observations, and analysis of the effectiveness and computational efficiency of these methods. Our goal is to increase the accuracy of lattice QCD calculations and provide deeper insights into the fundamental nature of strong interactions.</p>
+					</div>
+					{/* <ul className='list-disc pl-4 py-4'>
+						<li className='list-none -indent-4'>Investigations:</li>
+						<li>Transit curve analysis using Markov-Chain-Monte-Carlo</li>
+						<li>Trend analysis in astronomical datasets as evidence for celestial bodies</li>
+						<li>Exoplanet detection using TESS and light curves</li>
+						<li>Verifying celestial bodies through orbital mechanics</li>
+					</ul> */}
+					<p className='py-4'>Led by Anand Ajith, Ojaswit Singh, and Nure Zannat</p>
 				</div>
 
 				<div className='shadow-xl w-full p-8 m-5 max-w-screen-lg rounded-lg'>
@@ -90,19 +106,19 @@ const Research = () => {
 				</div>
 
 				<div className='shadow-xl w-full p-8 m-5 max-w-screen-lg rounded-lg'>
-					<p className='font-bold text-xl py-4'>Physics Group</p>
+					<p className='font-bold text-xl py-4'>Biology Group</p>
 					<div className='flex flex-col lg:flex-row w-full gap-4 items-center justify-center'>
-						<img className='rounded-lg object-cover md:w-full md:aspect-[3/1] lg:w-[15%] lg:h-[15%] lg:aspect-square' src="/imgs/circles/physics/physics1.png" alt="" />
-						<p className='h-fit'>The physics research group focuses on advancing our understanding of quantum chromodynamic phenomena through computational analysis of lattice QCD simulations. Examples of goals we aim to achieve include managing measurement field configurations, calculating quantum observations, and analysis of the effectiveness and computational efficiency of these methods. Our goal is to increase the accuracy of lattice QCD calculations and provide deeper insights into the fundamental nature of strong interactions.</p>
+						<img className='rounded-lg object-cover md:w-full md:aspect-[3/1] lg:w-[15%] lg:h-[15%] lg:aspect-square' src="/imgs/circles/bio/bio1.png" alt="" />
+						<p className='h-fit'>The Biology Research Group will cover multiple areas of research including biotechnology in genetics, bioinformatics, neuroscience and how genes play a role in neurodegenerative diseases, though, our primary focus is using bioinformatics such as CRISPR/Cas 9 gene editing to target diseases caused by genetic mutations. The group will analyze biological and technological effects of utilizing biotechnology and gene editing therapy in medicine to understand how these can be improved upon or utilized in less-known diseases.</p>
 					</div>
-					{/* <ul className='list-disc pl-4 py-4'>
+					<ul className='list-disc pl-4 py-4'>
 						<li className='list-none -indent-4'>Investigations:</li>
-						<li>Transit curve analysis using Markov-Chain-Monte-Carlo</li>
-						<li>Trend analysis in astronomical datasets as evidence for celestial bodies</li>
-						<li>Exoplanet detection using TESS and light curves</li>
-						<li>Verifying celestial bodies through orbital mechanics</li>
-					</ul> */}
-					<p className='py-4'>Led by Anand Ajith, Ojaswit Singh, and Nure Zannat</p>
+						<li>Biotechnology, Bioinformatics, Behavioral biology</li>
+						<li>Protein Structure Prediction & Drug Discovery</li>
+						<li>Neuroscience and Brain-Computer Interfaces (BCI)</li>
+						<li>Behavioral biology, Genetics, CRISPR and gene editing</li>
+					</ul>
+					<p>Led by Ilinca Sasu and Elmubarak Malik</p>
 				</div>
 
 				<div className='shadow-xl w-full p-8 m-5 max-w-screen-lg rounded-lg'>

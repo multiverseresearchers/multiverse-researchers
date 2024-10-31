@@ -24,13 +24,13 @@ const Home = () => {
 			<div className="hidden md:flex flex-col w-full items-center">
 				<Tabs defaultValue="physics" className="w-2/3 p-1">
 					<TabsList className="flex flex-row justify-evenly h-fit bg-white shadow-lg border border-gray-100 rounded-lg mb-12">
-						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="bio">Biology Group</TabsTrigger>
-						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="envisci">Environment Science Group</TabsTrigger>
+						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="envisci">Environmental Science Group</TabsTrigger>
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="astronomy">Astronomy Group</TabsTrigger>
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="physics">Physics Group</TabsTrigger>
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="econ">Economics Group</TabsTrigger>
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="compsci">Computer Science Group</TabsTrigger>
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="polisci">Political Science Group</TabsTrigger>
+						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="bio">Biology Group</TabsTrigger>
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="math">Mathematics Group</TabsTrigger>
 					</TabsList>
 
@@ -48,7 +48,7 @@ const Home = () => {
 						</TabsContent>
 						<TabsContent value="envisci">
 							<div className="circle-snippet m-auto w-4/5 lg:w-2/3">
-								<h2 className='text-xl sm:text-2xl lg:text-4xl font-medium text-center py-8'>Environment Science Group</h2>
+								<h2 className='text-xl sm:text-2xl lg:text-4xl font-medium text-center py-8'>Environmental Science Group</h2>
 								<div className='text-center'>Our research group is dedicated to studying how environmental changes—such as rising sea levels, pollution, coastal erosion, and climate shifts—affect the quality of life in marginalized communities. We utilize collaborative research efforts, data analysis, and innovative approaches to address urgent global environmental issues. The group investigates a variety of environmental, social, economic, and cultural factors to enhance understanding and promote sustainable solutions that improve living conditions for those most vulnerable to environmental stress.</div>
 								<p className="py-4 text-center">Led by Shashwat Mishra and Aneeqa Parpia</p>
 								<div className='py-8 flex flex-col md:flex-row md:justify-between gap-8'>
