@@ -8,9 +8,9 @@ const Workshops = () => {
   
   return (
     <div className="bg-gradient-to-r from-pink-100 to-purple-100 min-h-screen px-8 py-16">
-      <div className="p-8 w-1/2 md:w-3/4 m-auto">
-        <p className="font-bold text-4xl md:text-5xl pt-8 text-center">Past Workshops</p>
-        <p className="md:m-auto text-2xl py-3 text-center">
+      <div className="p-8 w-1/2 md:w-3/4 md:m-auto">
+        <p className="font-bold text-4xl md:text-5xl mb-8 text-center">Past Workshops</p>
+        <p className="text-lg md:text-2xl text-pretty mb-12 px-4 md:px-0">
           Through a variety of other initiatives, Multiverse Researchers has help run multiple workshops to platform and educate members on research and educational aspects. 
           Below is a catalog of our recent efforts: 
         </p>
@@ -22,6 +22,7 @@ const Workshops = () => {
             icon={<FaPollH className="text-5xl ml-auto mb-4" />} 
             desc="" 
             color="blue"
+            members="30"
           /> 
         
           <WorkshopBlock name="How to Use SciSpace" author="Alex & Ellen" date="September 2024"
@@ -29,6 +30,7 @@ const Workshops = () => {
             icon={<FaPaperPlane className="text-5xl ml-auto mb-4" />} 
             desc=""
             color="purple"
+            members="25"
           />   
                   
           <WorkshopBlock name="How to Land Research Positions in High School" author="Moses" date="August 2024"
@@ -36,6 +38,7 @@ const Workshops = () => {
             icon={<FaSearchengin className="text-5xl ml-auto mb-4" />}
             desc=""
             color="pink"
+            members="30"
           />  
                 
           <WorkshopBlock name="Research Workshop #2" author="Alyssa & Rowan" date="July 2024"
@@ -43,6 +46,7 @@ const Workshops = () => {
             icon={<FaBookReader className="text-5xl ml-auto mb-4" />} 
             desc=""
             color="blue"
+            members="20"
           /> 
                     
           <WorkshopBlock name="How to Choose a Major" author="Mili" date="July 2024"
@@ -50,13 +54,15 @@ const Workshops = () => {
             icon={<FaUserGraduate className="text-5xl ml-auto mb-4" />} 
             desc=""
             color="red"
+            members="15"
           />           
 
-          <WorkshopBlock name="How to Choose a Research Question" author="Shashe" date="June 2024"
+          <WorkshopBlock name="How to Choose a Research Question" author="Shashwat" date="June 2024"
             link="https://docs.google.com/presentation/d/1EAH5RjD7kfkZ92OIRRSnavSPA3iu8InT9mxfL3La6VI/edit?usp=sharing" 
             icon={<FaQuestionCircle className="text-5xl ml-auto mb-4" />}
             desc=""
             color="blue"
+            members="15"
           />
 
         </div>
@@ -65,11 +71,12 @@ const Workshops = () => {
   );
 }
 
-const WorkshopBlock = ({name, author, date, link, desc, icon, color}:
-                       {name:string, author:string, date:string, link:string, desc:string, icon:any, color:string}) => {
+const WorkshopBlock = ({name, author, date, link, desc, icon, color, members}:
+                       {name:string, author:string, date:string, link:string, desc:string, icon:any, color:string, members:string}) => {
 
   let iconDiv;
   let buttonElement;
+  let membersP;
 
 
   switch (color) {
@@ -82,6 +89,10 @@ const WorkshopBlock = ({name, author, date, link, desc, icon, color}:
       buttonElement = (
         <div className={`bg-pink-500 hover:bg-pink-600 text-white rounded-xl p-3 cursor-pointer max-w-fit`}>Link to Slides</div>
       )
+
+      membersP = (
+        <p className="text-gray-700 font-bold hover:underline hover:text-pink-500 text-md">{members}+ ATTENDEES</p>
+      );
       
       break;
 
@@ -95,6 +106,10 @@ const WorkshopBlock = ({name, author, date, link, desc, icon, color}:
         <div className={`bg-blue-500 hover:bg-blue-600 text-white rounded-xl p-3 cursor-pointer max-w-fit`}>Link to Slides</div>
       )
 
+      membersP = (
+        <p className="text-gray-700 font-bold hover:underline hover:text-blue-500 text-md">{members}+ ATTENDEES</p>
+      );
+
       break;
     case "purple":
       iconDiv = 
@@ -105,6 +120,10 @@ const WorkshopBlock = ({name, author, date, link, desc, icon, color}:
       buttonElement = (
         <div className={`bg-purple-500 hover:bg-purple-600 text-white rounded-xl p-3 cursor-pointer max-w-fit`}>Link to Slides</div>
       )
+
+      membersP = (
+        <p className="text-gray-700 font-bold hover:underline hover:text-purple-500 text-md">{members}+ ATTENDEES</p>
+      );
 
       break;
     case "green":
@@ -117,6 +136,10 @@ const WorkshopBlock = ({name, author, date, link, desc, icon, color}:
         <div className={`bg-green-500 hover:bg-green-600 text-white rounded-xl p-3 cursor-pointer max-w-fit`}>Link to Slides</div>
       )
 
+      membersP = (
+        <p className="text-gray-700 font-bold hover:underline hover:text-green-500 text-md">{members}+ ATTENDEES</p>
+      );
+
       break;
     case "red":
       iconDiv = 
@@ -128,6 +151,10 @@ const WorkshopBlock = ({name, author, date, link, desc, icon, color}:
         <div className={`bg-red-500 hover:bg-red-600 text-white rounded-xl p-3 cursor-pointer max-w-fit`}>Link to Slides</div>
       )
 
+      membersP = (
+        <p className="text-gray-700 font-bold hover:underline hover:text-red-500 text-md">{members}+ ATTENDEES</p>
+      );
+
       break;
     default:
       iconDiv = 
@@ -136,8 +163,12 @@ const WorkshopBlock = ({name, author, date, link, desc, icon, color}:
         </div>);
 
       buttonElement = (
-        <div className={`bg-blue-500 hover:bg-blue-600 text-white rounded-xl p-3 cursor-pointer max-w-fit`}>Link to Slides</div>
-      )
+        <div className={`bg-pink-500 hover:bg-pink-600 text-white rounded-xl p-3 cursor-pointer max-w-fit`}>Link to Slides</div>
+      );
+
+      membersP = (
+        <p className="text-gray-700 font-bold hover:underline hover:text-pink-500 text-md">{members}+ ATTENDEES</p>
+      );
   }
 
   return (
@@ -152,10 +183,18 @@ const WorkshopBlock = ({name, author, date, link, desc, icon, color}:
       <div className='row-start-4'>
         <p className="text-lg ml-1 pt-3 pb-3">{author}</p>
 
-        <a href={link} target="_blank" rel="noopener noreferrer">
-          {buttonElement}
-        </a>
-        <p>{desc}</p>
+        <div className="flex grid grid-cols-2">
+          <div>
+            <a href={link} target="_blank" rel="noopener noreferrer">
+              {buttonElement}
+            </a>
+            <p>{desc}</p>
+          </div>
+
+          <div className='text-right flex-end rounded-xl p-3'>
+            {membersP}
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -26,8 +26,7 @@ const Rewire = () => {
 						<p className="text-gray-700">Personalized Support</p>
 					</div>
 				</div>
-
-					<a
+					{/* <a
 						href="https://daztyxpv.formester.com/f/6e4ea898-ec48-41c9-9570-fbe35facdc17"
 						target="_blank"
 						rel="noopener noreferrer"
@@ -35,7 +34,7 @@ const Rewire = () => {
 						<div className="w-fit m-auto text-lg bg-pink-300 hover:bg-pink-900 hover:text-white transition-colors duration-300 rounded-full py-2 px-6 cursor-pointer mb-12">
 							Register
 						</div>
-					</a>
+					</a> */}
 				</div>
 
 				<div className="flex flex-wrap justify-center gap-8 px-8">
