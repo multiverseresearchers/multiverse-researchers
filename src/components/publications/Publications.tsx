@@ -98,10 +98,6 @@ const Publications = () => {
     setPubFilter(e.target.value)
   }
 
-  const handleFilterReset = () => {
-    setPubFilter('');
-  }
-
   const onTitleSortClick = () => {
     setSortBy(title_sort_toggle[(title_sort_toggle.indexOf(sortBy) + 1) % title_sort_toggle.length]);
   }
@@ -186,7 +182,7 @@ const Publications = () => {
                   <div className="dropdown flex grid grid-cols-3 gap-6">
                     <div>
                       <select value={pubFilter} className="col-start-1 col-span-2 border-2 rounded-lg h-full hover:border-gray-500" onChange={onFilterDropdownChange}>
-                        <option value='' selected disabled hidden>Choose Filter</option>
+                        <option value='' selected>None</option>
                         <option value="envsci">Environmental Science</option>
                         <option value="astro">Astronomy</option>
                         <option value="physics">Physics</option>
@@ -197,9 +193,7 @@ const Publications = () => {
                         <option value="math">Math</option>
                       </select>
                     </div>
-                    <div className='col-start-3'>
-                      <div className="bg-red-500 hover:bg-red-600 text-white rounded-full p-2 text-center cursor-pointer" onClick={handleFilterReset}>Reset</div>
-                    </div>
+
                   </div>
                 </div>
 
