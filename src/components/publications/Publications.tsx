@@ -293,8 +293,8 @@ const PublicationBlock = ({title, author, link, abstract, subject}:
         <div className='row-start-1 row-span-2 h-auto md:h-50'>
           <p className="text-gray-500 text-md">ARTICLES: </p>
           
-          <h2 className="font-bold text-2xl hover:underline">
-            <a href={link} target="_blank" rel="noopener noreferrer">
+          <h2 className={(link == "") ? "font-bold text-2xl" : "font-bold text-2xl hover:underline"}>
+            <a href={link} target={(link == "") ? "" : "_blank"} rel="noopener noreferrer">
               {title}
             </a>
           </h2>
