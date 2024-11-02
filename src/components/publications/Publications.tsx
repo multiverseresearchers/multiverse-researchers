@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import './Publications.css'
-import {FaArrowDown, FaArrowUp, FaBalanceScaleLeft, FaBuilding, FaChartLine, FaFileAlt, FaGlobeAmericas, FaLandmark, FaLaptopCode, FaLaravel, FaMagnet, FaMicroscope, FaSpaceShuttle } from 'react-icons/fa';
+import {FaArrowDown, FaArrowUp, FaBalanceScaleLeft, FaChartLine,
+    FaFileAlt, FaGlobeAmericas, FaLandmark, FaLaptopCode, FaLaravel, FaMicroscope, FaSpaceShuttle } from 'react-icons/fa';
 
 //potential subjects= envsci, astro, physics, econ, compsci, polisci, bio, math
 
 const Publications = () => {
-  const [publications, setPublications] = useState(
+  const [publications] = useState(
     [
       {
         title:"Design and Development of Weather Forecasting Software For Agriculture", 
