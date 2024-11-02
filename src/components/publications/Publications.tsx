@@ -96,7 +96,6 @@ const Publications = () => {
 
   const onFilterDropdownChange = (e:any) => {
     setPubFilter(e.target.value)
-    console.log(e.target.value); 
   }
 
   const handleFilterReset = () => {
