@@ -22,7 +22,7 @@ const Workshops = () => {
             icon={<FaPollH className="text-5xl ml-auto mb-4" />} 
             desc="" 
             color="blue"
-            members="30"
+            members="40"
           /> 
         
           <WorkshopBlock name="How to Use SciSpace" author="Alex & Ellen" date="September 2024"
@@ -38,7 +38,7 @@ const Workshops = () => {
             icon={<FaSearchengin className="text-5xl ml-auto mb-4" />}
             desc=""
             color="pink"
-            members="30"
+            members="40"
           />  
                 
           <WorkshopBlock name="Research Workshop #2" author="Alyssa & Rowan" date="July 2024"
@@ -54,7 +54,7 @@ const Workshops = () => {
             icon={<FaUserGraduate className="text-5xl ml-auto mb-4" />} 
             desc=""
             color="red"
-            members="15"
+            members="25"
           />           
 
           <WorkshopBlock name="How to Choose a Research Question" author="Shashwat" date="June 2024"
