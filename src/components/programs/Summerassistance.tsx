@@ -1,4 +1,10 @@
+import { useLayoutEffect } from "react";
+
 const Summerassistance = () => {
+	useLayoutEffect(() => {
+		window.scrollTo(0, 0)
+	});
+
 	return (
 		<div className="p-8">
 			<p className="font-bold text-2xl pt-8 text-center">Summer Program Application Assistance</p>
@@ -7,4 +13,4 @@ const Summerassistance = () => {
 	)
 }
 
-export default Summerassistance
+export default Summerassistance;

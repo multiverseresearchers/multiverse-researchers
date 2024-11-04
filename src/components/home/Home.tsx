@@ -24,13 +24,13 @@ const Home = () => {
 			<div className="hidden md:flex flex-col w-full items-center">
 				<Tabs defaultValue="physics" className="w-2/3 p-1">
 					<TabsList className="flex flex-row justify-evenly h-fit bg-white shadow-lg border border-gray-100 rounded-lg mb-12">
-						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="bio">Biology Group</TabsTrigger>
-						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="envisci">Environment Science Group</TabsTrigger>
+						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="envisci">Environmental Science Group</TabsTrigger>
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="astronomy">Astronomy Group</TabsTrigger>
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="physics">Physics Group</TabsTrigger>
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="econ">Economics Group</TabsTrigger>
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="compsci">Computer Science Group</TabsTrigger>
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="polisci">Political Science Group</TabsTrigger>
+						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="bio">Biology Group</TabsTrigger>
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="math">Mathematics Group</TabsTrigger>
 					</TabsList>
 
@@ -48,7 +48,7 @@ const Home = () => {
 						</TabsContent>
 						<TabsContent value="envisci">
 							<div className="circle-snippet m-auto w-4/5 lg:w-2/3">
-								<h2 className='text-xl sm:text-2xl lg:text-4xl font-medium text-center py-8'>Environment Science Group</h2>
+								<h2 className='text-xl sm:text-2xl lg:text-4xl font-medium text-center py-8'>Environmental Science Group</h2>
 								<div className='text-center'>Our research group is dedicated to studying how environmental changes—such as rising sea levels, pollution, coastal erosion, and climate shifts—affect the quality of life in marginalized communities. We utilize collaborative research efforts, data analysis, and innovative approaches to address urgent global environmental issues. The group investigates a variety of environmental, social, economic, and cultural factors to enhance understanding and promote sustainable solutions that improve living conditions for those most vulnerable to environmental stress.</div>
 								<p className="py-4 text-center">Led by Shashwat Mishra and Aneeqa Parpia</p>
 								<div className='py-8 flex flex-col md:flex-row md:justify-between gap-8'>
@@ -148,7 +148,7 @@ const Home = () => {
 				<div className="m-auto w-4/5 flex flex-col md:flex-row justify-evenly gap-4 lg:w-2/3">
 					<div className="md:w-1/4 text-purple-600 hover:text-pink-600 transition-all bg-white shadow-lg rounded-lg px-6 py-8 flex flex-col justify-between hover:shadow-2xl duration-300">
 						<p className="text-xl font-semibold text-center text-gray-800">Members</p>
-						<p className="text-3xl font-bold text-center py-4">680+</p>
+						<p className="text-3xl font-bold text-center py-4">700+</p>
 					</div>
 
 					<div className="md:w-1/4 text-purple-600 hover:text-pink-600 transition-all bg-white shadow-lg rounded-lg px-6 py-8 flex flex-col justify-between hover:shadow-2xl duration-300">
@@ -159,16 +159,6 @@ const Home = () => {
 					<div className="md:w-1/4 text-purple-600 hover:text-pink-600 transition-all bg-white shadow-lg rounded-lg px-6 py-8 flex flex-col justify-between hover:shadow-2xl duration-300">
 						<p className="text-xl font-semibold text-center text-gray-800">Countries Reached</p>
 						<p className="text-3xl font-bold text-center text-purple-600 py-4">21+</p>
-					</div>
-
-					<div className="md:w-1/4 text-purple-600 hover:text-pink-600 transition-all bg-white shadow-lg rounded-lg px-6 py-8 flex flex-col justify-between hover:shadow-2xl duration-300">
-						<p className="text-xl font-semibold text-center text-gray-800">Projects Done</p>
-						<p className="text-3xl font-bold text-center text-purple-600 py-4">50+</p>
-					</div>
-
-					<div className="md:w-1/4 text-purple-600 hover:text-pink-600 transition-all bg-white shadow-lg rounded-lg px-6 py-8 flex flex-col justify-between hover:shadow-2xl duration-300">
-						<p className="text-xl font-semibold text-center text-gray-800">Papers Published</p>
-						<p className="text-3xl font-bold text-center text-purple-600 py-4">5+</p>
 					</div>
 				</div>
 			</div>
@@ -192,7 +182,7 @@ const Home = () => {
 						<p className="text-xl font-semibold text-center text-gray-800">Workshops</p>
 						<img className="w-1/2 h-40 object-contain m-auto" src="/imgs/services/workshops.webp" alt="" />
 						<p className="text-base text-center py-4 text-gray-600 flex-grow">Through various initiatives, Multiverse Researchers have run multiple workshops to platform and educate members on research and educational aspects. Below is a catalog of our recent efforts.</p>
-						<Link to={"/rewire"}>
+						<Link to={"/workshops"}>
 							<div className="w-fit m-auto text-lg bg-pink-400 hover:bg-pink-700 text-white transition-colors duration-300 rounded-full py-3 px-8 cursor-pointer">
 								Learn More
 							</div>

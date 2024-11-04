@@ -1,4 +1,10 @@
+import { useLayoutEffect } from "react";
+
 const Coldemail = () => {
+  useLayoutEffect(() => {
+		window.scrollTo(0, 0)
+	});
+
   return (
     <div className="p-8">
         <p className="font-bold text-2xl pt-8 text-center">Cold Email Assistance</p>
