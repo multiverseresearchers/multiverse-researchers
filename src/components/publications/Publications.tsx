@@ -146,14 +146,8 @@ const Publications = () => {
 
   return (
     <div>
-<<<<<<< HEAD
-      <div className='flex flex-col items-center justify-center h-[50vh]'>
-        <h1 className='text-center sm:text-2xl md:text-3xl lg:text-4xl m-5'><span className="font-semibold">Paper Spotlight</span></h1>
-        <div>
-          <h1 className='text-center sm:text-md md:text-md lg:text-lg m-5'>This page is under maintenance. We&apos;ll be back soon!</h1>
-=======
       <div className='flex flex-col items-center justify-center w-full'>
-        <h1 className='text-center sm:text-2xl md:text-3xl lg:text-4xl m-5'><span className="font-semibold">Published Papers</span></h1>
+        <h1 className='text-center sm:text-2xl md:text-3xl lg:text-4xl m-5'><span className="font-semibold">Paper Spotlight</span></h1>
 
           <div className="flex grid divide-x-2 divide-gray-700 grid-cols-5">
 
@@ -227,7 +221,6 @@ const Publications = () => {
                 </div>
               </div>
             </div>
->>>>>>> 67c24e3b0bed16731d65dd106374848d84d9caed
         </div>
       </div>
 
