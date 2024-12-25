@@ -158,7 +158,7 @@ const Home = () => {
 
 					<div className="md:w-1/4 text-purple-600 hover:text-pink-600 transition-all bg-white shadow-lg rounded-lg px-6 py-8 flex flex-col justify-between hover:shadow-2xl duration-300">
 						<p className="text-xl font-semibold text-center text-gray-800">Countries Reached</p>
-						<p className="text-3xl font-bold text-center text-purple-600 py-4">21+</p>
+						<p className="text-3xl font-bold text-center text-purple-600 py-4">30+</p>
 					</div>
 				</div>
 			</div>
