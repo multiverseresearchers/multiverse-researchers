@@ -32,7 +32,7 @@ const Publications = () => {
       {
         title: "An Innovative Way to Mitigate the Sign Problem in Quantum Monte Carlo Simulations",
         author: "Anand Ajith",
-        link: "",
+        link: "https://drive.google.com/file/d/1NjpfHpaOoNJPyfDMFkkmPJ4wUddlx7aE/view",
         subject: "compsci",
         abstract: "The existence of the sign problem severely affects the efficiency of quantum Monte Carlo simulations designed to simulate many-body quantum systems. I explore the significance of this through a detailed analysis of the decomposed partition function. I use adjacency matrices and geometric phases of closed walks which represent Hamiltonian systems to demonstrate how the sign of associated weights influence the overall function’s positivity. I propose the use of unitary transformations to mitigate the sign problem. I use the geometric representation to create a cost function that measures the weights of fundamental cycles to determine the significance of the sign problem, after applications of unitaries. Using gradient-descent optimization, I propose a superior algorithm that seeks to optimize the cost function and generate a unitary which mitigates the sign problem."
       },
