@@ -148,7 +148,7 @@ const Home = () => {
 				<div className="m-auto w-4/5 flex flex-col md:flex-row justify-evenly gap-4 lg:w-2/3">
 					<div className="md:w-1/4 text-purple-600 hover:text-pink-600 transition-all bg-white shadow-lg rounded-lg px-6 py-8 flex flex-col justify-between hover:shadow-2xl duration-300">
 						<p className="text-xl font-semibold text-center text-gray-800">Members</p>
-						<p className="text-3xl font-bold text-center py-4">1000+</p>
+						<p className="text-3xl font-bold text-center py-4">1k+</p>
 					</div>
 
 					<div className="md:w-1/4 text-purple-600 hover:text-pink-600 transition-all bg-white shadow-lg rounded-lg px-6 py-8 flex flex-col justify-between hover:shadow-2xl duration-300">
