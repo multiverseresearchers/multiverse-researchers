@@ -1,5 +1,5 @@
 import './About.css'
-import filler_img_1 from '/imgs/filler/Rectangle_19.png'
+import lab_image from '/imgs/filler/lab.jpg'
 
 const About = () => {
 
@@ -20,7 +20,7 @@ const About = () => {
 						from physics to economics.
 					</div>
 				</div>
-				<img className='hidden md:block' src={filler_img_1} alt="Filler Img from Figma" />
+				<img className='hidden md:block w-1/2 object-cover rounded-xl aspect-video' src={lab_image} alt="Scientific Laboratory" />
 			</div>
 
 			<div className="flex flex-col items-center justify-center">

@@ -158,7 +158,7 @@ const Home = () => {
 
 					<div className="md:w-1/4 text-purple-600 hover:text-pink-600 transition-all bg-white shadow-lg rounded-lg px-6 py-8 flex flex-col justify-between hover:shadow-2xl duration-300">
 						<p className="text-xl font-semibold text-center text-gray-800">Countries Reached</p>
-						<p className="text-3xl font-bold text-center text-purple-600 py-4">30+</p>
+						<p className="text-3xl font-bold text-center text-purple-600 py-4">35+</p>
 					</div>
 				</div>
 			</div>
@@ -193,7 +193,7 @@ const Home = () => {
 						<p className="text-xl font-semibold text-center text-gray-800">Summer Program Help</p>
 						<img className="w-1/2 h-40 object-contain m-auto" src="/imgs/services/summer.webp" alt="" />
 						<p className="text-base text-center py-4 text-gray-600 flex-grow">Get free one-on-one guidance on your summer program applications. We&apos;ll provide program recommendations and assist you with your application process.</p>
-						<Link to={"/cold-email-assistance"}>
+						<Link to={"/summer-assistance"}>
 							<div className="w-fit m-auto text-lg bg-pink-400 hover:bg-pink-700 text-white transition-colors duration-300 rounded-full py-3 px-8 cursor-pointer">
 								Learn More
 							</div>
