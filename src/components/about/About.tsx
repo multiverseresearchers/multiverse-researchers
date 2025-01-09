@@ -20,7 +20,7 @@ const About = () => {
 						from physics to economics.
 					</div>
 				</div>
-				<img className='hidden md:block w-1/2 object-cover rounded-xl aspect-video' src={lab_image} alt="Scientific Laboratory" />
+				<img className='hidden md:block w-1/2 object-cover rounded-xl aspect-[16/11]' src={lab_image} alt="Scientific Laboratory" />
 			</div>
 
 			<div className="flex flex-col items-center justify-center">
