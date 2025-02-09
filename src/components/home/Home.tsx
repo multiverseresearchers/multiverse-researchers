@@ -4,6 +4,8 @@ import CSS from "csstype";
 import './Home.css'
 import { Link } from "react-router-dom";
 
+import { Helmet } from "react-helmet-async";
+
 const Home = () => {
 
 	const backgroundWrapping: CSS.Properties = {
@@ -12,6 +14,17 @@ const Home = () => {
 	}
 
 	return (
+        <>
+        <Helmet>
+        <title>Multiverse Researchers &ndash The Future of Research Starts Here</title>
+        <meta name="description" content="A student-led organization empowering high schoolers to engage in innovative research in fields like biology, physics, and computer science." />
+        <meta name="keywords" content="student research, high school research, biology research, physics research, computer science research" />
+        <meta property="og:title" content="Multiverse Researchers &ndash The Future of Research Starts Here" />
+        <meta property="og:description" content="Join us and explore research opportunities in biology, physics, computer science, and more!" />
+        <meta property="og:image" content="/imgs/filler/Background.png" />
+        <meta property="og:url" content="https://yourdomain.com" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Helmet>
 		<div className="bg-[url('/imgs/filler/Background.png')] pb-32" style={backgroundWrapping}>
 			<div className='flex flex-col w-full h-[84vh] items-center justify-evenly'>
 				<div className='flex flex-col items-center justify-center mt-8'>
@@ -31,7 +44,7 @@ const Home = () => {
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="compsci">Computer Science Group</TabsTrigger>
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="polisci">Political Science Group</TabsTrigger>
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="bio">Biology Group</TabsTrigger>
-						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="math">Mathematics Group</TabsTrigger>
+						{/* <TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="math">Mathematics Group</TabsTrigger> */}
 					</TabsList>
 
 					<div className="p-8 bg-white border border-gray-100 rounded-lg shadow-xl">
@@ -158,7 +171,7 @@ const Home = () => {
 
 					<div className="md:w-1/4 text-purple-600 hover:text-pink-600 transition-all bg-white shadow-lg rounded-lg px-6 py-8 flex flex-col justify-between hover:shadow-2xl duration-300">
 						<p className="text-xl font-semibold text-center text-gray-800">Countries Reached</p>
-						<p className="text-3xl font-bold text-center text-purple-600 py-4">35+</p>
+						<p className="text-3xl font-bold text-center text-purple-600 py-4">40+</p>
 					</div>
 				</div>
 			</div>
@@ -214,6 +227,7 @@ const Home = () => {
 			</div>
 
 		</div>
+        </>
 	)
 }
 
