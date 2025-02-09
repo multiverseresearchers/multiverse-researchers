@@ -4,8 +4,6 @@ import CSS from "csstype";
 import './Home.css'
 import { Link } from "react-router-dom";
 
-import { Helmet } from "react-helmet-async";
-
 const Home = () => {
 
 	const backgroundWrapping: CSS.Properties = {
@@ -15,15 +13,6 @@ const Home = () => {
 
 	return (
         <>
-        <Helmet>
-        <title>Multiverse Researchers &ndash The Future of Research Starts Here</title>
-        <meta name="description" content="A student-led organization empowering high schoolers to engage in innovative research in fields like biology, physics, and computer science." />
-        <meta name="keywords" content="student research, high school research, biology research, physics research, computer science research" />
-        <meta property="og:title" content="Multiverse Researchers &ndash The Future of Research Starts Here" />
-        <meta property="og:description" content="Join us and explore research opportunities in biology, physics, computer science, and more!" />
-        <meta property="og:image" content="/imgs/filler/Background.png" />
-        <meta property="og:url" content="https://multiverseresearchers.org/" />
-      </Helmet>
 		<div className="bg-[url('/imgs/filler/Background.png')] pb-32" style={backgroundWrapping}>
 			<div className='flex flex-col w-full h-[84vh] items-center justify-evenly'>
 				<div className='flex flex-col items-center justify-center mt-8'>
