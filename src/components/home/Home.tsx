@@ -22,8 +22,7 @@ const Home = () => {
         <meta property="og:title" content="Multiverse Researchers &ndash The Future of Research Starts Here" />
         <meta property="og:description" content="Join us and explore research opportunities in biology, physics, computer science, and more!" />
         <meta property="og:image" content="/imgs/filler/Background.png" />
-        <meta property="og:url" content="https://yourdomain.com" />
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="og:url" content="https://multiverseresearchers.org/" />
       </Helmet>
 		<div className="bg-[url('/imgs/filler/Background.png')] pb-32" style={backgroundWrapping}>
 			<div className='flex flex-col w-full h-[84vh] items-center justify-evenly'>
