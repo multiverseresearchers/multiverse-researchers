@@ -22,7 +22,36 @@ const Home = () => {
 				<svg className='animate-bounce p-0 m-0' xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 3C12.5523 3 13 3.44772 13 4V17.5858L18.2929 12.2929C18.6834 11.9024 19.3166 11.9024 19.7071 12.2929C20.0976 12.6834 20.0976 13.3166 19.7071 13.7071L12.7071 20.7071C12.3166 21.0976 11.6834 21.0976 11.2929 20.7071L4.29289 13.7071C3.90237 13.3166 3.90237 12.6834 4.29289 12.2929C4.68342 11.9024 5.31658 11.9024 5.70711 12.2929L11 17.5858V4C11 3.44772 11.4477 3 12 3Z" fill="#000000" /></svg>
 				<a href="https://daztyxpv.formester.com/f/6e4ea898-ec48-41c9-9570-fbe35facdc17" target="_blank"><div className="text-xl bg-pink-300 hover:bg-pink-900 hover:text-white transition-colors duration-300 rounded-full py-4 px-8 cursor-pointer my-4">JOIN US</div></a>
 			</div>
+
+			<div className="mb-32">
+				<h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold text-center py-8 text-gray-800'>
+					Our Accomplishments
+				</h2>
+
+				<div className="m-auto w-4/5 flex flex-col md:flex-row justify-evenly gap-4 lg:w-2/3">
+					<div className="md:w-1/4 text-purple-600 hover:text-pink-600 transition-all bg-white shadow-lg rounded-lg px-6 py-8 flex flex-col justify-between hover:shadow-2xl duration-300">
+						<p className="text-xl font-semibold text-center text-gray-800">Members</p>
+						<p className="text-3xl font-bold text-center py-4">1k+</p>
+					</div>
+
+					<div className="md:w-1/4 text-purple-600 hover:text-pink-600 transition-all bg-white shadow-lg rounded-lg px-6 py-8 flex flex-col justify-between hover:shadow-2xl duration-300">
+						<p className="text-xl font-semibold text-center text-gray-800">Research Groups</p>
+						<p className="text-3xl font-bold text-center text-purple-600 py-4">8</p>
+					</div>
+
+					<div className="md:w-1/4 text-purple-600 hover:text-pink-600 transition-all bg-white shadow-lg rounded-lg px-6 py-8 flex flex-col justify-between hover:shadow-2xl duration-300">
+						<p className="text-xl font-semibold text-center text-gray-800">Countries Reached</p>
+						<p className="text-3xl font-bold text-center text-purple-600 py-4">40+</p>
+					</div>
+				</div>
+			</div>
+
 			<div className="hidden md:flex flex-col w-full items-center">
+				
+				<h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold text-center py-8 text-gray-800'>
+					Research Groups
+				</h2>
+
 				<Tabs defaultValue="physics" className="w-2/3 p-1">
 					<TabsList className="flex flex-row justify-evenly h-fit bg-white shadow-lg border border-gray-100 rounded-lg mb-12">
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="envisci">Environmental Science Group</TabsTrigger>
@@ -139,29 +168,6 @@ const Home = () => {
 						</TabsContent>
 					</div>
 				</Tabs>
-			</div>
-
-			<div className="mt-32">
-				<h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold text-center py-8 text-gray-800'>
-					Our Accomplishments
-				</h2>
-
-				<div className="m-auto w-4/5 flex flex-col md:flex-row justify-evenly gap-4 lg:w-2/3">
-					<div className="md:w-1/4 text-purple-600 hover:text-pink-600 transition-all bg-white shadow-lg rounded-lg px-6 py-8 flex flex-col justify-between hover:shadow-2xl duration-300">
-						<p className="text-xl font-semibold text-center text-gray-800">Members</p>
-						<p className="text-3xl font-bold text-center py-4">1k+</p>
-					</div>
-
-					<div className="md:w-1/4 text-purple-600 hover:text-pink-600 transition-all bg-white shadow-lg rounded-lg px-6 py-8 flex flex-col justify-between hover:shadow-2xl duration-300">
-						<p className="text-xl font-semibold text-center text-gray-800">Research Groups</p>
-						<p className="text-3xl font-bold text-center text-purple-600 py-4">8</p>
-					</div>
-
-					<div className="md:w-1/4 text-purple-600 hover:text-pink-600 transition-all bg-white shadow-lg rounded-lg px-6 py-8 flex flex-col justify-between hover:shadow-2xl duration-300">
-						<p className="text-xl font-semibold text-center text-gray-800">Countries Reached</p>
-						<p className="text-3xl font-bold text-center text-purple-600 py-4">40+</p>
-					</div>
-				</div>
 			</div>
 
 			<div className="mt-32">
