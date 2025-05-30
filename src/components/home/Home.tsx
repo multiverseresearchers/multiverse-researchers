@@ -175,44 +175,44 @@ const Home = () => {
 
 				<div className="m-auto w-4/5 flex flex-col md:flex-row justify-evenly gap-4 lg:w-2/3">
 					<div className="md:w-1/4 bg-white shadow-lg rounded-lg px-6 py-8 flex flex-col justify-between hover:shadow-2xl transition-shadow duration-300">
-						<p className="text-xl font-semibold text-center text-gray-800">ReWire Program</p>
-						<img className="w-1/2 h-40 object-contain m-auto" src="/imgs/services/rewire.webp" alt="" />
-						<p className="text-base text-center py-4 text-gray-600 flex-grow">ReWire offers free, personalized research mentorship and project feedback for novice researchers, helping refine current projects and strengthen fundamental research skills for future success.</p>
+						<p className="text-xl font-semibold text-center text-gray-800">ReWire Program</p><br/>
+						<img className="w-1/2 h-20 object-contain m-auto" src="/imgs/services/rewire.webp" alt="" />
+						<p className="text-sm text-center py-4 text-gray-600 flex-grow">ReWire offers free, personalized research mentorship and project feedback for novice researchers, helping refine current projects and strengthen fundamental research skills for future success.</p>
 						<Link to={"/rewire"}>
-							<div className="w-fit m-auto text-lg bg-pink-400 hover:bg-pink-700 text-white transition-colors duration-300 rounded-full py-3 px-8 cursor-pointer">
+							<div className="w-fit text-center m-auto text-lg bg-pink-400 hover:bg-pink-700 text-white transition-colors duration-300 rounded-full py-3 px-8 cursor-pointer">
 								Learn More
 							</div>
 						</Link>
 					</div>
 
 					<div className="md:w-1/4 bg-white shadow-lg rounded-lg px-6 py-8 flex flex-col justify-between hover:shadow-2xl transition-shadow duration-300">
-						<p className="text-xl font-semibold text-center text-gray-800">Workshops</p>
-						<img className="w-1/2 h-40 object-contain m-auto" src="/imgs/services/workshops.webp" alt="" />
-						<p className="text-base text-center py-4 text-gray-600 flex-grow">Through various initiatives, Multiverse Researchers have run multiple workshops to platform and educate members on research and educational aspects. Below is a catalog of our recent efforts.</p>
+						<p className="text-xl font-semibold text-center text-gray-800">Workshops</p><br/>
+						<img className="w-1/2 h-20 object-contain m-auto" src="/imgs/services/workshops.webp" alt="" />
+						<p className="text-sm text-center py-4 text-gray-600 flex-grow">Through various initiatives, Multiverse Researchers have run multiple workshops to platform and educate members on research and educational aspects. Below is a catalog of our recent efforts.</p>
 						<Link to={"/workshops"}>
-							<div className="w-fit m-auto text-lg bg-pink-400 hover:bg-pink-700 text-white transition-colors duration-300 rounded-full py-3 px-8 cursor-pointer">
+							<div className="w-fit text-center m-auto text-lg bg-pink-400 hover:bg-pink-700 text-white transition-colors duration-300 rounded-full py-3 px-8 cursor-pointer">
 								Learn More
 							</div>
 						</Link>
 					</div>
 
 					<div className="md:w-1/4 bg-white shadow-lg rounded-lg px-6 py-8 flex flex-col justify-between hover:shadow-2xl transition-shadow duration-300">
-						<p className="text-xl font-semibold text-center text-gray-800">Summer Program Help</p>
-						<img className="w-1/2 h-40 object-contain m-auto" src="/imgs/services/summer.webp" alt="" />
-						<p className="text-base text-center py-4 text-gray-600 flex-grow">Get free one-on-one guidance on your summer program applications. We&apos;ll provide program recommendations and assist you with your application process.</p>
+						<p className="text-xl pb-2 font-semibold text-center text-gray-800">Summer Program Help</p>
+						<img className="w-1/2 h-20 object-contain m-auto" src="/imgs/services/summer.webp" alt="" />
+						<p className="text-sm text-center py-4 text-gray-600 flex-grow">Get free one-on-one guidance on your summer program applications. We&apos;ll provide program recommendations and assist you with your application process.</p>
 						<Link to={"/summer-assistance"}>
-							<div className="w-fit m-auto text-lg bg-pink-400 hover:bg-pink-700 text-white transition-colors duration-300 rounded-full py-3 px-8 cursor-pointer">
+							<div className="w-fit text-center m-auto text-lg bg-pink-400 hover:bg-pink-700 text-white transition-colors duration-300 rounded-full py-3 px-8 cursor-pointer">
 								Learn More
 							</div>
 						</Link>
 					</div>
 
 					<div className="md:w-1/4 bg-white shadow-lg rounded-lg px-6 py-8 flex flex-col justify-between hover:shadow-2xl transition-shadow duration-300">
-						<p className="text-xl font-semibold text-center text-gray-800">Cold Email Assistance</p>
-						<img className="w-1/2 h-40 object-contain m-auto" src="/imgs/services/cold-email.webp" alt="" />
-						<p className="text-base text-center py-4 text-gray-600 flex-grow">Get free one-on-one guidance in writing and sending cold emails to professors for internship and outreach opportunities.</p>
+						<p className="text-xl pb-2 font-semibold text-center text-gray-800">Cold Email Assistance</p>
+						<img className="w-1/2 h-20 object-contain m-auto" src="/imgs/services/cold-email.webp" alt="" />
+						<p className="text-sm text-center py-4 text-gray-600 flex-grow">Get free one-on-one guidance in writing and sending cold emails to professors for internship and outreach opportunities.</p>
 						<Link to={"/cold-email-assistance"}>
-							<div className="w-fit m-auto text-lg bg-pink-400 hover:bg-pink-700 text-white transition-colors duration-300 rounded-full py-3 px-8 cursor-pointer">
+							<div className="w-fit m-auto text-center text-lg bg-pink-400 hover:bg-pink-700 text-white transition-colors duration-300 rounded-full py-3 px-8 cursor-pointer">
 								Learn More
 							</div>
 						</Link>
