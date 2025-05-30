@@ -65,21 +65,6 @@ const About = () => {
                     <div className='flex flex-col md:w-7/12 m-auto justify-center md:flex-row gap-8 py-4'>
                         <div className='md:w-1/6'></div>
 						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
-							<p className='font-bold'>Rowan Wheaton</p>
-							<p>Lead Research Manager</p>
-						</div>
-						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
-							<p className='font-bold'>Alyssa Gin</p>
-							<p>Lead Research Manager</p>
-						</div>
-                        <div className='md:w-1/6'></div>
-					</div>
-                    <hr className='md:w-2/3 m-auto' />
-
-
-                    <div className='flex flex-col md:w-7/12 m-auto justify-center md:flex-row gap-8 py-4'>
-                        <div className='md:w-1/6'></div>
-						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
 							<p className='font-bold'>Shashwat Mishra</p>
 							<p>Environmental Science Research Manager</p>
 						</div>
@@ -122,10 +107,6 @@ const About = () => {
 							<p className='font-bold'>Akshith Muthukumar</p>
 							<p>Mathematics Research Manager</p>
 						</div>
-						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
-							<p className='font-bold'>Eric Nathan Stucky</p>
-							<p>Mathematics Research Manager</p>
-						</div>
                         <div className='md:w-1/6'></div>
 					</div>
 
@@ -144,19 +125,17 @@ const About = () => {
 						</div>
 					</div>
 
-                    <div className='flex flex-col md:w-7/12 m-auto justify-center md:flex-row gap-8 py-4'>
+					<div className='flex flex-col md:w-7/12 m-auto justify-center md:flex-row gap-8 py-4'>
+                        <div className='md:w-1/6'></div>
 						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
 							<p className='font-bold'>Hadizah Coulibaly</p>
 							<p>Astronomy Research Manager</p>
 						</div>
 						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
-							<p className='font-bold'>Nikhil Godbole</p>
-							<p>Economics Research Manager</p>
-						</div>
-						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
 							<p className='font-bold'>Yeeun Park</p>
 							<p>Political Science Research Manager</p>
 						</div>
+                        <div className='md:w-1/6'></div>
 					</div>
                     <hr className='md:w-2/3 m-auto' />
 
@@ -188,6 +167,14 @@ const About = () => {
 							<p className='font-bold'>Taskia Islam</p>
 							<p>Social Media Manager</p>
 						</div>
+					</div>
+					<div className='flex flex-col md:w-7/12 m-auto justify-center md:flex-row gap-8 py-4'>
+                        <div className='md:w-1/6'></div>
+						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
+							<p className='font-bold'>Aaryav Seth</p>
+							<p>Social Media Manager</p>
+						</div>
+                        <div className='md:w-1/6'></div>
 					</div>
 				</div>
 				{/* <div className="p-8 w-fit">
