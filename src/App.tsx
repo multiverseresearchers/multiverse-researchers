@@ -10,7 +10,7 @@ import Terms from './components/terms/Terms'
 import Research from './components/research/Research'
 import Programs from './components/programs/Programs'
 import Rewire from './components/programs/Rewire'
-import Coldemail from './components/programs/Coldemail'
+import ColdEmail from './components/programs/Coldemail'
 import Summerassistance from './components/programs/Summerassistance'
 import Workshops from './components/programs/Workshops'
 
@@ -29,7 +29,7 @@ function App() {
 					<Route path='/rewire' element={<Rewire />}></Route>
 					<Route path='/workshops' element={<Workshops />}></Route>
 					<Route path='/summer-assistance' element={<Summerassistance />}></Route>
-					<Route path='/cold-email-assistance' element={<Coldemail />}></Route>
+					<Route path='/cold-email-assistance' element={<ColdEmail />}></Route>
 					<Route path='/terms' element={<Terms />}></Route>
 				</Routes>
 				<Footer />
