@@ -56,7 +56,7 @@ const Summerassistance = () => {
 							<h2 className="font-bold text-2xl mb-4">Apply Now</h2>
 							<p className="text-gray-700 pb-4">Support is available year-round, but we recommend starting early for competitive programs.</p>
 							<p className='pb-2'>Looking for guidance?</p>
-							<a href="https://placehold.co/" target="_blank" rel="noopener noreferrer">
+							<a href="https://forms.gle/pMWqpN7sLNJAD9LZ8" target="_blank" rel="noopener noreferrer">
 								<div className="bg-pink-500 hover:bg-pink-600 text-white rounded-full py-2 px-6 cursor-pointer">
 									Request Assistance
 								</div>
