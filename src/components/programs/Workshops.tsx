@@ -62,7 +62,7 @@ const Workshops = () => {
             icon={<FaQuestionCircle className="text-5xl ml-auto mb-4" />}
             desc=""
             color="blue"
-            members="15"
+            members="35"
           />
 
         </div>
