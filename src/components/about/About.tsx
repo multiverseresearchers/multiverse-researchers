@@ -137,6 +137,23 @@ const About = () => {
 						</div>
 						<div className='md:w-1/6'></div>
 					</div>
+					<hr className='md:w-2/3 m-auto' />
+
+
+					<div className='flex flex-col md:w-7/12 m-auto justify-center md:flex-row gap-8 py-4'>
+						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
+							<p className='font-bold'>Anthony Zhang</p>
+							<p>Workshops Manager</p>
+						</div>
+						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
+							<p className='font-bold'>Grey Nakhwa</p>
+							<p>Workshops Manager</p>
+						</div>
+						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
+							<p className='font-bold'>Isabella Mercado</p>
+							<p>Workshops Manager</p>
+						</div>
+					</div>
 
 				</div>
 				{/* <div className="p-8 w-fit">
