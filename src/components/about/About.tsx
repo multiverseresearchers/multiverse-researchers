@@ -146,7 +146,7 @@ const About = () => {
 							<p>Workshops Manager</p>
 						</div>
 						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
-							<p className='font-bold'>Grey Nakhwa</p>
+							<p className='font-bold'>Grey Ray</p>
 							<p>Workshops Manager</p>
 						</div>
 						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
