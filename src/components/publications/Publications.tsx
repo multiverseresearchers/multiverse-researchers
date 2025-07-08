@@ -9,6 +9,13 @@ const Publications = () => {
   const [publications] = useState(
     [
       {
+        title:"Multifaceted Impacts on Marginalized Communities: Makoko, Kibera, and Kivalina: A Review", 
+        author: "Shashwat Mishra, Qistina Yuzrinoor, Aneeça Parpia, Boran Huang, Angelisa Wang, Tashvi Khare",
+        link: "https://www.researchgate.net/publication/389643038_Multifaceted_Impacts_on_Marginalized_Communities_Makoko_Kibera_and_Kivalina_A_Review",
+        subject: "envsci",
+        abstract: "This article examines the impact on marginalized communities in three specific communities: Kibera, Makoko, and Kivalina. Marginalized communities are those excluded from mainstream social, economic, educational, or cultural life [1]. These communities are impacted by a myriad of factors, including but not limited to rising sea levels, pollution, flooding, coastal erosion, climate change, and a lack of space. These factors have a direct impact on marginalized communities, affecting their quality of life and causing them to struggle with a number of issues such as poverty, poor sanitation, food insecurity, insufficient electricity supply, unemployment, and a lack of access to clean water [1]. We will research the connections between three different marginalized communities and their impact. What is the impact on Makoko, Kibera, and Kivalina? How does it affect them? We will answer this question by examining the standard of living of marginalized communities before, during, and after the impact. Our research methodology included reviewing, analyzing, and summarizing data from journals and case studies."
+      },
+      {
         title:"Design and Development of Weather Forecasting Software For Agriculture", 
         author: "Vu Ngoc Kien, Tran Ngoc Nhat Minh",
         link: "https://www.jetir.org/view?paper=JETIR2410146",
@@ -70,6 +77,48 @@ const Publications = () => {
         subject: "envsci",
         link: "https://www.researchgate.net/publication/383213319_In-depth_relationship_between_air_pollutants_and_Coronary_Artery_Disease_in_South_Asia_A_Review",
         abstract: "Coronary artery disease (CAD) is a potentially fatal cardiovascular condition characterized bythe obstruction of plaque, disrupting appropriate blood flow to the heart. While the buildup of cholesterol deposits is a common cause of CAD, new research by Roopesh Singh Gangwar[1]has shown that reactive oxygen species (ROS) created from exposure to Particulate Matter 2.5(PM 2.5) can also contribute to the disease. In South Asia, air pollutants such as PM2.5 and methane combustion are at extreme levels and have been firmly associated with the development of cardiovascular disease. Specifically, Pakistan's most common heart disease isCAD, and cardiovascular disease is the leading cause of death[2]. The country has experienced pollutant levels above 35 μg/m³, which are considered detrimental to human health. Although The negative impacts of PM2.5 are not completely understood scientifically, recent studies byPrakash Thangavel[3] have pointed to connections with ROS. This paper will discuss the correlation between elevated PM2.5 and ROS levels and the increased rates of cardiovascular disease in the most affected provinces of South Asia, as well as the impact of other industrial pollutants such as volatile organic compounds (VOCs) and methane."
+      },
+      {
+        title: "Title",
+        author: "Molay Kumar",
+        subject: "envsci",
+        link: "https://kami.app/wTi-z5U-PN9-hBx",
+        abstract: "Abstract"
+      },
+      {
+        title: "HydroPad: The Cheaper and More Effective Alternative to Common Antibacterial Dressings and Pads",
+        author: "Pradhyumna Vasishta",
+        subject: "envsci",
+        link: "https://tinyurl.com/pradhyumnavasishta",
+        abstract: "Introduction too blurry"
+      },
+      {
+        title: "A Comprehensive Review Comparing Irritable Bowel Syndrome and Inflammatory Bowel Disease",
+        author: "Churnika Gudla Venkata Siva",
+        subject: "bio",
+        link: "https://drive.google.com/file/d/1e-WHwcQAFX8UaLNFqgbvKRL15R0G-VuT/view",
+        abstract: "This article examines and compares the distinctions and similarities between Irritable Bowel Syndrome (IBS) and Inflammatory Bowel Disease (IBD). Despite some overlap in symptoms, risk factors, and epidemiology, IBS and IBD are distinct conditions with varying underlying causes and management strategies. In this review, we explore the underlying causes of IBS and IBD, including immune activation, changes in the microbiota, genetics, and psychological factors. Diagnostic methods such as fecal calprotectin and BAFF are reviewed as well, along with treatment options including psychological interventions, dietary changes, and the use of antibiotics and probiotics. The concept of remission is also discussed in relation to both conditions. In summary, this analysis aims to combine and compare various studies and reviews of information regarding IBS and IBD symptoms, demographics, causes, diagnosis, treatment, and remission, with the goal of improving diagnostic accuracy and treatment strategies."
+      },
+      {
+        title: "Poster: A Comprehensive Review Comparing Irritable Bowel Syndrome and Inflammatory Bowel Disease",
+        author: "Churnika Gudla Venkata Siva",
+        subject: "bio",
+        link: "https://drive.google.com/file/d/1TCVTKS2g2TcJJpy6LQ-xOLbMY-aGy5TE/view",
+        abstract: "Coronary artery disease (CAD) is a potentially fatal cardiovascular condition characterized bythe obstruction of plaque, disrupting appropriate blood flow to the heart. While the buildup of cholesterol deposits is a common cause of CAD, new research by Roopesh Singh Gangwar[1]has shown that reactive oxygen species (ROS) created from exposure to Particulate Matter 2.5(PM 2.5) can also contribute to the disease. In South Asia, air pollutants such as PM2.5 and methane combustion are at extreme levels and have been firmly associated with the development of cardiovascular disease. Specifically, Pakistan's most common heart disease isCAD, and cardiovascular disease is the leading cause of death[2]. The country has experienced pollutant levels above 35 μg/m³, which are considered detrimental to human health. Although The negative impacts of PM2.5 are not completely understood scientifically, recent studies byPrakash Thangavel[3] have pointed to connections with ROS. This paper will discuss the correlation between elevated PM2.5 and ROS levels and the increased rates of cardiovascular disease in the most affected provinces of South Asia, as well as the impact of other industrial pollutants such as volatile organic compounds (VOCs) and methane."
+      },
+      {
+        title: "Developing a Machine Learning Model that Predicts the Percentage of People with Diabetes in California",
+        author: "Nidhi Veerendra",
+        subject: "compsci",
+        link: "https://drive.google.com/file/d/1nMuVQ-r1SfFQQEHzsd5dro3G64O8K5DH/view",
+        abstract: "Diabetes mellitus is a common and chronic problem with important implications for public health, most especially within the state of California, which in 2020, reported the highest cases of new onset in the United States (3.2 million). Traditional approaches, like support vector machines, bayesian networks, and k-nearest neighbors, usually become unfit for large datasets with complexity. This research used machine learning to predict the prevalence of diabetes in California based on age, year, and strata. This research uses a secondary dataset, involving rigorous data preparation and feature engineering. My model provides an average mean squared error of 0.128 on the training set and 0.112 on the test set, corresponding to an R-squared value of 0.994 and 0.993, thus showing the model to be very accurate. The implication of the study is immense, for it can point out key predictors of diabetes and therefore develop focused public health interventions on high-risk groups and optimize resource allocation. The model works quite satisfactorily, the assumptions inherent in such linearity are there, along with data quality constraints. Further studies would extend the investigation to more complex algorithms, like gradient boosting machines and principal component analysis, that would better raise data quality and prediction capabilities. It also further provides the impetus for the integration of machine learning in public health strategies for more precise and effective diabetes management."
+      },
+      {
+        title: "The effects of COVID-19 on NO2 Concentrations, Air Pollution, Water pollution, & Water quality: A Review",
+        author: "Shashwat Mishra",
+        subject: "envsci",
+        link: "https://research-archive.org/index.php/rars/preprint/view/2598/3652",
+        abstract: "The COVID-19 pandemic has led to unprecedented adjustments in human activity globally, resulting in significant effects on environmental factors such as nitrogen dioxide (NO2) concentrations, air pollution, water pollutants, and water quality. This evaluation examines the results of the pandemic on these environmental parameters, drawing upon a wide range of scientific literature and data sources. Firstly, the reduction in commercial activities, transportation, and other anthropogenic sources during lockdown periods has caused substantial declines in NO2 concentrations in many urban areas [1]. This reduction in NO2 levels has been attributed to decreased vehicular emissions and industrial processes, resulting in improved air in city centers. Furthermore, the pandemic has also influenced air pollution levels beyond NO2, with reductions observed in particulate matter (PM2.5 and PM10) concentrations in various regions [2]. These improvements in air quality have had significant implications for public health, potentially reducing respiratory illnesses and associated health burdens [3]. In addition to air pollution, the pandemic has had mixed effects on water pollution and water quality. While reductions in industrial discharges and pollutant runoff have led to temporary improvements in water quality in some areas, there have also been instances of increased pollution due to improper disposal of personal protective equipment (PPE) and disinfectants [4][5]. Overall, this review highlights the complex interaction between the COVID-19 pandemic and environmental factors, emphasizing the need for sustained research and monitoring to assess the long-term effects on NO2 concentrations, air pollution, water pollution, and water quality."
       },
       {
         title: "The Development of Gene Editing Tools on the Animal Model= Zebrafish as a model",
