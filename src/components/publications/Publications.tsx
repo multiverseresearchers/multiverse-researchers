@@ -79,13 +79,6 @@ const Publications = () => {
         abstract: "Coronary artery disease (CAD) is a potentially fatal cardiovascular condition characterized bythe obstruction of plaque, disrupting appropriate blood flow to the heart. While the buildup of cholesterol deposits is a common cause of CAD, new research by Roopesh Singh Gangwar[1]has shown that reactive oxygen species (ROS) created from exposure to Particulate Matter 2.5(PM 2.5) can also contribute to the disease. In South Asia, air pollutants such as PM2.5 and methane combustion are at extreme levels and have been firmly associated with the development of cardiovascular disease. Specifically, Pakistan's most common heart disease isCAD, and cardiovascular disease is the leading cause of death[2]. The country has experienced pollutant levels above 35 μg/m³, which are considered detrimental to human health. Although The negative impacts of PM2.5 are not completely understood scientifically, recent studies byPrakash Thangavel[3] have pointed to connections with ROS. This paper will discuss the correlation between elevated PM2.5 and ROS levels and the increased rates of cardiovascular disease in the most affected provinces of South Asia, as well as the impact of other industrial pollutants such as volatile organic compounds (VOCs) and methane."
       },
       {
-        title: "Title",
-        author: "Molay Kumar",
-        subject: "envsci",
-        link: "https://kami.app/wTi-z5U-PN9-hBx",
-        abstract: "Abstract"
-      },
-      {
         title: "HydroPad: The Cheaper and More Effective Alternative to Common Antibacterial Dressings and Pads",
         author: "Pradhyumna Vasishta",
         subject: "envsci",
