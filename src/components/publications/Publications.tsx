@@ -90,7 +90,7 @@ const Publications = () => {
         author: "Pradhyumna Vasishta",
         subject: "envsci",
         link: "https://tinyurl.com/pradhyumnavasishta",
-        abstract: "Introduction too blurry"
+        abstract: "Abstract"
       },
       {
         title: "A Comprehensive Review Comparing Irritable Bowel Syndrome and Inflammatory Bowel Disease",
