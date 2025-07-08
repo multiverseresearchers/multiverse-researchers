@@ -83,7 +83,7 @@ const Publications = () => {
         author: "Pradhyumna Vasishta",
         subject: "envsci",
         link: "https://tinyurl.com/pradhyumnavasishta",
-        abstract: "Abstract"
+        abstract: "Hydrogels are polymers with a high water content. These polymers have shown remarkable versatility in various applications, from biomedical research to wastewater treatment. In this study, we dive into the science of hydrogels to explore their antibacterial properties. As hydrogels come in various forms, ranging from spheres to sheets, the aim of our research is to understand how the antibacterial properties of hydrogels are demonstrated against different strains of bacteria, and if there is a correlation between the strength of the antibacterial properties of hydrogels and their shape. The shape that outperforms the other can be used to make the HydroPad."
       },
       {
         title: "A Comprehensive Review Comparing Irritable Bowel Syndrome and Inflammatory Bowel Disease",
