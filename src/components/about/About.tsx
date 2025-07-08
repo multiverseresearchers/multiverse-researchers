@@ -49,16 +49,12 @@ const About = () => {
                     <hr className='md:w-2/3 m-auto' />
 
 					<div className='flex flex-col md:w-7/12 m-auto justify-center md:flex-row gap-8 py-4'>
-                        <div className='md:w-1/6'></div>
+                        <div className='md:w-1/3'></div>
 						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
 							<p className='font-bold'>Revati Tambe</p>
 							<p>Web Developer</p>
 						</div>
-						<div className='md:w-1/3 aspect-[3/4] flex flex-col justify-center rounded-lg p-4 border-2'>
-							<p className='font-bold'>Bhargav Eranki</p>
-							<p>Web Developer</p>
-						</div>
-                        <div className='md:w-1/6'></div>
+                        <div className='md:w-1/3'></div>
 					</div>
                     <hr className='md:w-2/3 m-auto' />
 

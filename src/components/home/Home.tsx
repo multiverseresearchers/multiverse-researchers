@@ -31,17 +31,17 @@ const Home = () => {
 				<div className="m-auto w-4/5 flex flex-col md:flex-row justify-evenly gap-4 lg:w-2/3">
 					<div className="md:w-1/4 text-purple-600 hover:text-pink-600 transition-all bg-white shadow-lg rounded-lg px-6 py-8 flex flex-col justify-between hover:shadow-2xl duration-300">
 						<p className="text-xl font-semibold text-center text-gray-800">Members</p>
-						<p className="text-3xl font-bold text-center py-4">2k+</p>
+						<p className="text-3xl font-bold text-center py-4">5k+</p>
 					</div>
 
 					<div className="md:w-1/4 text-purple-600 hover:text-pink-600 transition-all bg-white shadow-lg rounded-lg px-6 py-8 flex flex-col justify-between hover:shadow-2xl duration-300">
 						<p className="text-xl font-semibold text-center text-gray-800">Research Groups</p>
-						<p className="text-3xl font-bold text-center text-purple-600 py-4">8</p>
+						<p className="text-3xl font-bold text-center text-purple-600 py-4">10</p>
 					</div>
 
 					<div className="md:w-1/4 text-purple-600 hover:text-pink-600 transition-all bg-white shadow-lg rounded-lg px-6 py-8 flex flex-col justify-between hover:shadow-2xl duration-300">
 						<p className="text-xl font-semibold text-center text-gray-800">Countries Reached</p>
-						<p className="text-3xl font-bold text-center text-purple-600 py-4">40+</p>
+						<p className="text-3xl font-bold text-center text-purple-600 py-4">45+</p>
 					</div>
 				</div>
 			</div>
@@ -59,6 +59,7 @@ const Home = () => {
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="physics">Physics Group</TabsTrigger>
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="econ">Economics Group</TabsTrigger>
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="compsci">Computer Science Group</TabsTrigger>
+						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="aerospace">Aerospace Group</TabsTrigger>
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="polisci">Political Science Group</TabsTrigger>
 						<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="bio">Biology Group</TabsTrigger>
 						{/* <TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="math">Mathematics Group</TabsTrigger> */}
@@ -69,7 +70,7 @@ const Home = () => {
 							<div className="circle-snippet m-auto w-4/5 lg:w-2/3">
 								<h2 className='text-xl sm:text-2xl lg:text-4xl font-medium text-center py-8'>Biology Group</h2>
 								<div className='text-center'>The Biology Research Group will cover multiple areas of research including biotechnology in genetics, bioinformatics, neuroscience and how genes play a role in neurodegenerative diseases, though, our primary focus is using bioinformatics such as CRISPR/Cas 9 gene editing to target diseases caused by genetic mutations. The group will analyze biological and technological effects of utilizing biotechnology and gene editing therapy in medicine to understand how these can be improved upon or utilized in less-known diseases. </div>
-								<p className="py-4 text-center">Led by Ilinca Sasu and Elmubarak Malik</p>
+								<p className="py-4 text-center">Led by Elmubarak Malik</p>
 								<div className='py-8 flex flex-col md:flex-row md:justify-between gap-8'>
 									<img className='md:w-1/2 object-cover rounded-md' src={"/imgs/circles/bio/bio1.png"} alt="Image 1" />
 									<img className='md:w-1/2 object-cover rounded-md' src={"/imgs/circles/bio/bio2.png"} alt="Image 2" />
@@ -80,10 +81,21 @@ const Home = () => {
 							<div className="circle-snippet m-auto w-4/5 lg:w-2/3">
 								<h2 className='text-xl sm:text-2xl lg:text-4xl font-medium text-center py-8'>Environmental Science Group</h2>
 								<div className='text-center'>Our research group is dedicated to studying how environmental changes—such as rising sea levels, pollution, coastal erosion, and climate shifts—affect the quality of life in marginalized communities. We utilize collaborative research efforts, data analysis, and innovative approaches to address urgent global environmental issues. The group investigates a variety of environmental, social, economic, and cultural factors to enhance understanding and promote sustainable solutions that improve living conditions for those most vulnerable to environmental stress.</div>
-								<p className="py-4 text-center">Led by Shashwat Mishra and Aneeqa Parpia</p>
+								<p className="py-4 text-center">Led by Shashwat Mishra</p>
 								<div className='py-8 flex flex-col md:flex-row md:justify-between gap-8'>
 									<img className='md:w-1/2 object-cover rounded-md' src={"/imgs/circles/envisci/envisci1.png"} alt="Image 1" />
 									<img className='md:w-1/2 object-cover rounded-md' src={"/imgs/circles/envisci/envisci2.png"} alt="Image 2" />
+								</div>
+							</div>
+						</TabsContent>
+						<TabsContent value="aerospace">
+							<div className="circle-snippet m-auto w-4/5 lg:w-2/3">
+								<h2 className='text-xl sm:text-2xl lg:text-4xl font-medium text-center py-8'>Aerospace Group</h2>
+								<div className='text-center'>The objective of the aerospace research group is exploring the science behind flight and space systems. Our work focuses on aerodynamics, satellite systems, and the application of machine learning in aerospace. Through theoretical analysis, we aim to push the boundaries of innovation in aviation and space technology.</div>
+								<p className="py-4 text-center">Led by Prabhjot Singh</p>
+								<div className='py-8 flex flex-col md:flex-row md:justify-between gap-8'>
+									<img className='md:w-1/2 object-cover rounded-md' src={"/imgs/circles/aerospace/aerospace1.webp"} alt="Image 1" />
+									<img className='md:w-1/2 object-cover rounded-md' src={"/imgs/circles/aerospace/aerospace2.webp"} alt="Image 2" />
 								</div>
 							</div>
 						</TabsContent>
@@ -102,7 +114,7 @@ const Home = () => {
 							<div className="circle-snippet m-auto w-4/5 lg:w-2/3">
 								<h2 className='text-xl sm:text-2xl lg:text-4xl font-medium text-center py-8'>Physics Group</h2>
 								<div className='text-center'>The physics research group focuses on advancing our understanding of quantum chromodynamic phenomena through computational analysis of lattice QCD simulations. Examples of goals we aim to achieve include managing measurement field configurations, calculating quantum observations, and analysis of the effectiveness and computational efficiency of these methods. Our goal is to increase the accuracy of lattice QCD calculations and provide deeper insights into the fundamental nature of strong interactions.</div>
-								<p className="py-4 text-center">Led by Anand Ajith, Ojaswit Singh, and Nure Zannat</p>
+								<p className="py-4 text-center">Led by Ojaswit Singh</p>
 								<div className='py-8 flex flex-col md:flex-row md:justify-between gap-8'>
 									<img className='md:w-1/2 object-cover rounded-md' src={"/imgs/circles/physics/physics1.png"} alt="Image 1" />
 									<img className='md:w-1/2 object-cover rounded-md' src={"/imgs/circles/physics/physics2.png"} alt="Image 2" />
@@ -113,7 +125,7 @@ const Home = () => {
 							<div className="circle-snippet m-auto w-4/5 lg:w-2/3">
 								<h2 className='text-xl sm:text-2xl lg:text-4xl font-medium text-center py-8'>Economics Group</h2>
 								<div className='text-center'>The objective of the Economics Research group is to delve into why and how bank failures occur, namely the infamous Silicon Valley Bank, WashuM, and Lehman Brothers. We utilize collaborative research efforts, data analysis, and innovative approaches to address problems with banks and how we can overcome such disasters. We plan on analyzing each of the 3 banks and give a comparitive analysis, overview, consequences, and proactive measures to avoid future failures. We plan on using and analyzing Income Statements, Balance sheets, stock prices before and after failure, management issue analyzation, etc.</div>
-								<p className="py-4 text-center">Led by Nikhil G and Olivia X</p>
+								<p className="py-4 text-center">Led by Nikhil G</p>
 								<div className='py-8 flex flex-col md:flex-row md:justify-between gap-8'>
 									<img className='md:w-1/2 object-cover rounded-md' src={"/imgs/circles/econ/econ1.png"} alt="Image 1" />
 									<img className='md:w-1/2 object-cover rounded-md' src={"/imgs/circles/econ/econ2.png"} alt="Image 2" />
@@ -146,7 +158,7 @@ const Home = () => {
 							<div className="circle-snippet m-auto w-4/5 lg:w-2/3">
 								<h2 className='text-xl sm:text-2xl lg:text-4xl font-medium text-center py-8'>Mathematics Group</h2>
 								<div className='text-center'>Coming soon...</div>
-								<p className="py-4 text-center">Led by Akshith Muthukumar and Eric Nathan Stucky</p>
+								<p className="py-4 text-center">Led by Akshith Muthukumar</p>
 								<div className='py-8 flex flex-col md:flex-row md:justify-between gap-8'>
 									<img className='md:w-1/2 object-cover rounded-md' src={"/imgs/circles/math/math1.png"} alt="Image 1" />
 									<img className='md:w-1/2 object-cover rounded-md' src={"/imgs/circles/math/math2.png"} alt="Image 2" />

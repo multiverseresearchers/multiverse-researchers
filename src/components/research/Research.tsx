@@ -28,7 +28,22 @@ const Research = () => {
 						<li>Adaptive strategies for community resilience in response to environmental stressors</li>
 						<li>Economic and social impacts of environmental changes on local communities</li>
 					</ul>
-					<p>Led by Shashwat Mishra and Aneeqa Parpia</p>
+					<p>Led by Shashwat Mishra</p>
+				</div>
+
+				<div className='shadow-xl w-full p-8 m-5 max-w-screen-lg rounded-lg'>
+					<p className='font-bold text-xl py-4'>Aerospace Group</p>
+					<div className='flex flex-col lg:flex-row w-full gap-4 items-center justify-center'>
+						<img className='rounded-lg object-cover md:w-full md:aspect-[3/1] lg:w-[15%] lg:h-[15%] lg:aspect-square' src="/imgs/circles/aerospace/aerospace1.webp" alt="" />
+						<p className='h-fit'>Our objective is exploring the science behind flight and space systems. Our work focuses on aerodynamics, satellite systems, and the application of machine learning in aerospace. Through theoretical analysis, we aim to push the boundaries of innovation in aviation and space technology.</p>
+					</div>
+					<ul className='list-disc pl-4 py-4'>
+						<li className='list-none -indent-4'>Investigations:</li>
+						<li>Aerodynamic Surface Analysis - Studying how wing shape and airflow affect flight efficiency</li>
+						<li>Thermal Control in Satellites - Investigating methods to manage heat in small spacecraft</li>
+						<li>ML in Aerospace - Applying machine learning for flight prediction and optimization</li>
+					</ul>
+					<p>Led by Prabhjot Singh</p>
 				</div>
 
 				<div className='shadow-xl w-full p-8 m-5 max-w-screen-lg rounded-lg'>
@@ -60,7 +75,7 @@ const Research = () => {
 						<li>Exoplanet detection using TESS and light curves</li>
 						<li>Verifying celestial bodies through orbital mechanics</li>
 					</ul> */}
-					<p className='py-4'>Led by Anand Ajith, Ojaswit Singh, and Nure Zannat</p>
+					<p className='py-4'>Led by Ojaswit Singh</p>
 				</div>
 
 				<div className='shadow-xl w-full p-8 m-5 max-w-screen-lg rounded-lg'>
@@ -75,7 +90,7 @@ const Research = () => {
 						<li>Stock price trends before and after bank failures</li>
 						<li>Management issues analysis in financial institutions</li>
 					</ul>
-					<p>Led by Nikhil G and Olivia X</p>
+					<p>Led by Nikhil G</p>
 				</div>
 
 				<div className='shadow-xl w-full p-8 m-5 max-w-screen-lg rounded-lg'>
@@ -123,7 +138,7 @@ const Research = () => {
 						<li>Neuroscience and Brain-Computer Interfaces (BCI)</li>
 						<li>Behavioral biology, Genetics, CRISPR and gene editing</li>
 					</ul>
-					<p>Led by Ilinca Sasu and Elmubarak Malik</p>
+					<p>Led by Elmubarak Malik</p>
 				</div>
 
 				<div className='shadow-xl w-full p-8 m-5 max-w-screen-lg rounded-lg'>
@@ -139,7 +154,7 @@ const Research = () => {
 						<li>Exoplanet detection using TESS and light curves</li>
 						<li>Verifying celestial bodies through orbital mechanics</li>
 					</ul> */}
-					<p className='py-4'>Led by Akshith Muthukumar and Eric Nathan Stucky</p>
+					<p className='py-4'>Led by Akshith Muthukumar</p>
 				</div>
 			</div>
 		</div>
