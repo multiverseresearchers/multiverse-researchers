@@ -138,8 +138,8 @@ const Home = () => {
 								<div className='text-center'>Our Computer Science Research Group is committed to exploring new horizons in technology through cutting-edge research in artificial intelligence, machine learning, data science, distributed systems, cybersecurity, and human-computer interaction. We are dedicated to developing innovative solutions to the complex computational problems that shape the future of technology. Our interdisciplinary team of researchers and students collaborates across these areas to drive impactful technological advancements while emphasizing the real-world application of our work. A major focus of our research lies in artificial intelligence and machine learning, where we work to develop state-of-the-art models that can transform industries ranging from healthcare to finance. In data science, we aim to improve the way large-scale data is processed and analyzed, driving more effective decision-making. Our cybersecurity efforts prioritize the development of advanced techniques for secure communication and data privacy, addressing the growing threats posed by modern cyberattacks. We are also committed to advancing research in distributed systems and cloud computing, where we work to improve system scalability, reliability, and efficiency. Furthermore, our research in human-computer interaction seeks to create technologies that are intuitive, accessible, and centered around users' needs.</div>
 								<p className="py-4 text-center">Led by Mohammed Hafiz Ullah and Hritvik Arora</p>
 								<div className='py-8 flex flex-col md:flex-row md:justify-between gap-8'>
-									<img className='md:w-1/2 object-cover rounded-md' src={"/imgs/circles/compsci/compsci1.png"} alt="Image 1" />
-									<img className='md:w-1/2 object-cover rounded-md' src={"/imgs/circles/compsci/compsci2.png"} alt="Image 2" />
+									<img className='md:w-1/2 object-cover rounded-md' src={"/imgs/circles/compsci/compsci1.webp"} alt="Image 1" />
+									<img className='md:w-1/2 object-cover rounded-md' src={"/imgs/circles/compsci/compsci2.webp"} alt="Image 2" />
 								</div>
 							</div>
 						</TabsContent>
