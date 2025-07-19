@@ -10,7 +10,7 @@ import Terms from './components/terms/Terms'
 import Research from './components/research/Research'
 import Programs from './components/programs/Programs'
 import Rewire from './components/programs/Rewire'
-import ColdEmail from './components/programs/Coldemail'
+import ColdEmail from './components/programs/ColdEmail'
 import Summerassistance from './components/programs/Summerassistance'
 import Workshops from './components/programs/Workshops'
 
