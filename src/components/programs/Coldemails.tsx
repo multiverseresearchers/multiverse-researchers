@@ -1,7 +1,7 @@
 import { useLayoutEffect } from 'react';
 import { FaEnvelopeOpenText, FaLightbulb, FaUserCheck } from 'react-icons/fa';
 
-const ColdEmail = () => {
+const Coldemails = () => {
 	useLayoutEffect(() => {
 		window.scrollTo(0, 0);
 	});
@@ -70,4 +70,4 @@ const ColdEmail = () => {
 	);
 };
 
-export default ColdEmail;
+export default Coldemails;
