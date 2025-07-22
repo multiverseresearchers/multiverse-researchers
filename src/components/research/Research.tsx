@@ -94,6 +94,38 @@ const Research = () => {
 				</div>
 
 				<div className='shadow-xl w-full p-8 m-5 max-w-screen-lg rounded-lg'>
+					<p className='font-bold text-xl py-4'>Mathematics Group</p>
+					<div className='flex flex-col lg:flex-row w-full gap-4 items-center justify-center'>
+						<img className='rounded-lg object-cover md:w-full md:aspect-[3/1] lg:w-[15%] lg:h-[15%] lg:aspect-square' src="/imgs/circles/math/math1.png" alt="" />
+						<p className='h-fit'>The Mathematics Research Group is focused on exploring the Interval Game on Trees, a combinatorial problem that lies at the intersection of game theory and graph theory. This topic involves analyzing strategic interactions on tree structures. The goal is to understand optimal play, winning conditions, and structural properties that influence game outcomes. The group aims to investigate both theoretical aspects and possible extensions of the interval game.</p>
+					</div>
+					<ul className='list-disc pl-4 py-4'>
+						<li className='list-none -indent-4'>Investigations:</li>
+						<li>Graph theory and combinatorics</li>
+						<li>Mathematical modeling of real-world systems</li>
+						<li>Game theory and strategy analysis</li>
+						<li>Number theory and algorithmic patterns</li>
+					</ul>
+					<p>Led by Akshith Muthukumar</p>
+				</div>
+
+				<div className='shadow-xl w-full p-8 m-5 max-w-screen-lg rounded-lg'>
+					<p className='font-bold text-xl py-4'>Psychology Group</p>
+					<div className='flex flex-col lg:flex-row w-full gap-4 items-center justify-center'>
+						<img className='rounded-lg object-cover md:w-full md:aspect-[3/1] lg:w-[15%] lg:h-[15%] lg:aspect-square' src="/imgs/circles/psych/image0.webp" alt="" />
+						<p className='h-fit'>Our Psychology Research Group is committed to exploring new horizons in the field of psychology through cutting-edge research in artificial intelligence, data science, neuroscience, brain-computer interfaces, bibliometrics, and many more. We are dedicated to finding solutions to psychological disorders. Our interdisciplinary team of researchers and students collaborates across these areas to drive impactful neurological advancements while emphasizing the real-world application of our work. A major focus of our research lies in artificial intelligence and neuroscience, where we work to merge them together to create working and lasting solutions to neurological disorders. Overall, we aim to utilize many resources to create lasting solutions to all the brain's problems.</p>
+					</div>
+					<ul className='list-disc pl-4 py-4'>
+						<li className='list-none -indent-4'>Investigations:</li>
+						<li>Brain area localization for neurological disorders</li>
+						<li>Neuro-oncology</li>
+						<li>Brain issues in developed versus underdeveloped regions</li>
+						<li>Gene editing treatments and their impact on the brain</li>
+					</ul>
+					<p>Led by Swetha Lingam</p>
+				</div>
+
+				<div className='shadow-xl w-full p-8 m-5 max-w-screen-lg rounded-lg'>
 					<p className='font-bold text-xl py-4'>Computer Science Group</p>
 					<div className='flex flex-col lg:flex-row w-full gap-4 items-center justify-center'>
 						<img className='rounded-lg object-cover md:w-full md:aspect-[3/1] lg:w-[15%] lg:h-[15%] lg:aspect-square' src="/imgs/circles/compsci/compsci3.webp" alt="" />
@@ -141,21 +173,6 @@ const Research = () => {
 					<p>Led by Elmubarak Malik</p>
 				</div>
 
-				<div className='shadow-xl w-full p-8 m-5 max-w-screen-lg rounded-lg'>
-					<p className='font-bold text-xl py-4'>Mathematics Group</p>
-					<div className='flex flex-col lg:flex-row w-full gap-4 items-center'>
-						<img className='rounded-lg object-cover md:w-full md:aspect-[3/1] lg:w-[15%] lg:h-[15%] lg:aspect-square' src="/imgs/circles/math/math1.png" alt="" />
-						<p className='h-fit'>Coming soon...</p>
-					</div>
-					{/* <ul className='list-disc pl-4 py-4'>
-						<li className='list-none -indent-4'>Investigations:</li>
-						<li>Transit curve analysis using Markov-Chain-Monte-Carlo</li>
-						<li>Trend analysis in astronomical datasets as evidence for celestial bodies</li>
-						<li>Exoplanet detection using TESS and light curves</li>
-						<li>Verifying celestial bodies through orbital mechanics</li>
-					</ul> */}
-					<p className='py-4'>Led by Akshith Muthukumar</p>
-				</div>
 			</div>
 		</div>
 	)

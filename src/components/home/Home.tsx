@@ -67,7 +67,8 @@ const Home = () => {
 							<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="aerospace">Aerospace Group</TabsTrigger>
 							<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="polisci">Political Science Group</TabsTrigger>
 							<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="bio">Biology Group</TabsTrigger>
-							{/* <TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="math">Mathematics Group</TabsTrigger> */}
+							<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="math">Mathematics Group</TabsTrigger>
+							<TabsTrigger className="text-xs hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-500 focus:font-semibold p-2" value="psych">Psychology Group</TabsTrigger>
 						</TabsList>
 
 						<TabsContent value="bio" className="p-8 bg-white border border-gray-100 rounded-lg shadow-xl">
@@ -158,10 +159,21 @@ const Home = () => {
 								</div>
 							</div>
 						</TabsContent>
+						<TabsContent value="psych" className="p-8 bg-white border border-gray-100 rounded-lg shadow-xl">
+							<div className="circle-snippet m-auto w-4/5 lg:w-2/3">
+								<h2 className='text-xl sm:text-2xl lg:text-4xl font-medium text-center py-8'>Psychology Group</h2>
+								<div className='text-center'>Our Psychology Research Group is committed to exploring new horizons in the field of psychology through cutting-edge research in artificial intelligence, data science, neuroscience, brain-computer interfaces, bibliometrics, and many more. We are dedicated to finding solutions to psychological disorders. Our interdisciplinary team of researchers and students collaborates across these areas to drive impactful neurological advancements while emphasizing the real-world application of our work. A major focus of our research lies in artificial intelligence and neuroscience, where we work to merge them together to create working and lasting solutions to neurological disorders. Overall, we aim to utilize many resources to create lasting solutions to all the brain's problems.</div>
+								<p className="py-4 text-center">Led by Swetha Lingam</p>
+								<div className='py-8 flex flex-col md:flex-row md:justify-between gap-8'>
+									<img className='md:w-1/2 object-cover rounded-md' src={"/imgs/circles/psych/psych-2.webp"} alt="Image 1" />
+									<img className='md:w-1/2 object-cover rounded-md' src={"/imgs/circles/psych/psych-3.webp"} alt="Image 2" />
+								</div>
+							</div>
+						</TabsContent>
 						<TabsContent value="math" className="p-8 bg-white border border-gray-100 rounded-lg shadow-xl">
 							<div className="circle-snippet m-auto w-4/5 lg:w-2/3">
 								<h2 className='text-xl sm:text-2xl lg:text-4xl font-medium text-center py-8'>Mathematics Group</h2>
-								<div className='text-center'>Coming soon...</div>
+								<div className='text-center'>The Mathematics Research Group is focused on exploring the Interval Game on Trees, a combinatorial problem that lies at the intersection of game theory and graph theory. This topic involves analyzing strategic interactions on tree structures. The goal is to understand optimal play, winning conditions, and structural properties that influence game outcomes. The group aims to investigate both theoretical aspects and possible extensions of the interval game.</div>
 								<p className="py-4 text-center">Led by Akshith Muthukumar</p>
 								<div className='py-8 flex flex-col md:flex-row md:justify-between gap-8'>
 									<img className='md:w-1/2 object-cover rounded-md' src={"/imgs/circles/math/math1.png"} alt="Image 1" />
