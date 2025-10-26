@@ -16,8 +16,114 @@ const Workshops = () => {
         </p>
 
         <div className="flex grid grid-cols-1 lg:grid-cols-2 pt-8 gap-8 justify-center">
+
+          <WorkshopBlock name="How to Study Less and Learn More" author="Isabella Mercado" date="November 2025"
+            link="https://docs.google.com/presentation/d/1OFUpjEbjUemSFhaL3j1lDgAnJqqdrBNq0IFcu9iZc-U/edit" 
+            icon={<FaSearchengin className="text-5xl ml-auto mb-4" />} 
+            desc="" 
+            color="pink"
+            members="40"
+          />           
+
+          <WorkshopBlock name="Introduction to Arduino" author="Mohammed Hafiz Ullah" date="November 2025"
+            link="https://docs.google.com/presentation/d/1wOFA9-m4k4iQOKiTvpSOSL2xOVPmtNxW9o--CD-DgWc/edit" 
+            icon={<FaPaperPlane className="text-5xl ml-auto mb-4" />} 
+            desc="" 
+            color="purple"
+            members="40"
+          />           
+
+          <WorkshopBlock name="Interdisciplinary Majors" author="Anthony" date="October 2025"
+            link="https://docs.google.com/presentation/d/1JKdXBjchASaKoQNyjlukHueRuj7t9o241QqW04DXoP8/edit?usp=sharing" 
+            icon={<FaUserGraduate className="text-5xl ml-auto mb-4" />} 
+            desc="" 
+            color="red"
+            members="40"
+          />           
+
+          <WorkshopBlock name="Doing Research on a Particular College" author="Grey Ray" date="October 2025"
+            link="https://docs.google.com/presentation/d/1FdytPN6Afx1rX3Sgce4Qn5yjO5wpRSczqMKYmgAYjys/edit?usp=drivesdk" 
+            icon={<FaUserGraduate className="text-5xl ml-auto mb-4" />} 
+            desc="" 
+            color="red"
+            members="40"
+          />           
+
+          <WorkshopBlock name="How to Prepare for the SAT" author="Isabella Mercado" date="September 2025"
+            link="https://docs.google.com/presentation/d/1czIIjeiAGzmrrDU2U06AsIPfcyaWGmHUSjQOrWIqgIQ/edit?usp=sharing" 
+            icon={<FaUserGraduate className="text-5xl ml-auto mb-4" />} 
+            desc="" 
+            color="red"
+            members="40"
+          />           
+
+          <WorkshopBlock name="Vibe Coding" author="Anthony" date="September 2025"
+            link="https://docs.google.com/presentation/d/1f1h9yO5OkOj8d87XlXj3hAP5w9YV5Zt-oiOoe1Bwcxs/edit?usp=sharing" 
+            icon={<FaPollH className="text-5xl ml-auto mb-4" />} 
+            desc="" 
+            color="blue"
+            members="40"
+          />           
+
+          <WorkshopBlock name="A Guide to Citizen Science" author="Grey Ray" date="August 2025"
+            link="https://docs.google.com/presentation/d/1noq_3QvBS-ByE0Nz7j8eBYd9recwwu_ANmt_HyPA6r0/edit?usp=drivesdk" 
+            icon={<FaSearchengin className="text-5xl ml-auto mb-4" />} 
+            desc="" 
+            color="pink"
+            members="40"
+          />           
+
+          <WorkshopBlock name="How to Get Started With Coding" author="Isabella Mercado" date="July 2025"
+            link="https://docs.google.com/presentation/d/15M_r6IvfCsbKwQgiPg8HC6N51K3M9KLfJiQdIb4FfSA/edit?usp=sharing" 
+            icon={<FaPollH className="text-5xl ml-auto mb-4" />} 
+            desc="" 
+            color="blue"
+            members="40"
+          />           
+
+          <WorkshopBlock name="Artificial Intelligence and Its Impact on Society" author="Mohammed" date="July 2025"
+            link="https://docs.google.com/presentation/d/1wOFA9-m4k4iQOKiTvpSOSL2xOVPmtNxW9o--CD-DgWc/edit?usp=sharing" 
+            icon={<FaPaperPlane className="text-5xl ml-auto mb-4" />} 
+            desc="" 
+            color="purple"
+            members="40"
+          />           
+
+          <WorkshopBlock name="How to Land Research With Professors in High School" author="Anthony" date="June 2025"
+            link="https://docs.google.com/presentation/d/1pEi0LQ9s9sUOj3XqLqOnzTeHJpU0QUrHzODVca3BAog/edit?slide=id.g36c26c99de8_1_59#slide=id.g36c26c99de8_1_59" 
+            icon={<FaPollH className="text-5xl ml-auto mb-4" />} 
+            desc="" 
+            color="blue"
+            members="40"
+          />           
+
+          <WorkshopBlock name="Choosing Colleges that are Right for You and an Introduction to Writing Essays" author="Grey Ray" date="May 2025"
+            link="https://docs.google.com/presentation/d/1FdytPN6Afx1rX3Sgce4Qn5yjO5wpRSczqMKYmgAYjys/edit?usp=drivesdk" 
+            icon={<FaUserGraduate className="text-5xl ml-auto mb-4" />} 
+            desc="" 
+            color="red"
+            members="40"
+          />           
+
+          <WorkshopBlock name="3D Printing: How is it Affecting our World?" author="Isabella Mercado" date="April 2025"
+            link="https://docs.google.com/presentation/d/1vm9MOaSb12HoQy6kGzlOsL-mds1zOKx898WPXdh-szY/edit?usp=sharing" 
+            icon={<FaPaperPlane className="text-5xl ml-auto mb-4" />} 
+            desc="" 
+            color="purple"
+            members="40"
+          />           
         
-          <WorkshopBlock name="How to Write a Scientific Research Paper" author="Beatrice & Moses" date="September 2024"
+          <WorkshopBlock name="How to Present Your Research to a Team" author="Aayan & Ian Amin" date="March 2025"
+            link="https://docs.google.com/presentation/d/1nbD9boiFRWXR0e-Azb29luFN3X7uteZwaRkWij8r0nM/edit?usp=sharing" 
+            icon={<FaPollH className="text-5xl ml-auto mb-4" />} 
+            desc="" 
+            color="blue"
+            members="40"
+          /> 
+
+
+
+          <WorkshopBlock name="How to Write a Scientific Research Paper" author="Beatrice & Moses" date="January 2025"
             link="https://docs.google.com/presentation/d/1zdIqc7qASUQ43D9pjppQlCiPuIORSaFFbw5I8YUqVEw/edit#slide=id.g2ed7c8d067c_0_0" 
             icon={<FaPollH className="text-5xl ml-auto mb-4" />} 
             desc="" 
